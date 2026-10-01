@@ -31,6 +31,13 @@ def files_to_include() -> list[Path]:
     ]
     sources = sorted((ROOT / "src").glob("*.py"))
     docs = sorted((ROOT / "docs").glob("*.md"))
+    notebooks = sorted((ROOT / "notebooks").glob("*.ipynb"))
+    sample_inputs = sorted((ROOT / "data" / "sample_input").glob("*"))
+    example_results = sorted((ROOT / "results").glob("*"))
+    submission_files = [
+        ROOT / "output" / "pdf" / "Riyadh_HeatReady_PoC_Pitch.pdf",
+        ROOT / "slides" / "Riyadh_HeatReady_PoC_Pitch.pptx",
+    ]
     output_names = [
         "dashboard.html",
         "decision_map.png",
@@ -49,7 +56,16 @@ def files_to_include() -> list[Path]:
         "manifest.json",
     ]
     outputs = [ROOT / "outputs" / name for name in output_names]
-    return fixed + sources + docs + outputs
+    return (
+        fixed
+        + sources
+        + docs
+        + notebooks
+        + sample_inputs
+        + example_results
+        + submission_files
+        + outputs
+    )
 
 
 def main() -> None:
@@ -92,7 +108,7 @@ def main() -> None:
         "sha256": sha256(ZIP_PATH),
         "integrity": "PASS",
         "manifest_verification": "PASS",
-        "warning": "Internal candidate only. Adapt to the official portal requirements before submission.",
+        "warning": "Verified supporting archive. The PDF and GitHub URL must still be uploaded through the official platform form.",
     }
     (PACKAGE_DIR / "package_report.json").write_text(
         json.dumps(report, indent=2), encoding="utf-8"

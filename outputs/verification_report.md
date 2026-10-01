@@ -1,6 +1,6 @@
 # Verification report
 
-**Result:** PASS — 80 checks passed.
+**Result:** PASS — 98 checks passed.
 
 - PASS: dashboard.html exists and is not empty
 - PASS: decision_map.png exists and is not empty
@@ -21,6 +21,24 @@
 - PASS: confirmed_built_growth_2018_2023.tif exists and is not empty
 - PASS: land_surface_temperature_2025_c.tif exists and is not empty
 - PASS: priority_score_1km.tif exists and is not empty
+- PASS: notebooks/02_main_analysis.ipynb exists and is not empty
+- PASS: data/sample_input/riyadh_priority_drivers.csv exists and is not empty
+- PASS: results/example_priority_zones.csv exists and is not empty
+- PASS: results/example_priority_output.png exists and is not empty
+- PASS: output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf exists and is not empty
+- PASS: slides/Riyadh_HeatReady_PoC_Pitch.pptx exists and is not empty
+- PASS: every Python requirement is pinned with ==
+- PASS: submission notebook contains executable code cells
+- PASS: every submission notebook code cell has a committed execution count
+- PASS: submission notebook contains no saved error outputs
+- PASS: sample input contains all 67 eligible priority cells
+- PASS: sample input leaves the score and class for the notebook to calculate
+- PASS: example notebook output preserves the verified top-ranked cell
+- PASS: example notebook output reproduces the verified top score
+- PASS: presentation PDF is below the official 50 MB limit
+- PASS: presentation file has a valid PDF header
+- PASS: README contains all ten required sections
+- PASS: README sections follow the official required order
 - PASS: data feasibility result is PASS
 - PASS: all 38 planned source assets were checked
 - PASS: every source-asset check is usable

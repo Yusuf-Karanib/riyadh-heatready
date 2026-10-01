@@ -10,54 +10,67 @@ This guide is for studying after the technical package is finished. Do not memor
 
 > I focused on southeastern Riyadh because one open Planet Tanager scene and matching optical, radar, thermal, land-cover, and population data cover the area. I used six annual land-cover maps to show the 2018–2023 built-up trend. I kept an endpoint growth pixel only when a separate Sentinel-2 and Sentinel-1 model confirmed that it still looked built-up in 2025. Then I added Landsat land-surface temperature, WorldPop population, and vegetation context. The result is a transparent 1 km priority score. The built-up model reached an F1 agreement of 0.88 against a spatially separate WorldCover reference area, but that is not field accuracy. The final map tells planners where to inspect first, and every result still needs local checking.
 
-## Three-minute pitch order
+## Official 10-minute pitch order
 
-### 1. Problem — 25 seconds
+### 1. Problem — 0:00 to 0:45
 
-Rapid development and hot surfaces can overlap, but planners need a short list of places to inspect rather than several disconnected satellite layers.
+Rapid development and hot surfaces can overlap, but planners need a short list of places to inspect rather than several disconnected satellite layers. State the 168.30 km² southeastern Riyadh study area and do not claim the whole city was analysed.
 
-### 2. User and decision — 20 seconds
+### 2. User and decision — 0:45 to 1:30
 
-The intended user is a municipal urban-planning and heat-resilience team. The decision is which 1 km zones should receive field review first.
+The intended user is a municipal urban-planning and heat-resilience team. The decision is which 1 km zones should receive field review first. Say clearly that no real municipal user interview has happened yet.
 
-### 3. Data — 30 seconds
+### 3. Data — 1:30 to 2:40
 
-- Sentinel-2: reflected light and vegetation/built indicators.
+- Sentinel-2: reflected light, quality mask, vegetation, and built-surface features.
 - Sentinel-1: radar structure that helps separate buildings from bright desert.
 - Annual land cover: six maps showing the 2018–2023 trend and proposing endpoint change.
 - Landsat: 2025 land-surface temperature.
 - WorldPop: modelled 2025 population.
-- Planet Tanager: detailed 2025 surface spectra.
+- Planet Tanager: detailed 2025 surface spectra used for material context and a desert-confusion test.
 
-### 4. Method — 45 seconds
+Explain that Earth-observation data are core: without them, the result cannot exist.
 
-Train the optical-radar model in the west, tune it in a separate middle strip, and test it in the east. Plot the six annual built-up estimates, then keep 2018–2023 endpoint growth only when the fusion model confirms it. Rank only AOI cells containing that confirmed growth, using heat, population, growth, and vegetation in a transparent score.
+### 4. Method — 2:40 to 4:30
 
-### 5. Results — 35 seconds
+Train the optical-radar model in the west, tune it in a separate middle strip, and test it in the east. Plot the six annual built-up estimates, then keep 2018–2023 endpoint growth only when the separate 2025 optical-radar model confirms it. Rank only cells containing confirmed growth with a transparent score: 40% heat, 30% population, 20% growth, and 10% lack of vegetation.
+
+### 5. Working outputs and results — 4:30 to 6:45
+
+Show the actual decision map, annual trend, priority table, and dashboard.
 
 - 3.74 km² conservative confirmed-growth signal.
 - Annual mapped built-up area rose overall from 85.39 km² to 98.03 km², with a 2022 dip that warns against treating each year as exact construction truth.
 - Mean May 2025 land-surface temperature: 49.02 °C.
 - F1 agreement: 0.88; IoU: 0.78.
-- A ranked map and table of inspection zones.
+- 14 High-priority cells from 67 eligible cells.
+- R05C10 is the highest-ranked example at about 78.7.
 
-### 6. Product path — 20 seconds
+### 6. Validation and limitations — 6:45 to 7:45
 
-The PoC can be delivered as a refreshed dashboard and GIS-ready ranked layer. A sensible first pilot is for one municipal team to inspect the top five zones and record whether the ranking improves its screening process. This is a value hypothesis, not a claimed customer or sale.
+Explain the spatial holdout and then limit the claim: WorldCover is also satellite-derived, so the score is agreement, not field accuracy. Temperature is the land surface, population is modelled, and bright desert remains difficult.
 
-### 7. Limitation and next step — 25 seconds
+### 7. Hyperspectral contribution and innovation — 7:45 to 8:30
 
-The map is a screening tool. Population is modelled, temperature is the surface rather than the air, and validation is satellite-derived. Next, the user should add local planning, worker, and field data and choose official scoring weights.
+Tanager showed likely-unbuilt bright desert with higher median narrow-band NDBI than established-built surfaces. This supports the decision not to use a simple "high NDBI means built" rule. Do not claim specific material identification or change from one Tanager date.
 
-## How the project fits the seven official criteria
+### 8. Impact and product path — 8:30 to 9:15
 
-- **Problem:** one city user and one inspection decision.
-- **Technical soundness:** quality masks, separate training/tuning/testing areas, two-source growth confirmation, sensitivity checks, and reproducible outputs.
-- **EO and hyperspectral:** every source has a defined purpose; Tanager adds material context rather than an inflated claim.
-- **Product and delivery:** dashboard, ranked table, GeoJSON, and GeoTIFF.
-- **Innovation:** the method joins growth, heat, people, and vegetation while measuring why NDBI alone fails in bright desert.
-- **Impact:** supports urban heat planning under the official urban theme and SDGs 9 and 11.
-- **Business viability:** a small municipal pilot can test usefulness before any commercial claim.
+The PoC delivers a dashboard and GIS-ready ranked layer. A sensible first pilot is for one municipal team to inspect the top five zones and record whether the ranking improves its screening process. This is a value hypothesis, not a claimed customer or sale.
+
+### 9. Incubation next steps — 9:15 to 10:00
+
+Interview at least three real users, agree on the score weights, add city plans and worker-exposure data, field-check the top zones, measure false alarms, and test a repeatable update for another Riyadh area. Stop at 10 minutes.
+
+## How the project fits the five official criteria
+
+- **Quality of space-data use:** each EO source has a defined purpose; quality masks, exact scenes, two-source confirmation, and Tanager sensitivity analysis are documented.
+- **Team strength and expertise:** do not invent qualifications. Demonstrate strength through the working notebook, clear explanation, tested outputs, and honest ownership of the method.
+- **Problem relevance and impact:** one regional urban-heat problem, one municipal user, and one inspection decision.
+- **Innovation:** the workflow joins growth, heat, people, and vegetation while measuring why NDBI alone fails in bright desert.
+- **Feasibility:** a focused area, traditional baseline, spatial holdout, reproducible sample, dashboard, and GIS-ready outputs.
+
+The technical tie-breaker is feasibility plus quality of space-data use. The project can claim working features and meaningful hyperspectral analysis as bonuses. It cannot claim the three-user validation bonus.
 
 ## What the Tanager result means
 

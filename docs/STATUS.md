@@ -1,42 +1,43 @@
-# Project status — 1 October 2026
+# Project status - 1 October 2026
 
-## Complete
+## Complete and verified
 
-- Project selected: Riyadh HeatReady.
-- Problem, user, decision, and AOI fixed.
-- Exact open-data sources verified.
-- Data feasibility: PASS, 38 checks.
-- End-to-end baseline built and rerun successfully.
+- One problem, user, decision, area, and MVP fixed.
+- Open-data satellite pipeline built and rerun.
+- Data feasibility passed: 38 source checks.
+- Dashboard, maps, GIS files, ranked table, and evidence figures created.
 - Spatial holdout: F1 0.88, IoU 0.78, balanced accuracy 0.89.
-- Confirmed-growth signal: 3.74 km².
-- Heat, population, vegetation, and growth combined into 1 km priority cells.
-- Planet Tanager spectral comparison and strict beta-cloud-mask sensitivity check completed.
-- Dashboard and geospatial outputs created.
-- Exact AOI clipping and partial-cell population adjustment verified.
-- Every ranked cell now contains confirmed growth.
-- Six-year annual built-up time series added from the verified 2018–2023 land-cover items.
-- Week 2 training reviewed against the official documentation; useful ideas and unsafe shortcuts are recorded.
-- Full supplied-file and link audit completed. The live official website, webinar deck, starter repository, notebooks, and primary data-provider documentation were compared.
-- Full onboarding-guide and repository audit completed: all ten repository files, its current commit, every relevant guide link, and deeper provider/tool documentation were checked. No analysis change was required; repository weaknesses are documented separately.
-- Live data feasibility rechecked on 1 October: PASS, 38 checks.
-- Current official PoC deadline verified as **11 October 2026, 11:59 PM in the team creator's timezone**. Internal readiness target: 10 October.
-- Project aligned to the live seven-part PoC judging criteria, including an honest product-delivery and business-viability hypothesis.
-- Organizer reply received: the PoC baseline should use open Sentinel-2, Sentinel-1, and Landsat data with the team's own tools. The existing open-data design follows this instruction.
-- Automated output verification: PASS, 80 checks.
-- Beginner explanation, data record, presenter guide, AI log, and checklist created.
-- Mentor questions and a five-lesson study plan prepared.
-- Small internal submission-candidate archive prepared without raw or cached data; ZIP integrity and every packaged-file hash verified.
+- Conservative confirmed-growth signal: 3.74 km².
+- Six-year mapped built-up trend completed.
+- Open Planet Tanager spectral comparison completed without mislabelling it as Satellite 813.
+- Official onboarding, starter repository, training notebooks, provider documentation, and linked resources audited.
+- Complete 1 October Detailed PoC Submission Process recording reviewed.
+- Live submission guide and linked resources verified.
+- Current five judging criteria, bonuses, deadlines, form fields, file limits, and pitch process documented.
+- Root README rebuilt in the official ten-part order.
+- Pinned JupyterLab added to `requirements.txt`.
+- Small sample input added.
+- End-to-end notebook executed successfully with committed visible outputs and no saved errors.
+- Example output added under `results/` and embedded in the README.
+- Nine-slide pitch deck created, structurally validated, rendered, and visually checked.
+- Final PDF verified: 9 pages, about 2.7 MB, below the 50 MB limit.
+- Submission-form draft and current checklist created.
+- Private orientation recording, transcript, portal details, raw satellite scenes, caches, and credentials excluded from GitHub.
 
-## Not complete because portal-specific information is unavailable
+## Waiting only on Yusuf or the portal
 
-- Final portal fields and file limits.
-- Required presentation/video format and duration.
-- Required AI-disclosure wording.
-- The inaccessible 29 September orientation slides and any recording; the portal currently reports that no PDF URL is configured.
+- Confirm both registered portal accounts meet nationality and age eligibility.
+- Confirm the second account's actual role and contribution.
+- Choose public GitHub access or invite the exact evaluation account.
+- Choose a code licence or knowingly keep normal copyright protection.
+- Review the project and AI-assistance disclosure.
+- Enter and submit the form before 11 October 2026, 23:59 UAE time.
 
-## Next useful work
+## Unknown official details
 
-1. Ask the organizers to fix the 29 September orientation PDF link and share any recording.
-2. Create only the presentation format the organizers confirm.
-3. Adapt the package to the official submission form when it opens.
-4. Have Yusuf study and review the completed project before submission.
+- Exact private-repository evaluation account.
+- Whether organizers provide a validation report or correction window; the official guide contains a placeholder, so none is assumed.
+- Any final form-specific AI disclosure wording.
+- When Satellite 813 data will become available for later phases.
+
+These unknowns do not block the completed open-data PoC. Repository access can block administrative validation if it is not resolved before submission.

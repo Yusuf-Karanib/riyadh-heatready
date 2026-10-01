@@ -7,15 +7,17 @@ Start this only after the submission package is stable. Each lesson uses the com
 Open:
 
 - `project/docs/OFFICIAL_RESEARCH_AUDIT.md`
+- `project/docs/POC_SUBMISSION_ORIENTATION_AUDIT.md`
 
 Learn:
 
 - the 11 October deadline;
-- the seven judging criteria;
-- what is confirmed and what still waits for the submission form;
+- the space-data pass/fail gate and five judging criteria;
+- the three possible bonuses;
+- the form files, limits, deadline, and pitch process;
 - why the live official platform overrides older GitHub text when they conflict.
 
-Finish when you can name the seven criteria and the deadline without guessing.
+Finish when you can name the five criteria, three bonuses, and deadline without guessing.
 
 ## Lesson 1 — What did we build?
 
@@ -23,6 +25,7 @@ Open:
 
 - `project/outputs/dashboard.html`
 - `project/docs/PROJECT_BRIEF.md`
+- `project/notebooks/02_main_analysis.ipynb`
 
 Learn:
 
@@ -97,12 +100,13 @@ Open:
 
 - `project/docs/PRESENTER_GUIDE.md`
 - `project/docs/AI_ASSISTANCE_LOG.md`
+- `project/output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`
 
 Practice:
 
 1. 20-second answer.
 2. 60-second answer.
-3. Three-minute pitch.
+3. Official 10-minute pitch.
 4. Judge questions.
 5. Honest AI disclosure.
 

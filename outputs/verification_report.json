@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "checks_passed": 80,
+  "checks_passed": 98,
   "checks": [
     {
       "status": "PASS",
@@ -77,6 +77,78 @@
     {
       "status": "PASS",
       "check": "priority_score_1km.tif exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "notebooks/02_main_analysis.ipynb exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "data/sample_input/riyadh_priority_drivers.csv exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "results/example_priority_zones.csv exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "results/example_priority_output.png exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "slides/Riyadh_HeatReady_PoC_Pitch.pptx exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "every Python requirement is pinned with =="
+    },
+    {
+      "status": "PASS",
+      "check": "submission notebook contains executable code cells"
+    },
+    {
+      "status": "PASS",
+      "check": "every submission notebook code cell has a committed execution count"
+    },
+    {
+      "status": "PASS",
+      "check": "submission notebook contains no saved error outputs"
+    },
+    {
+      "status": "PASS",
+      "check": "sample input contains all 67 eligible priority cells"
+    },
+    {
+      "status": "PASS",
+      "check": "sample input leaves the score and class for the notebook to calculate"
+    },
+    {
+      "status": "PASS",
+      "check": "example notebook output preserves the verified top-ranked cell"
+    },
+    {
+      "status": "PASS",
+      "check": "example notebook output reproduces the verified top score"
+    },
+    {
+      "status": "PASS",
+      "check": "presentation PDF is below the official 50 MB limit"
+    },
+    {
+      "status": "PASS",
+      "check": "presentation file has a valid PDF header"
+    },
+    {
+      "status": "PASS",
+      "check": "README contains all ten required sections"
+    },
+    {
+      "status": "PASS",
+      "check": "README sections follow the official required order"
     },
     {
       "status": "PASS",

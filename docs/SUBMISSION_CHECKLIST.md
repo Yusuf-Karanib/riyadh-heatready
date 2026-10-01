@@ -1,108 +1,73 @@
-# Submission checklist
+# PoC submission checklist
 
-The current official deadline is **11 October 2026 at 11:59 PM in the team creator's timezone**. The official submission form is not yet open in the supplied portal evidence, so this checklist separates completed internal work from portal-dependent items. Internal readiness target: **10 October**.
+**Deadline:** 11 October 2026, 23:59 UAE time for this team.
+**Method:** submit on the platform. Email does not count. Both the form and its registered GitHub repository are required.
 
-## Official eligibility checks
+## Eligibility — Yusuf must confirm
 
-- [x] Registration approved by the organizers.
-- [x] Official challenge assigned in the Cockpit.
-- [x] Portal team members are registered and identified.
-- [ ] Yusuf confirms that the registered team still meets the rule that at least 30% of members are age 35 or younger.
-- [ ] Every required project section is completed after the submission form opens.
-- [ ] Submission is in English and professional.
-- [ ] Every required file is uploaded under the final instructions.
-- [ ] Submission requirements are accepted and the team opts into judging.
+- [x] Team was approved.
+- [x] Official challenge is assigned.
+- [x] Portal currently shows two registered accounts.
+- [ ] Every registered member is a national of an Arab League state.
+- [ ] At least 30% of the team is age 35 or younger on 11 October.
+- [ ] Second portal account's real role and contribution are confirmed.
+- [ ] Team is final before 4 October and confirmed by 5 October.
 
-## Technical package — completed
+## GitHub repository
 
-- [x] One clear problem, user, decision, and AOI.
-- [x] Exact item IDs and dates recorded.
-- [x] Open-data PoC approach confirmed by the organizer on 27 September.
-- [x] Data feasibility check passed: 38 checks.
-- [x] Reproducible optical-radar built-up model.
-- [x] Separate annual land-cover change proposal.
-- [x] Six-year annual mapped built-up trend for 2018–2023.
-- [x] Landsat land-surface temperature layer.
-- [x] WorldPop exposure layer.
-- [x] Conservative confirmed-growth layer.
-- [x] Transparent 1 km priority score.
-- [x] Spatial holdout validation.
-- [x] Open Planet Tanager spectral analysis.
-- [x] Decision map, evidence figures, CSV, GeoJSON, and GeoTIFF outputs.
-- [x] Self-contained HTML dashboard.
-- [x] Automated verification report: 80 checks passed.
-- [x] ZIP integrity and every packaged-file hash verified against the package manifest.
+- [x] Root `README.md` follows the official ten-part order.
+- [x] Business user and decision are clear.
+- [x] Data, dates, processing, licences, and attribution are recorded.
+- [x] Exact setup and run commands are included.
+- [x] `requirements.txt` contains pinned versions.
+- [x] End-to-end notebook exists at `notebooks/02_main_analysis.ipynb`.
+- [x] Notebook was restarted and run from top to bottom without errors.
+- [x] Notebook uses relative paths and committed visible outputs.
+- [x] Sample input exists at `data/sample_input/riyadh_priority_drivers.csv`.
+- [x] Example output exists under `results/` and is embedded in the README.
+- [x] Exact full-pipeline scene IDs and dates are in `config.json`.
+- [x] No credentials, signed URLs, restricted imagery, raw scenes, model weights, or private recording are committed.
+- [ ] Repository is public, or the exact evaluator account is invited and access is tested while signed out.
+- [ ] Yusuf chooses a code licence or knowingly keeps normal copyright protection.
 
-## Explanation package — completed
+## PDF slides
 
-- [x] Project brief.
-- [x] Beginner methodology.
-- [x] Data and licence record.
-- [x] Presenter guide and judge questions.
-- [x] Limitations stated next to results.
-- [x] AI-assistance log started.
+- [x] Title/team/theme/country.
+- [x] Problem and affected group.
+- [x] Business user and decision.
+- [x] Data and hyperspectral role.
+- [x] Technical workflow.
+- [x] Large real PoC outputs.
+- [x] Validation and limitations.
+- [x] Impact.
+- [x] Next incubation steps.
+- [x] PDF is under 50 MB and visually checked.
 
-## Official judging alignment — completed internally
+## Form fields
 
-- [x] Problem definition.
-- [x] Technical soundness.
-- [x] Purposeful EO and hyperspectral use.
-- [x] Clear product and delivery model.
-- [x] Innovation explained without claiming a new satellite index.
-- [x] Impact and regional/SDG alignment.
-- [x] Short business-viability hypothesis with no invented customer, price, or revenue.
+- [ ] Project title entered: `Riyadh HeatReady` unless Yusuf changes it.
+- [ ] One-line summary entered and under 2,000 characters.
+- [ ] GitHub URL entered: `https://github.com/Yusuf-Karanib/riyadh-heatready`.
+- [ ] Presentation PDF uploaded; maximum 50 MB.
+- [ ] Optional ZIP uploaded only if useful; maximum 200 MB.
+- [ ] Both confirmation checkboxes read and selected.
+- [ ] Every link tested from outside the team.
+- [ ] Final submission sent before the deadline.
+- [ ] Confirmation page and email saved.
 
-## Yusuf must complete before submission
+## If shortlisted on 13 October
 
-- [ ] Read the project brief and explain the user and decision in his own words.
-- [ ] Open the dashboard and understand each card and map.
-- [ ] Explain why NDBI alone fails in bright desert.
-- [ ] Explain why land-surface temperature is not air temperature.
-- [ ] Explain the validation caveat.
-- [ ] Review the AI-assistance disclosure and correct anything incomplete.
-- [ ] Decide whether the project name will remain "Riyadh HeatReady."
-- [ ] Decide whether the code will be published and under which licence.
+- [ ] Check email and platform alerts often.
+- [ ] Pick a 14–16 October slot immediately; slots are first come, first served.
+- [ ] Ensure at least one member can attend.
+- [ ] Prepare a 10-minute presentation and 5-minute question period.
+- [ ] Keep valid identification ready for team verification.
 
-## Portal-dependent items — waiting for official release
+## Claims not to make
 
-- [ ] Confirm required form fields and word limits.
-- [ ] Confirm allowed upload types and maximum file sizes.
-- [ ] Confirm whether a repository link must be public or private.
-- [ ] Confirm whether a video, live demo, report, or slide deck is required.
-- [ ] Confirm pitch length and question time.
-- [ ] Confirm the required AI disclosure wording.
-- [ ] Recheck that the Cockpit still shows the same deadline and team details immediately before submission.
-- [ ] Enter every field and upload every required file.
-- [ ] Test every link in a signed-out/private window when appropriate.
-- [ ] Save submission screenshots and confirmation.
-
-## Suggested small submission archive
-
-Include:
-
-- `README.md`
-- `config.json`
-- `requirements.txt`
-- `src/`
-- `docs/`
-- `outputs/dashboard.html`
-- `outputs/decision_map.png`
-- `outputs/analysis_overview.png`
-- `outputs/annual_built_area_timeseries.png`
-- `outputs/annual_built_area_timeseries.csv`
-- `outputs/validation.png`
-- `outputs/tanager_material_analysis.png`
-- `outputs/priority_zones.csv`
-- `outputs/results_summary.json`
-- `outputs/verification_report.md`
-- `outputs/manifest.json`
-
-Exclude:
-
-- `.venv/`
-- `data/raw/`
-- `data/cache/`
-- the 856 MB Tanager HDF5 file
-- downloaded starter repository files
-- signed URLs, credentials, or portal screenshots containing private contact details
-- archived experiments
+- Do not call land-surface temperature air temperature or personal heat exposure.
+- Do not call WorldPop a census.
+- Do not call WorldCover agreement field accuracy.
+- Do not call every detected pixel a new building.
+- Do not say the project used Satellite 813 imagery.
+- Do not claim three-user validation, a customer, deployment, revenue, or Yusuf's unverified skills.

@@ -21,6 +21,8 @@ The starter repository is useful for code and learning, but it contains older da
 - Registration page: `https://spaceacademy-hackathons.space.gov.ae/register`
 - Authenticated portal screenshots supplied by Yusuf: approval, Cockpit, team, Tasks, learning track, FAQ, notifications, submission area, and mentor chat.
 - The 27 September organizer reply in the authenticated mentor chat and the 29 September orientation-resource error supplied by Yusuf.
+- Yusuf's complete 1 October recording of the official **Detailed PoC Submission Process** orientation, including the displayed form, slides, live questions, and answers.
+- Live official PoC submission guide and every direct link it contains: `https://spaceacademy-hackathons.space.gov.ae/guides/poc-submission-guide.html`
 - Private onboarding and data-resource text supplied by Yusuf.
 - Both webinar PDFs supplied by Yusuf. They are byte-for-byte identical copies of the same 22-slide deck.
 - Both briefing video pages linked by the official website. Their public metadata was available, but a usable Q&A transcript was not.
@@ -35,12 +37,15 @@ The remote starter-repository head was also checked against the local copy. Both
 
 - **Team size:** 1–5 members. Individuals are welcome and cross-country teams are allowed.
 - **Portal reality:** Yusuf's accepted portal team currently contains two registered accounts. Do not describe the official portal team as a one-person team while that remains true.
-- **Technical expectation:** at least one member should have a relevant technical background; basic Python ability is expected in the team.
-- **Youth rule:** at least 30% of the team must be age 35 or younger. The supplied evidence does not prove the ages of both registered accounts, so this remains a human eligibility check.
+- **Nationality:** every team member must be a national of one of the 22 Arab League states.
+- **Youth rule:** at least 30% of the team must be age 35 or younger on 11 October 2026. A solo participant older than 35 must add an eligible member aged 35 or younger. The supplied evidence does not prove the ages or nationalities of both registered accounts, so these remain human checks.
+- **Team lock:** team changes close on 4 October; open cases are settled by 5 October. A team not confirmed by 5 October does not proceed. A person belongs to the most recent team they joined.
 - **Format:** the core program is remote and part-time.
 - **Official track:** Sustainable Urban Planning and Smart Cities. Yusuf's Cockpit names the assigned challenge **Urban Expansion, Land Use Change & Heat Risk**.
-- **Required product:** a technically credible digital Proof of Concept that converts Earth-observation data into an actionable insight, decision-support tool, or operational service.
-- **Hyperspectral data:** useful use receives extra consideration, but it is not mandatory.
+- **Required product:** a working, demonstrable slice that proves the idea is feasible with data. A written report alone is not a PoC.
+- **Space-data gate:** Earth-observation or other space data must be core to the result. A complete entry that does not rest on space data is not scored. Drone, field, or other data may support but not replace it.
+- **Hyperspectral data:** meaningful use that improves the result can earn bonus consideration, but it is not mandatory.
+- **Submission:** both the platform form and the linked GitHub repository are required. A form without its registered repository, or a repository not registered in the form, is invalid.
 
 ## Current dates
 
@@ -48,42 +53,56 @@ The remote starter-repository head was also checked against the local copy. Both
 |---|---|
 | Solution development | 7 September–10 October 2026 |
 | Submission-preparation webinars | 29 September–1 October 2026 |
-| PoC submission deadline | **11 October 2026, 11:59 PM in the team creator's timezone** |
-| PoC presentations and selection | 12–16 October 2026 |
+| Team changes close | **4 October 2026** |
+| Open team cases settled | **5 October 2026** |
+| PoC submission deadline | **11 October 2026, 11:59 PM**; the guide says creator-local time and the orientation slide says UAE time. Both are the same for Yusuf. |
+| Administrative validation | 12–13 October 2026 |
+| Top 40 announcement and pitch-slot link | 13 October 2026, by email and platform alert |
+| Top 40 pitches | 14–16 October 2026; 10-minute presentation plus 5-minute questions |
 | Incubation | 19 October 2026–11 January 2027 |
-| Final presentations | 12–15 January 2027 |
-| Awards | January–February 2027; exact ceremony date not confirmed |
+| Final demonstrations and awards | 12–15 January 2027; exact award-ceremony date not confirmed |
 
 The project uses **10 October** as its internal readiness target. This is a safety target, not an organizer deadline. If a newer authenticated Cockpit notice later gives a different explicit deadline, the newer Cockpit notice wins.
 
-## Eligibility before PoC judging
+## Required submission contents
 
-The live official page currently requires the team to:
+The form displayed in the official orientation contains:
 
-1. have completed registration and received eligibility confirmation;
-2. have every team member registered and identified on the team page;
-3. complete every required project section;
-4. address an official theme;
-5. submit in English with professional content;
-6. upload the requested files under the submission instructions;
-7. accept the submission requirements; and
-8. opt into judging rather than withdraw.
+1. project title;
+2. one-line summary of what the PoC does, with a 2,000-character maximum;
+3. GitHub URL, public or private with access granted to the evaluation account;
+4. presentation slides as PDF only, maximum 50 MB;
+5. optional supporting ZIP, maximum 200 MB;
+6. confirmation that the repository contains a README, an end-to-end Jupyter notebook, pinned `requirements.txt`, example input and output, and no credentials or restricted imagery; and
+7. confirmation that organizers can access the repository.
 
-Yusuf's approval evidence satisfies item 1. The exact form sections, formats, file-size limits, pitch duration, and AI-disclosure wording are still unavailable because the submission form has not opened in the supplied portal evidence.
+Email submissions do not count. Every link must work for someone outside the team.
+
+The repository validation checks for an accessible repository, root README, executable `.ipynb`, pinned requirements, sample input, committed output, business use case, installation commands, and PDF slides. The notebook must restart and run all cells without errors, use relative paths, set random seeds where relevant, and keep visible outputs.
+
+The README must present, in order: title/summary; business use case; problem and satellite need; data and licences; technical approach; installation; how to run; example input/output; results and limitations; team/licence/attribution.
+
+The PDF slides must cover, in order: title; problem; business user; data and hyperspectral role; workflow; large readable example outputs; validation and limitations; impact; and next incubation steps.
 
 ## Current PoC judging criteria
 
-The live official website and the webinar deck agree on seven criteria:
+Every complete entry first passes the space-data gate. Each reviewer then scores five criteria independently:
 
-1. **Problem definition** — a clear, real problem.
-2. **Technical soundness** — a strong, scalable method.
-3. **Use of hyperspectral / EO data** — purposeful data use; useful hyperspectral work receives extra consideration.
-4. **Product and delivery model** — clear outputs and a realistic way to deploy them.
-5. **Innovation** — a meaningful difference from existing approaches.
-6. **Impact and strategic alignment** — social, environmental, or economic value and regional/SDG alignment.
-7. **Business viability** — a short business plan showing plausible economic potential.
+1. **Quality of space-data use** — the heaviest criterion: suitable EO data, correct processing, and a result that genuinely depends on it.
+2. **Team strength and expertise.**
+3. **Problem relevance and impact** — a regional problem and a clearly defined user group.
+4. **Innovation.**
+5. **Feasibility** — technically sound, aligned to stated goals, and workable under real conditions.
 
-Judges score individually, and the technical score is the stated tie-breaker. No weights are published, so this project does not invent any.
+The technical tie-breaker is the combined score for feasibility and quality of space-data use. The organizers did not publish numeric weights, so this project does not invent any.
+
+Three optional bonuses were stated:
+
+- progress beyond a basic PoC, such as working features, a pilot, or deployment;
+- hyperspectral data used in a way that improves the result; and
+- evidence of contact with at least three real users or stakeholders.
+
+Riyadh HeatReady can claim working features and a useful open Tanager analysis. It does **not** claim the user-validation bonus because no three-user contact has occurred.
 
 ## Data-access interpretation
 
@@ -105,12 +124,13 @@ Judges score individually, and the technical score is the stated tie-breaker. No
 
 | Topic | Conflicting evidence | Decision used |
 |---|---|---|
-| PoC deadline | Live site, webinar, and GitHub Key Dates say 11 October; one old GitHub table says 26 October | Use **11 October 2026, 11:59 PM creator timezone** |
-| Judging | Live site and webinar list 7 criteria; GitHub lists 5 older criteria | Use the live **7 criteria** |
+| PoC deadline | Current guide says 11:59 PM in the team creator's local time; orientation slide says UAE time; one old GitHub table says 26 October | Use **11 October 2026, 11:59 PM UAE time** for Yusuf because he is the UAE-based creator |
+| Judging | Older public material lists seven broad themes; the detailed 1 October orientation gives the operational five-criterion rubric and bonuses | Use the newer detailed **five criteria**, space-data gate, technical tie-breaker, and three bonuses |
 | Team size | Live site says 1–5; older registration/GitHub language says 2–5 or 3–5 | Use live 1–5 generally; use the accepted two-account portal team for Yusuf's actual eligibility |
 | Training dates | Older webinar slide begins in August; live site begins 7 September | Use the live site |
 | GIQ/commercial data | Live site suggests access; onboarding says not guaranteed; the organizer later clarified the stage | Open Sentinel/Landsat data for the PoC; gIQ and sponsored imagery only for shortlisted teams after PoC evaluation |
-| Exact submission files | Live site says required files and supporting documents; private form is still closed | Keep a flexible verified package and adapt when the form opens |
+| Repository visibility | The form and live guide allow public or private with evaluation-account access; the orientation Q&A speaker strongly recommended/said public | Public is the lowest-risk option. If kept private, Yusuf must obtain and invite the exact evaluation account and test access. |
+| Validation correction window | The guide contains an organizer placeholder rather than a final rule | Do not assume a correction window exists |
 
 ## Technical findings that affect this project
 
@@ -133,12 +153,10 @@ The official notebooks are teaching examples, not submission rules or validated 
 
 ## What remains genuinely unknown
 
-1. Exact portal fields and word limits.
-2. Accepted upload types and maximum sizes.
-3. Whether a repository must be public or private.
-4. Required slide, video, demo, or report format and pitch duration.
-5. Required AI-assistance wording.
-6. Whether the missing 29 September orientation recording exists and when the broken PDF link will be fixed.
-7. When Satellite 813 data will become available and what later-stage access will apply if the team is shortlisted.
+1. The exact evaluation-account username/email for a private repository.
+2. Whether teams receive an automated validation report or any correction window; the live guide leaves this as an organizer placeholder.
+3. The exact AI-assistance wording, if the final form adds one.
+4. Whether the missing 29 September orientation recording exists and when the broken PDF link will be fixed.
+5. When Satellite 813 data will become available and what later-stage access will apply if the team is shortlisted.
 
-These unknowns do not block the open-data PoC. They block only the final portal-specific packaging and submission.
+These unknowns do not block the open-data PoC. Repository access is the only one that can block validation if the GitHub repository remains private.

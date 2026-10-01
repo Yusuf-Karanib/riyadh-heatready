@@ -39,17 +39,17 @@ Attach:
 - `project/outputs/tanager_material_analysis.png`
 - `project/docs/METHODOLOGY.md`
 
-## Question 4 — submission requirements
+## Confirmed answer — submission requirements
 
-Use when the submission phase opens or the countdown becomes close.
+The 1 October orientation and live official guide now confirm the fields, GitHub requirements, PDF and ZIP limits, validation checks, README order, slide order, deadline, and 10-minute pitch plus 5-minute questions. Do not ask the old broad submission question again.
 
-> The official website currently states that the PoC is due on 11 October 2026 at 11:59 PM in the team creator's timezone. Could you confirm the required submission fields, accepted file/link formats, maximum sizes, pitch or video duration, repository visibility, and required AI-assistance disclosure? I have a working dashboard, code, maps, validation, licence record, and presenter notes ready to adapt.
+## Question 4 — private repository access and correction window
 
-Do not attach private screenshots unless requested. If a file is requested, provide:
+Ask only if Yusuf decides not to make the repository public.
 
-- `project/docs/SUBMISSION_CHECKLIST.md`
-- `project/outputs/dashboard.html`
-- `project/outputs/verification_report.md`
+> Hi, the PoC submission guide says a private GitHub repository is allowed if access is granted to the evaluation account. Could you please provide the exact GitHub username or email to invite? The guide also contains a placeholder about an automated validation report or correction window. Could you confirm whether either will be available? Thank you.
+
+No attachment is needed. If the answer changes the process, update `project/docs/SUBMISSION_CHECKLIST.md`.
 
 ## Update message after feedback
 

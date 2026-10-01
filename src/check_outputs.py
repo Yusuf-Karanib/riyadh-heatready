@@ -14,6 +14,12 @@ from shapely.geometry import shape
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "outputs"
+NOTEBOOK = ROOT / "notebooks" / "02_main_analysis.ipynb"
+SAMPLE_INPUT = ROOT / "data" / "sample_input" / "riyadh_priority_drivers.csv"
+EXAMPLE_CSV = ROOT / "results" / "example_priority_zones.csv"
+EXAMPLE_PNG = ROOT / "results" / "example_priority_output.png"
+SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_PoC_Pitch.pdf"
+SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_PoC_Pitch.pptx"
 
 
 def sha256(path: Path) -> str:
@@ -56,6 +62,59 @@ def main() -> None:
     for name in required:
         path = OUTPUT_DIR / name
         check(path.exists() and path.stat().st_size > 0, f"{name} exists and is not empty", checks)
+
+    for path in [NOTEBOOK, SAMPLE_INPUT, EXAMPLE_CSV, EXAMPLE_PNG, SLIDES_PDF, SLIDES_PPTX]:
+        check(
+            path.exists() and path.stat().st_size > 0,
+            f"{path.relative_to(ROOT).as_posix()} exists and is not empty",
+            checks,
+        )
+
+    requirements = [
+        line.strip()
+        for line in (ROOT / "requirements.txt").read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.lstrip().startswith("#")
+    ]
+    check(requirements and all("==" in line for line in requirements), "every Python requirement is pinned with ==", checks)
+
+    notebook = json.loads(NOTEBOOK.read_text(encoding="utf-8"))
+    code_cells = [cell for cell in notebook["cells"] if cell["cell_type"] == "code"]
+    check(bool(code_cells), "submission notebook contains executable code cells", checks)
+    check(all(cell.get("execution_count") is not None for cell in code_cells), "every submission notebook code cell has a committed execution count", checks)
+    notebook_errors = [
+        output
+        for cell in code_cells
+        for output in cell.get("outputs", [])
+        if output.get("output_type") == "error"
+    ]
+    check(not notebook_errors, "submission notebook contains no saved error outputs", checks)
+
+    sample = pd.read_csv(SAMPLE_INPUT)
+    check(len(sample) == 67, "sample input contains all 67 eligible priority cells", checks)
+    check("priority_score" not in sample and "priority_class" not in sample, "sample input leaves the score and class for the notebook to calculate", checks)
+    example = pd.read_csv(EXAMPLE_CSV)
+    check(example.iloc[0]["grid_id"] == "R05C10", "example notebook output preserves the verified top-ranked cell", checks)
+    check(np.isclose(example.iloc[0]["priority_score"], 78.656723, atol=1e-5), "example notebook output reproduces the verified top score", checks)
+
+    check(SLIDES_PDF.stat().st_size < 50 * 1024 * 1024, "presentation PDF is below the official 50 MB limit", checks)
+    check(SLIDES_PDF.read_bytes()[:5] == b"%PDF-", "presentation file has a valid PDF header", checks)
+
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    required_readme_sections = [
+        "## 1. Business use case",
+        "## 2. Problem, scale, and why satellite data",
+        "## 3. Data",
+        "## 4. Technical approach",
+        "## 5. Installation",
+        "## 6. How to run",
+        "## 7. Example input and output",
+        "## 8. Results",
+        "## 9. Validation, assumptions, and limitations",
+        "## 10. Team, licence, and attribution",
+    ]
+    positions = [readme.find(heading) for heading in required_readme_sections]
+    check(all(position >= 0 for position in positions), "README contains all ten required sections", checks)
+    check(positions == sorted(positions), "README sections follow the official required order", checks)
 
     config = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     feasibility = json.loads((OUTPUT_DIR / "data_feasibility.json").read_text(encoding="utf-8"))

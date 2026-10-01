@@ -29,12 +29,23 @@ function Invoke-PythonStep {
     }
 }
 
+function Invoke-Notebook {
+    & $python -m nbconvert --to notebook --execute --inplace `
+        "notebooks\02_main_analysis.ipynb" `
+        "--ExecutePreprocessor.timeout=120"
+    if ($LASTEXITCODE -ne 0) {
+        throw "Notebook execution failed (exit code $LASTEXITCODE)"
+    }
+}
+
 Push-Location $projectRoot
 try {
     Invoke-PythonStep "src\verify_sources.py"
     Invoke-PythonStep "src\run_analysis.py"
     Invoke-PythonStep "src\analyze_tanager.py"
     Invoke-PythonStep "src\run_analysis.py"
+    Invoke-PythonStep "src\build_submission_assets.py"
+    Invoke-Notebook
     Invoke-PythonStep "src\check_outputs.py"
     Invoke-PythonStep "src\package_submission.py"
 }
