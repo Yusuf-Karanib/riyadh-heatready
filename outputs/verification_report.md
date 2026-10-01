@@ -1,0 +1,86 @@
+# Verification report
+
+**Result:** PASS — 80 checks passed.
+
+- PASS: dashboard.html exists and is not empty
+- PASS: decision_map.png exists and is not empty
+- PASS: analysis_overview.png exists and is not empty
+- PASS: annual_built_area_timeseries.png exists and is not empty
+- PASS: annual_built_area_timeseries.csv exists and is not empty
+- PASS: validation.png exists and is not empty
+- PASS: tanager_material_analysis.png exists and is not empty
+- PASS: priority_zones.csv exists and is not empty
+- PASS: priority_zones.geojson exists and is not empty
+- PASS: results_summary.json exists and is not empty
+- PASS: validation_metrics.json exists and is not empty
+- PASS: tanager_summary.json exists and is not empty
+- PASS: data_feasibility.json exists and is not empty
+- PASS: built_probability_2018.tif exists and is not empty
+- PASS: built_probability_2025.tif exists and is not empty
+- PASS: annual_lulc_candidate_growth_2018_2023.tif exists and is not empty
+- PASS: confirmed_built_growth_2018_2023.tif exists and is not empty
+- PASS: land_surface_temperature_2025_c.tif exists and is not empty
+- PASS: priority_score_1km.tif exists and is not empty
+- PASS: data feasibility result is PASS
+- PASS: all 38 planned source assets were checked
+- PASS: every source-asset check is usable
+- PASS: confirmed growth is positive and no larger than the annual-map candidate growth
+- PASS: mean land-surface temperature is physically plausible for the case study
+- PASS: population estimate is positive
+- PASS: exact AOI area is plausible
+- PASS: summary records the configured AOI
+- PASS: validation metrics are bounded between zero and one
+- PASS: spatial holdout contains at least 10,000 reference pixels
+- PASS: Tanager analysis is linked into the final summary
+- PASS: Tanager is not mislabelled as Satellite 813
+- PASS: annual time-series table contains the required fields
+- PASS: annual time series contains exactly 2018 through 2023 in order
+- PASS: annual mapped built-up areas are finite and inside the AOI area
+- PASS: annual year-to-year changes match the mapped-area differences
+- PASS: summary annual time series matches the CSV
+- PASS: annual time-series endpoints match the reported 2018 and 2023 areas
+- PASS: priority table contains the decision fields
+- PASS: priority table contains eligible growth cells
+- PASS: all priority scores are between 0 and 100
+- PASS: priority table is sorted from highest to lowest score
+- PASS: each priority grid ID is unique
+- PASS: priority table has no missing or infinite decision values
+- PASS: every ranked cell contains confirmed growth
+- PASS: AOI coverage fractions are bounded
+- PASS: all ranked cell centres are inside the AOI longitude range
+- PASS: all ranked cell centres are inside the AOI latitude range
+- PASS: priority row count matches the summary
+- PASS: high-priority row count matches the summary
+- PASS: GeoJSON feature count matches the priority table
+- PASS: all GeoJSON geometries are clipped to the AOI
+- PASS: built_probability_2018.tif uses the expected Riyadh UTM coordinate system
+- PASS: built_probability_2018.tif contains valid pixels
+- PASS: built_probability_2018.tif values stay inside the expected range
+- PASS: built_probability_2025.tif uses the expected Riyadh UTM coordinate system
+- PASS: built_probability_2025.tif contains valid pixels
+- PASS: built_probability_2025.tif values stay inside the expected range
+- PASS: priority_score_1km.tif uses the expected Riyadh UTM coordinate system
+- PASS: priority_score_1km.tif contains valid pixels
+- PASS: priority_score_1km.tif values stay inside the expected range
+- PASS: land_surface_temperature_2025_c.tif uses the expected Riyadh UTM coordinate system
+- PASS: land_surface_temperature_2025_c.tif contains valid pixels
+- PASS: land_surface_temperature_2025_c.tif values stay inside the expected range
+- PASS: annual_lulc_candidate_growth_2018_2023.tif uses 255 rather than valid zero as nodata
+- PASS: annual_lulc_candidate_growth_2018_2023.tif contains only valid binary values
+- PASS: annual_lulc_candidate_growth_2018_2023.tif contains both no-growth and growth pixels
+- PASS: confirmed_built_growth_2018_2023.tif uses 255 rather than valid zero as nodata
+- PASS: confirmed_built_growth_2018_2023.tif contains only valid binary values
+- PASS: confirmed_built_growth_2018_2023.tif contains both no-growth and growth pixels
+- PASS: summary validation matches validation_metrics.json
+- PASS: summary Tanager result matches tanager_summary.json
+- PASS: strict Tanager cloud-mask sensitivity has enough pixels in every surface group
+- PASS: strict Tanager cloud-mask sensitivity has finite NDBI medians
+- PASS: dashboard contains: Riyadh HeatReady
+- PASS: dashboard contains: Annual built-up trend
+- PASS: dashboard contains: Tanager adds material context, not change proof
+- PASS: dashboard contains: stricter sensitivity test
+- PASS: dashboard contains: Potential adopter, not a claimed customer
+- PASS: dashboard contains: Use this as a screening tool.
+- PASS: dashboard contains: Every priority zone needs local review and field checking.
+
+The checks cover file presence, plausible numeric ranges, coordinate systems, table ordering, validation bounds, Tanager labelling, and required dashboard explanations. They do not replace independent field validation.

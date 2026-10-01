@@ -1,0 +1,326 @@
+{
+  "result": "PASS",
+  "checks_passed": 80,
+  "checks": [
+    {
+      "status": "PASS",
+      "check": "dashboard.html exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "decision_map.png exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "analysis_overview.png exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "annual_built_area_timeseries.png exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "annual_built_area_timeseries.csv exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "validation.png exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "tanager_material_analysis.png exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "priority_zones.csv exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "priority_zones.geojson exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "results_summary.json exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "validation_metrics.json exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "tanager_summary.json exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "data_feasibility.json exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2018.tif exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2025.tif exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "annual_lulc_candidate_growth_2018_2023.tif exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "confirmed_built_growth_2018_2023.tif exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "land_surface_temperature_2025_c.tif exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "priority_score_1km.tif exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "data feasibility result is PASS"
+    },
+    {
+      "status": "PASS",
+      "check": "all 38 planned source assets were checked"
+    },
+    {
+      "status": "PASS",
+      "check": "every source-asset check is usable"
+    },
+    {
+      "status": "PASS",
+      "check": "confirmed growth is positive and no larger than the annual-map candidate growth"
+    },
+    {
+      "status": "PASS",
+      "check": "mean land-surface temperature is physically plausible for the case study"
+    },
+    {
+      "status": "PASS",
+      "check": "population estimate is positive"
+    },
+    {
+      "status": "PASS",
+      "check": "exact AOI area is plausible"
+    },
+    {
+      "status": "PASS",
+      "check": "summary records the configured AOI"
+    },
+    {
+      "status": "PASS",
+      "check": "validation metrics are bounded between zero and one"
+    },
+    {
+      "status": "PASS",
+      "check": "spatial holdout contains at least 10,000 reference pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "Tanager analysis is linked into the final summary"
+    },
+    {
+      "status": "PASS",
+      "check": "Tanager is not mislabelled as Satellite 813"
+    },
+    {
+      "status": "PASS",
+      "check": "annual time-series table contains the required fields"
+    },
+    {
+      "status": "PASS",
+      "check": "annual time series contains exactly 2018 through 2023 in order"
+    },
+    {
+      "status": "PASS",
+      "check": "annual mapped built-up areas are finite and inside the AOI area"
+    },
+    {
+      "status": "PASS",
+      "check": "annual year-to-year changes match the mapped-area differences"
+    },
+    {
+      "status": "PASS",
+      "check": "summary annual time series matches the CSV"
+    },
+    {
+      "status": "PASS",
+      "check": "annual time-series endpoints match the reported 2018 and 2023 areas"
+    },
+    {
+      "status": "PASS",
+      "check": "priority table contains the decision fields"
+    },
+    {
+      "status": "PASS",
+      "check": "priority table contains eligible growth cells"
+    },
+    {
+      "status": "PASS",
+      "check": "all priority scores are between 0 and 100"
+    },
+    {
+      "status": "PASS",
+      "check": "priority table is sorted from highest to lowest score"
+    },
+    {
+      "status": "PASS",
+      "check": "each priority grid ID is unique"
+    },
+    {
+      "status": "PASS",
+      "check": "priority table has no missing or infinite decision values"
+    },
+    {
+      "status": "PASS",
+      "check": "every ranked cell contains confirmed growth"
+    },
+    {
+      "status": "PASS",
+      "check": "AOI coverage fractions are bounded"
+    },
+    {
+      "status": "PASS",
+      "check": "all ranked cell centres are inside the AOI longitude range"
+    },
+    {
+      "status": "PASS",
+      "check": "all ranked cell centres are inside the AOI latitude range"
+    },
+    {
+      "status": "PASS",
+      "check": "priority row count matches the summary"
+    },
+    {
+      "status": "PASS",
+      "check": "high-priority row count matches the summary"
+    },
+    {
+      "status": "PASS",
+      "check": "GeoJSON feature count matches the priority table"
+    },
+    {
+      "status": "PASS",
+      "check": "all GeoJSON geometries are clipped to the AOI"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2018.tif uses the expected Riyadh UTM coordinate system"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2018.tif contains valid pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2018.tif values stay inside the expected range"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2025.tif uses the expected Riyadh UTM coordinate system"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2025.tif contains valid pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "built_probability_2025.tif values stay inside the expected range"
+    },
+    {
+      "status": "PASS",
+      "check": "priority_score_1km.tif uses the expected Riyadh UTM coordinate system"
+    },
+    {
+      "status": "PASS",
+      "check": "priority_score_1km.tif contains valid pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "priority_score_1km.tif values stay inside the expected range"
+    },
+    {
+      "status": "PASS",
+      "check": "land_surface_temperature_2025_c.tif uses the expected Riyadh UTM coordinate system"
+    },
+    {
+      "status": "PASS",
+      "check": "land_surface_temperature_2025_c.tif contains valid pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "land_surface_temperature_2025_c.tif values stay inside the expected range"
+    },
+    {
+      "status": "PASS",
+      "check": "annual_lulc_candidate_growth_2018_2023.tif uses 255 rather than valid zero as nodata"
+    },
+    {
+      "status": "PASS",
+      "check": "annual_lulc_candidate_growth_2018_2023.tif contains only valid binary values"
+    },
+    {
+      "status": "PASS",
+      "check": "annual_lulc_candidate_growth_2018_2023.tif contains both no-growth and growth pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "confirmed_built_growth_2018_2023.tif uses 255 rather than valid zero as nodata"
+    },
+    {
+      "status": "PASS",
+      "check": "confirmed_built_growth_2018_2023.tif contains only valid binary values"
+    },
+    {
+      "status": "PASS",
+      "check": "confirmed_built_growth_2018_2023.tif contains both no-growth and growth pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "summary validation matches validation_metrics.json"
+    },
+    {
+      "status": "PASS",
+      "check": "summary Tanager result matches tanager_summary.json"
+    },
+    {
+      "status": "PASS",
+      "check": "strict Tanager cloud-mask sensitivity has enough pixels in every surface group"
+    },
+    {
+      "status": "PASS",
+      "check": "strict Tanager cloud-mask sensitivity has finite NDBI medians"
+    },
+    {
+      "status": "PASS",
+      "check": "dashboard contains: Riyadh HeatReady"
+    },
+    {
+      "status": "PASS",
+      "check": "dashboard contains: Annual built-up trend"
+    },
+    {
+      "status": "PASS",
+      "check": "dashboard contains: Tanager adds material context, not change proof"
+    },
+    {
+      "status": "PASS",
+      "check": "dashboard contains: stricter sensitivity test"
+    },
+    {
+      "status": "PASS",
+      "check": "dashboard contains: Potential adopter, not a claimed customer"
+    },
+    {
+      "status": "PASS",
+      "check": "dashboard contains: Use this as a screening tool."
+    },
+    {
+      "status": "PASS",
+      "check": "dashboard contains: Every priority zone needs local review and field checking."
+    }
+  ]
+}

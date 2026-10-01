@@ -1,0 +1,3265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R05C10",
+        "longitude": 46.84226931007317,
+        "latitude": 24.614390687710607,
+        "priority_score": 78.65672302246094,
+        "priority_class": "High",
+        "lst_mean_c": 50.7926025390625,
+        "population_estimate": 3818.000244140625,
+        "built_fraction_2018": 0.7955924272537231,
+        "built_fraction_2025": 0.759867787361145,
+        "new_built_fraction": 0.07109580934047699,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.022700399160385132,
+        "heat_component": 0.8805969953536987,
+        "population_component": 0.611940324306488,
+        "growth_component": 0.7910447716712952,
+        "lack_green_component": 0.9253731369972229
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8372663,
+              24.6099376
+            ],
+            [
+              46.8373982,
+              24.6189645
+            ],
+            [
+              46.8472727,
+              24.6188436
+            ],
+            [
+              46.84714,
+              24.6098167
+            ],
+            [
+              46.8372663,
+              24.6099376
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R02C10",
+        "longitude": 46.84266644996388,
+        "latitude": 24.64147123994535,
+        "priority_score": 78.2089614868164,
+        "priority_class": "High",
+        "lst_mean_c": 51.5894889831543,
+        "population_estimate": 3457.641357421875,
+        "built_fraction_2018": 0.8704168796539307,
+        "built_fraction_2025": 0.7051346302032471,
+        "new_built_fraction": 0.057860370725393295,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.01775391772389412,
+        "heat_component": 0.9850746393203735,
+        "population_component": 0.5074626803398132,
+        "growth_component": 0.6865671873092651,
+        "lack_green_component": 0.9850746393203735
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8376623,
+              24.6370183
+            ],
+            [
+              46.8377944,
+              24.6460451
+            ],
+            [
+              46.847671,
+              24.645924
+            ],
+            [
+              46.8475382,
+              24.6368972
+            ],
+            [
+              46.8376623,
+              24.6370183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R03C10",
+        "longitude": 46.842534005485405,
+        "latitude": 24.63244440070093,
+        "priority_score": 74.62686157226562,
+        "priority_class": "High",
+        "lst_mean_c": 51.07908630371094,
+        "population_estimate": 3414.15234375,
+        "built_fraction_2018": 0.607699990272522,
+        "built_fraction_2025": 0.564616322517395,
+        "new_built_fraction": 0.06972550600767136,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.030389612540602684,
+        "heat_component": 0.9104477763175964,
+        "population_component": 0.4776119291782379,
+        "growth_component": 0.7611940503120422,
+        "lack_green_component": 0.8656716346740723
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8375302,
+              24.6279914
+            ],
+            [
+              46.8376623,
+              24.6370183
+            ],
+            [
+              46.8475382,
+              24.6368972
+            ],
+            [
+              46.8474054,
+              24.6278704
+            ],
+            [
+              46.8375302,
+              24.6279914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R02C09",
+        "longitude": 46.832790182977064,
+        "latitude": 24.641591998984165,
+        "priority_score": 72.68656921386719,
+        "priority_class": "High",
+        "lst_mean_c": 51.156978607177734,
+        "population_estimate": 3417.513671875,
+        "built_fraction_2018": 0.7833049893379211,
+        "built_fraction_2025": 0.43939998745918274,
+        "new_built_fraction": 0.0639575645327568,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04537254199385643,
+        "heat_component": 0.9402984976768494,
+        "population_component": 0.49253731966018677,
+        "growth_component": 0.7164179086685181,
+        "lack_green_component": 0.5970149040222168
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8277863,
+              24.6371387
+            ],
+            [
+              46.8279177,
+              24.6461656
+            ],
+            [
+              46.8377944,
+              24.6460451
+            ],
+            [
+              46.8376623,
+              24.6370183
+            ],
+            [
+              46.8277863,
+              24.6371387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R11C01",
+        "longitude": 46.75264540143835,
+        "latitude": 24.561288805833694,
+        "priority_score": 68.05970001220703,
+        "priority_class": "High",
+        "lst_mean_c": 51.1467399597168,
+        "population_estimate": 1837.1917724609375,
+        "built_fraction_2018": 0.5565081834793091,
+        "built_fraction_2025": 0.6046966910362244,
+        "new_built_fraction": 0.101216159760952,
+        "aoi_coverage_fraction": 0.7680127024650574,
+        "ndvi_mean_2025": 0.03409147262573242,
+        "heat_component": 0.9253731369972229,
+        "population_component": 0.19402985274791718,
+        "growth_component": 0.8507462739944458,
+        "lack_green_component": 0.8208954930305481
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7576436,
+              24.565745
+            ],
+            [
+              46.7575177,
+              24.5567176
+            ],
+            [
+              46.75,
+              24.5568051
+            ],
+            [
+              46.75,
+              24.5571429
+            ],
+            [
+              46.75,
+              24.5595238
+            ],
+            [
+              46.75,
+              24.5619048
+            ],
+            [
+              46.75,
+              24.5642857
+            ],
+            [
+              46.75,
+              24.565834
+            ],
+            [
+              46.7576436,
+              24.565745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R10C07",
+        "longitude": 46.81199669152387,
+        "latitude": 24.569615343460512,
+        "priority_score": 68.05970001220703,
+        "priority_class": "High",
+        "lst_mean_c": 49.179847717285156,
+        "population_estimate": 4240.52587890625,
+        "built_fraction_2018": 0.7698929309844971,
+        "built_fraction_2025": 0.7378923296928406,
+        "new_built_fraction": 0.15355278551578522,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.01904436945915222,
+        "heat_component": 0.41791045665740967,
+        "population_component": 0.7910447716712952,
+        "growth_component": 0.89552241563797,
+        "lack_green_component": 0.9701492786407471
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8069966,
+              24.5651611
+            ],
+            [
+              46.8071261,
+              24.5741882
+            ],
+            [
+              46.8169972,
+              24.5740694
+            ],
+            [
+              46.816867,
+              24.5650424
+            ],
+            [
+              46.8069966,
+              24.5651611
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R04C03",
+        "longitude": 46.773276343607975,
+        "latitude": 24.624248561353404,
+        "priority_score": 66.2686538696289,
+        "priority_class": "High",
+        "lst_mean_c": 50.11517333984375,
+        "population_estimate": 3889.609130859375,
+        "built_fraction_2018": 0.8794319033622742,
+        "built_fraction_2025": 0.7030655145645142,
+        "new_built_fraction": 0.02812783606350422,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.02961016446352005,
+        "heat_component": 0.6716417670249939,
+        "population_component": 0.6716417670249939,
+        "growth_component": 0.5223880410194397,
+        "lack_green_component": 0.8805969953536987
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7682752,
+              24.6197931
+            ],
+            [
+              46.7684022,
+              24.6288203
+            ],
+            [
+              46.7782778,
+              24.6287038
+            ],
+            [
+              46.7781501,
+              24.6196767
+            ],
+            [
+              46.7682752,
+              24.6197931
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R03C02",
+        "longitude": 46.76352776318171,
+        "latitude": 24.633391929514318,
+        "priority_score": 66.11940002441406,
+        "priority_class": "High",
+        "lst_mean_c": 50.268211364746094,
+        "population_estimate": 5017.49072265625,
+        "built_fraction_2018": 0.9363560676574707,
+        "built_fraction_2025": 0.7731875777244568,
+        "new_built_fraction": 0.0024981785099953413,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.02853282168507576,
+        "heat_component": 0.7313432693481445,
+        "population_component": 0.8507462739944458,
+        "growth_component": 0.11940298229455948,
+        "lack_green_component": 0.89552241563797
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7585266,
+              24.6289361
+            ],
+            [
+              46.7586529,
+              24.6379634
+            ],
+            [
+              46.7685293,
+              24.6378475
+            ],
+            [
+              46.7684022,
+              24.6288203
+            ],
+            [
+              46.7585266,
+              24.6289361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R04C10",
+        "longitude": 46.842401625528616,
+        "latitude": 24.62341754995491,
+        "priority_score": 64.62686920166016,
+        "priority_class": "High",
+        "lst_mean_c": 50.40040588378906,
+        "population_estimate": 3472.77294921875,
+        "built_fraction_2018": 0.863439679145813,
+        "built_fraction_2025": 0.6268206834793091,
+        "new_built_fraction": 0.02092600055038929,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.0361504852771759,
+        "heat_component": 0.7761194109916687,
+        "population_component": 0.5223880410194397,
+        "growth_component": 0.49253731966018677,
+        "lack_green_component": 0.8059701323509216
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8373982,
+              24.6189645
+            ],
+            [
+              46.8375302,
+              24.6279914
+            ],
+            [
+              46.8474054,
+              24.6278704
+            ],
+            [
+              46.8472727,
+              24.6188436
+            ],
+            [
+              46.8373982,
+              24.6189645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R05C04",
+        "longitude": 46.7830235070091,
+        "latitude": 24.61510463046827,
+        "priority_score": 64.47760772705078,
+        "priority_class": "High",
+        "lst_mean_c": 50.41987991333008,
+        "population_estimate": 3278.5654296875,
+        "built_fraction_2018": 0.3718664348125458,
+        "built_fraction_2025": 0.33269941806793213,
+        "new_built_fraction": 0.07002943009138107,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05214656516909599,
+        "heat_component": 0.7910447716712952,
+        "population_component": 0.43283581733703613,
+        "growth_component": 0.7761194109916687,
+        "lack_green_component": 0.43283581733703613
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7780224,
+              24.6106495
+            ],
+            [
+              46.7781501,
+              24.6196767
+            ],
+            [
+              46.7880249,
+              24.6195596
+            ],
+            [
+              46.7878966,
+              24.6105325
+            ],
+            [
+              46.7780224,
+              24.6106495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R08C06",
+        "longitude": 46.80238429240467,
+        "latitude": 24.587787988746154,
+        "priority_score": 64.02984619140625,
+        "priority_class": "High",
+        "lst_mean_c": 50.368534088134766,
+        "population_estimate": 3958.959228515625,
+        "built_fraction_2018": 0.9020950794219971,
+        "built_fraction_2025": 0.7862947583198547,
+        "new_built_fraction": 0.002728650812059641,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.02002301998436451,
+        "heat_component": 0.7611940503120422,
+        "population_component": 0.7164179086685181,
+        "growth_component": 0.13432836532592773,
+        "lack_green_component": 0.9402984976768494
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7973837,
+              24.5833334
+            ],
+            [
+              46.7975126,
+              24.5923606
+            ],
+            [
+              46.8073852,
+              24.5922423
+            ],
+            [
+              46.8072556,
+              24.5832153
+            ],
+            [
+              46.7973837,
+              24.5833334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R05C09",
+        "longitude": 46.83239516875283,
+        "latitude": 24.61451129675229,
+        "priority_score": 63.58209228515625,
+        "priority_class": "High",
+        "lst_mean_c": 49.988548278808594,
+        "population_estimate": 3951.0107421875,
+        "built_fraction_2018": 0.9196831583976746,
+        "built_fraction_2025": 0.6730343699455261,
+        "new_built_fraction": 0.019054340198636055,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.032686855643987656,
+        "heat_component": 0.611940324306488,
+        "population_component": 0.7014925479888916,
+        "growth_component": 0.4776119291782379,
+        "lack_green_component": 0.8507462739944458
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8273925,
+              24.6100579
+            ],
+            [
+              46.8275237,
+              24.6190848
+            ],
+            [
+              46.8373982,
+              24.6189645
+            ],
+            [
+              46.8372663,
+              24.6099376
+            ],
+            [
+              46.8273925,
+              24.6100579
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R02C07",
+        "longitude": 46.81303745675826,
+        "latitude": 24.64183157239804,
+        "priority_score": 63.2835807800293,
+        "priority_class": "High",
+        "lst_mean_c": 50.73643112182617,
+        "population_estimate": 4033.822509765625,
+        "built_fraction_2018": 0.07329999655485153,
+        "built_fraction_2025": 0.06449999660253525,
+        "new_built_fraction": 0.005400000140070915,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05877305194735527,
+        "heat_component": 0.8507462739944458,
+        "population_component": 0.7611940503120422,
+        "growth_component": 0.20895522832870483,
+        "lack_green_component": 0.2238806039094925
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8080342,
+              24.6373776
+            ],
+            [
+              46.8081642,
+              24.6464046
+            ],
+            [
+              46.818041,
+              24.6462854
+            ],
+            [
+              46.8179103,
+              24.6372584
+            ],
+            [
+              46.8080342,
+              24.6373776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R02C08",
+        "longitude": 46.82291385179344,
+        "latitude": 24.641712109807255,
+        "priority_score": 62.53731918334961,
+        "priority_class": "High",
+        "lst_mean_c": 50.80940628051758,
+        "population_estimate": 3324.273193359375,
+        "built_fraction_2018": 0.6993588209152222,
+        "built_fraction_2025": 0.5032529234886169,
+        "new_built_fraction": 0.011430863291025162,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.0431218259036541,
+        "heat_component": 0.89552241563797,
+        "population_component": 0.447761207818985,
+        "growth_component": 0.34328359365463257,
+        "lack_green_component": 0.641791045665741
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8179103,
+              24.6372584
+            ],
+            [
+              46.818041,
+              24.6462854
+            ],
+            [
+              46.8279177,
+              24.6461656
+            ],
+            [
+              46.8277863,
+              24.6371387
+            ],
+            [
+              46.8179103,
+              24.6372584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R08C05",
+        "longitude": 46.792512019412484,
+        "latitude": 24.587905861329393,
+        "priority_score": 62.53731155395508,
+        "priority_class": "Medium",
+        "lst_mean_c": 48.51620864868164,
+        "population_estimate": 5217.84228515625,
+        "built_fraction_2018": 0.6335210204124451,
+        "built_fraction_2025": 0.6835761070251465,
+        "new_built_fraction": 0.12218973785638809,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.03856179863214493,
+        "heat_component": 0.28358209133148193,
+        "population_component": 0.8656716346740723,
+        "growth_component": 0.8805969953536987,
+        "lack_green_component": 0.7611940503120422
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7875118,
+              24.583451
+            ],
+            [
+              46.78764,
+              24.5924781
+            ],
+            [
+              46.7975126,
+              24.5923606
+            ],
+            [
+              46.7973837,
+              24.5833334
+            ],
+            [
+              46.7875118,
+              24.583451
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R07C09",
+        "longitude": 46.83213214665076,
+        "latitude": 24.596457437818742,
+        "priority_score": 61.79104995727539,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.19610595703125,
+        "population_estimate": 3975.291015625,
+        "built_fraction_2018": 0.45513850450515747,
+        "built_fraction_2025": 0.442294180393219,
+        "new_built_fraction": 0.00815135333687067,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.043714091181755066,
+        "heat_component": 0.7014925479888916,
+        "population_component": 0.7313432693481445,
+        "growth_component": 0.28358209133148193,
+        "lack_green_component": 0.611940324306488
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8271302,
+              24.592004
+            ],
+            [
+              46.8272613,
+              24.6010309
+            ],
+            [
+              46.8371344,
+              24.6009107
+            ],
+            [
+              46.8370026,
+              24.5918838
+            ],
+            [
+              46.8271302,
+              24.592004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R05C03",
+        "longitude": 46.773148986046664,
+        "latitude": 24.615221354798294,
+        "priority_score": 60.29850769042969,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.15965270996094,
+        "population_estimate": 3855.798583984375,
+        "built_fraction_2018": 0.7800020575523376,
+        "built_fraction_2025": 0.6456000208854675,
+        "new_built_fraction": 0.04786099120974541,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.0690418928861618,
+        "heat_component": 0.6865671873092651,
+        "population_component": 0.6268656849861145,
+        "growth_component": 0.641791045665741,
+        "lack_green_component": 0.11940298229455948
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7681482,
+              24.6107659
+            ],
+            [
+              46.7682752,
+              24.6197931
+            ],
+            [
+              46.7781501,
+              24.6196767
+            ],
+            [
+              46.7780224,
+              24.6106495
+            ],
+            [
+              46.7681482,
+              24.6107659
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R04C09",
+        "longitude": 46.832526775997856,
+        "latitude": 24.623538208988663,
+        "priority_score": 60.29850769042969,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.32780075073242,
+        "population_estimate": 2356.113037109375,
+        "built_fraction_2018": 0.4779619872570038,
+        "built_fraction_2025": 0.4069324731826782,
+        "new_built_fraction": 0.10269394516944885,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04926956072449684,
+        "heat_component": 0.746268630027771,
+        "population_component": 0.26865673065185547,
+        "growth_component": 0.8656716346740723,
+        "lack_green_component": 0.5074626803398132
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8275237,
+              24.6190848
+            ],
+            [
+              46.827655,
+              24.6281118
+            ],
+            [
+              46.8375302,
+              24.6279914
+            ],
+            [
+              46.8373982,
+              24.6189645
+            ],
+            [
+              46.8275237,
+              24.6190848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R06C10",
+        "longitude": 46.842137059098704,
+        "latitude": 24.605363813971298,
+        "priority_score": 60.149253845214844,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.228816986083984,
+        "population_estimate": 3076.13623046875,
+        "built_fraction_2018": 0.5332000255584717,
+        "built_fraction_2025": 0.4269999861717224,
+        "new_built_fraction": 0.0608999989926815,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04358960688114166,
+        "heat_component": 0.7164179086685181,
+        "population_component": 0.3731343150138855,
+        "growth_component": 0.7014925479888916,
+        "lack_green_component": 0.6268656849861145
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8371344,
+              24.6009107
+            ],
+            [
+              46.8372663,
+              24.6099376
+            ],
+            [
+              46.84714,
+              24.6098167
+            ],
+            [
+              46.8470075,
+              24.6007899
+            ],
+            [
+              46.8371344,
+              24.6009107
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R04C02",
+        "longitude": 46.76340105222948,
+        "latitude": 24.62436468628867,
+        "priority_score": 59.55223846435547,
+        "priority_class": "Medium",
+        "lst_mean_c": 49.18217468261719,
+        "population_estimate": 6617.46875,
+        "built_fraction_2018": 0.8724019527435303,
+        "built_fraction_2025": 0.7569437026977539,
+        "new_built_fraction": 0.016714004799723625,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.046537134796381,
+        "heat_component": 0.43283581733703613,
+        "population_component": 0.9402984976768494,
+        "growth_component": 0.41791045665740967,
+        "lack_green_component": 0.5671641826629639
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7584002,
+              24.6199089
+            ],
+            [
+              46.7585266,
+              24.6289361
+            ],
+            [
+              46.7684022,
+              24.6288203
+            ],
+            [
+              46.7682752,
+              24.6197931
+            ],
+            [
+              46.7584002,
+              24.6199089
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R06C08",
+        "longitude": 46.82239012807321,
+        "latitude": 24.605604284941847,
+        "priority_score": 58.805973052978516,
+        "priority_class": "Medium",
+        "lst_mean_c": 49.22135543823242,
+        "population_estimate": 3508.65625,
+        "built_fraction_2018": 0.7707434296607971,
+        "built_fraction_2025": 0.7702000141143799,
+        "new_built_fraction": 0.06501454859972,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.019355779513716698,
+        "heat_component": 0.46268656849861145,
+        "population_component": 0.5373134613037109,
+        "growth_component": 0.7313432693481445,
+        "lack_green_component": 0.9552238583564758
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8173881,
+              24.6011505
+            ],
+            [
+              46.8175186,
+              24.6101775
+            ],
+            [
+              46.8273925,
+              24.6100579
+            ],
+            [
+              46.8272613,
+              24.6010309
+            ],
+            [
+              46.8173881,
+              24.6011505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R07C10",
+        "longitude": 46.842004872584894,
+        "latitude": 24.596336928740293,
+        "priority_score": 58.358211517333984,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.11321258544922,
+        "population_estimate": 3559.56640625,
+        "built_fraction_2018": 0.5965319275856018,
+        "built_fraction_2025": 0.49390000104904175,
+        "new_built_fraction": 0.014820042066276073,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04090480878949165,
+        "heat_component": 0.6567164063453674,
+        "population_component": 0.5671641826629639,
+        "growth_component": 0.38805970549583435,
+        "lack_green_component": 0.7313432693481445
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8370026,
+              24.5918838
+            ],
+            [
+              46.8371344,
+              24.6009107
+            ],
+            [
+              46.8470075,
+              24.6007899
+            ],
+            [
+              46.846875,
+              24.591763
+            ],
+            [
+              46.8370026,
+              24.5918838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R09C07",
+        "longitude": 46.81212656525645,
+        "latitude": 24.578642412214432,
+        "priority_score": 57.761192321777344,
+        "priority_class": "Medium",
+        "lst_mean_c": 49.585750579833984,
+        "population_estimate": 3876.811767578125,
+        "built_fraction_2018": 0.7011828422546387,
+        "built_fraction_2025": 0.4716244637966156,
+        "new_built_fraction": 0.018962576985359192,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.037348672747612,
+        "heat_component": 0.5373134613037109,
+        "population_component": 0.641791045665741,
+        "growth_component": 0.46268656849861145,
+        "lack_green_component": 0.7761194109916687
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8071261,
+              24.5741882
+            ],
+            [
+              46.8072556,
+              24.5832153
+            ],
+            [
+              46.8171274,
+              24.5830965
+            ],
+            [
+              46.8169972,
+              24.5740694
+            ],
+            [
+              46.8071261,
+              24.5741882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R06C09",
+        "longitude": 46.832263625643876,
+        "latitude": 24.605484373027885,
+        "priority_score": 57.611942291259766,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.76357650756836,
+        "population_estimate": 3400.52880859375,
+        "built_fraction_2018": 0.9154478311538696,
+        "built_fraction_2025": 0.5860000252723694,
+        "new_built_fraction": 0.0036064917221665382,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.045466769486665726,
+        "heat_component": 0.8656716346740723,
+        "population_component": 0.46268656849861145,
+        "growth_component": 0.16417910158634186,
+        "lack_green_component": 0.5820895433425903
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8272613,
+              24.6010309
+            ],
+            [
+              46.8273925,
+              24.6100579
+            ],
+            [
+              46.8372663,
+              24.6099376
+            ],
+            [
+              46.8371344,
+              24.6009107
+            ],
+            [
+              46.8272613,
+              24.6010309
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R03C08",
+        "longitude": 46.82278282513642,
+        "latitude": 24.632685170819126,
+        "priority_score": 57.611942291259766,
+        "priority_class": "Medium",
+        "lst_mean_c": 52.197998046875,
+        "population_estimate": 1481.198486328125,
+        "built_fraction_2018": 0.1300170123577118,
+        "built_fraction_2025": 0.11129999905824661,
+        "new_built_fraction": 0.05314783379435539,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.06888838112354279,
+        "heat_component": 1.0,
+        "population_component": 0.10447761416435242,
+        "growth_component": 0.6567164063453674,
+        "lack_green_component": 0.13432836532592773
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8177797,
+              24.6282315
+            ],
+            [
+              46.8179103,
+              24.6372584
+            ],
+            [
+              46.8277863,
+              24.6371387
+            ],
+            [
+              46.827655,
+              24.6281118
+            ],
+            [
+              46.8177797,
+              24.6282315
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R16C03",
+        "longitude": 46.771752144946,
+        "latitude": 24.515921327909407,
+        "priority_score": 57.31343460083008,
+        "priority_class": "Medium",
+        "lst_mean_c": 51.51160430908203,
+        "population_estimate": 964.009765625,
+        "built_fraction_2018": 0.18299999833106995,
+        "built_fraction_2025": 0.43028727173805237,
+        "new_built_fraction": 0.09488539397716522,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.07808927446603775,
+        "heat_component": 0.9701492786407471,
+        "population_component": 0.02985074557363987,
+        "growth_component": 0.8358209133148193,
+        "lack_green_component": 0.08955223858356476
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7667556,
+              24.5114655
+            ],
+            [
+              46.7668819,
+              24.5204929
+            ],
+            [
+              46.776749,
+              24.520377
+            ],
+            [
+              46.776622,
+              24.5113497
+            ],
+            [
+              46.7667556,
+              24.5114655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R09C08",
+        "longitude": 46.821998004949215,
+        "latitude": 24.57852329576428,
+        "priority_score": 56.567169189453125,
+        "priority_class": "Medium",
+        "lst_mean_c": 49.213199615478516,
+        "population_estimate": 4221.9248046875,
+        "built_fraction_2018": 0.6902424097061157,
+        "built_fraction_2025": 0.4317886233329773,
+        "new_built_fraction": 0.021357664838433266,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04912415146827698,
+        "heat_component": 0.447761207818985,
+        "population_component": 0.7761194109916687,
+        "growth_component": 0.5074626803398132,
+        "lack_green_component": 0.5223880410194397
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8169972,
+              24.5740694
+            ],
+            [
+              46.8171274,
+              24.5830965
+            ],
+            [
+              46.8269992,
+              24.582977
+            ],
+            [
+              46.8268682,
+              24.57395
+            ],
+            [
+              46.8169972,
+              24.5740694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R09C05",
+        "longitude": 46.792383496116756,
+        "latitude": 24.578878705984927,
+        "priority_score": 55.970157623291016,
+        "priority_class": "Medium",
+        "lst_mean_c": 47.15639877319336,
+        "population_estimate": 6649.57275390625,
+        "built_fraction_2018": 0.6484000086784363,
+        "built_fraction_2025": 0.8044000267982483,
+        "new_built_fraction": 0.21240000426769257,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.0539332814514637,
+        "heat_component": 0.11940298229455948,
+        "population_component": 0.9552238583564758,
+        "growth_component": 0.9402984976768494,
+        "lack_green_component": 0.3731343150138855
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7873836,
+              24.5744238
+            ],
+            [
+              46.7875118,
+              24.583451
+            ],
+            [
+              46.7973837,
+              24.5833334
+            ],
+            [
+              46.7972549,
+              24.5743063
+            ],
+            [
+              46.7873836,
+              24.5744238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R10C09",
+        "longitude": 46.83173809416444,
+        "latitude": 24.569376563315828,
+        "priority_score": 55.52238845825195,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.043941497802734,
+        "population_estimate": 3995.025634765625,
+        "built_fraction_2018": 0.5916875600814819,
+        "built_fraction_2025": 0.41041624546051025,
+        "new_built_fraction": 0.00664585642516613,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05503331497311592,
+        "heat_component": 0.6268656849861145,
+        "population_component": 0.746268630027771,
+        "growth_component": 0.2537313401699066,
+        "lack_green_component": 0.2985074520111084
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8267373,
+              24.564923
+            ],
+            [
+              46.8268682,
+              24.57395
+            ],
+            [
+              46.8367392,
+              24.5738299
+            ],
+            [
+              46.8366076,
+              24.564803
+            ],
+            [
+              46.8267373,
+              24.564923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R09C06",
+        "longitude": 46.80225506219746,
+        "latitude": 24.578760882293423,
+        "priority_score": 55.373130798339844,
+        "priority_class": "Medium",
+        "lst_mean_c": 47.55210494995117,
+        "population_estimate": 4516.93798828125,
+        "built_fraction_2018": 0.4629000127315521,
+        "built_fraction_2025": 0.6782242655754089,
+        "new_built_fraction": 0.2792865037918091,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04768355190753937,
+        "heat_component": 0.1492537260055542,
+        "population_component": 0.8059701323509216,
+        "growth_component": 0.9850746393203735,
+        "lack_green_component": 0.5522388219833374
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7972549,
+              24.5743063
+            ],
+            [
+              46.7973837,
+              24.5833334
+            ],
+            [
+              46.8072556,
+              24.5832153
+            ],
+            [
+              46.8071261,
+              24.5741882
+            ],
+            [
+              46.7972549,
+              24.5743063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R03C09",
+        "longitude": 46.83265844739919,
+        "latitude": 24.63256510973372,
+        "priority_score": 54.3283576965332,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.649410247802734,
+        "population_estimate": 1634.2532958984375,
+        "built_fraction_2018": 0.027148868888616562,
+        "built_fraction_2025": 0.10699629783630371,
+        "new_built_fraction": 0.04632507637143135,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.049342039972543716,
+        "heat_component": 0.8208954930305481,
+        "population_component": 0.13432836532592773,
+        "growth_component": 0.6268656849861145,
+        "lack_green_component": 0.49253731966018677
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.827655,
+              24.6281118
+            ],
+            [
+              46.8277863,
+              24.6371387
+            ],
+            [
+              46.8376623,
+              24.6370183
+            ],
+            [
+              46.8375302,
+              24.6279914
+            ],
+            [
+              46.827655,
+              24.6281118
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R06C06",
+        "longitude": 46.802642941963654,
+        "latitude": 24.605842167275803,
+        "priority_score": 54.179107666015625,
+        "priority_class": "Medium",
+        "lst_mean_c": 50.62470626831055,
+        "population_estimate": 2213.27392578125,
+        "built_fraction_2018": 0.1701103299856186,
+        "built_fraction_2025": 0.17229999601840973,
+        "new_built_fraction": 0.012637914158403873,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.041424427181482315,
+        "heat_component": 0.8059701323509216,
+        "population_component": 0.2537313401699066,
+        "growth_component": 0.35820895433425903,
+        "lack_green_component": 0.7164179086685181
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7976416,
+              24.6013877
+            ],
+            [
+              46.7977706,
+              24.6104148
+            ],
+            [
+              46.8076446,
+              24.6102965
+            ],
+            [
+              46.8075149,
+              24.6012694
+            ],
+            [
+              46.7976416,
+              24.6013877
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R08C07",
+        "longitude": 46.812256502355275,
+        "latitude": 24.587669469507276,
+        "priority_score": 53.28358459472656,
+        "priority_class": "Medium",
+        "lst_mean_c": 49.625553131103516,
+        "population_estimate": 3514.725341796875,
+        "built_fraction_2018": 0.5333600044250488,
+        "built_fraction_2025": 0.37599998712539673,
+        "new_built_fraction": 0.03330999240279198,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05618946999311447,
+        "heat_component": 0.5820895433425903,
+        "population_component": 0.5522388219833374,
+        "growth_component": 0.5373134613037109,
+        "lack_green_component": 0.26865673065185547
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8072556,
+              24.5832153
+            ],
+            [
+              46.8073852,
+              24.5922423
+            ],
+            [
+              46.8172578,
+              24.5921235
+            ],
+            [
+              46.8171274,
+              24.5830965
+            ],
+            [
+              46.8072556,
+              24.5832153
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R02C05",
+        "longitude": 46.793284476514366,
+        "latitude": 24.642068552816802,
+        "priority_score": 52.68657302856445,
+        "priority_class": "Medium",
+        "lst_mean_c": 49.37806701660156,
+        "population_estimate": 4786.18603515625,
+        "built_fraction_2018": 0.774519145488739,
+        "built_fraction_2025": 0.6528502702713013,
+        "new_built_fraction": 0.006418637931346893,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.054915837943553925,
+        "heat_component": 0.49253731966018677,
+        "population_component": 0.8358209133148193,
+        "growth_component": 0.23880596458911896,
+        "lack_green_component": 0.31343284249305725
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7882819,
+              24.6376138
+            ],
+            [
+              46.7884105,
+              24.6466409
+            ],
+            [
+              46.7982874,
+              24.6465231
+            ],
+            [
+              46.7981581,
+              24.637496
+            ],
+            [
+              46.7882819,
+              24.6376138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R13C04",
+        "longitude": 46.78200122503077,
+        "latitude": 24.542886953026667,
+        "priority_score": 52.23881149291992,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.51849365234375,
+        "population_estimate": 3083.033447265625,
+        "built_fraction_2018": 0.5459914207458496,
+        "built_fraction_2025": 0.6143057346343994,
+        "new_built_fraction": 0.15973126888275146,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.015241014771163464,
+        "heat_component": 0.2985074520111084,
+        "population_component": 0.4029850661754608,
+        "growth_component": 0.9104477763175964,
+        "lack_green_component": 1.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7770032,
+              24.5384316
+            ],
+            [
+              46.7771304,
+              24.5474588
+            ],
+            [
+              46.7869996,
+              24.5473422
+            ],
+            [
+              46.7868717,
+              24.5383149
+            ],
+            [
+              46.7770032,
+              24.5384316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R13C03",
+        "longitude": 46.77213235829917,
+        "latitude": 24.54300329053992,
+        "priority_score": 51.343284606933594,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.019596099853516,
+        "population_estimate": 3943.7783203125,
+        "built_fraction_2018": 0.71526038646698,
+        "built_fraction_2025": 0.6373736262321472,
+        "new_built_fraction": 0.016770435497164726,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.03341149911284447,
+        "heat_component": 0.34328359365463257,
+        "population_component": 0.6865671873092651,
+        "growth_component": 0.43283581733703613,
+        "lack_green_component": 0.8358209133148193
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7671347,
+              24.5385476
+            ],
+            [
+              46.7672611,
+              24.5475749
+            ],
+            [
+              46.7771304,
+              24.5474588
+            ],
+            [
+              46.7770032,
+              24.5384316
+            ],
+            [
+              46.7671347,
+              24.5385476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R08C09",
+        "longitude": 46.832000731753276,
+        "latitude": 24.587430491128156,
+        "priority_score": 50.59701919555664,
+        "priority_class": "Watch",
+        "lst_mean_c": 50.08378601074219,
+        "population_estimate": 1921.67626953125,
+        "built_fraction_2018": 0.2387000024318695,
+        "built_fraction_2025": 0.2768000066280365,
+        "new_built_fraction": 0.039900001138448715,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.041701748967170715,
+        "heat_component": 0.641791045665741,
+        "population_component": 0.20895522832870483,
+        "growth_component": 0.5820895433425903,
+        "lack_green_component": 0.7014925479888916
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8269992,
+              24.582977
+            ],
+            [
+              46.8271302,
+              24.592004
+            ],
+            [
+              46.8370026,
+              24.5918838
+            ],
+            [
+              46.8368709,
+              24.5828569
+            ],
+            [
+              46.8269992,
+              24.582977
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R13C05",
+        "longitude": 46.791870029508196,
+        "latitude": 24.54276997016571,
+        "priority_score": 50.29850769042969,
+        "priority_class": "Watch",
+        "lst_mean_c": 47.5959587097168,
+        "population_estimate": 3884.807861328125,
+        "built_fraction_2018": 0.5102999806404114,
+        "built_fraction_2025": 0.4325999915599823,
+        "new_built_fraction": 0.07620000094175339,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.037009041756391525,
+        "heat_component": 0.16417910158634186,
+        "population_component": 0.6567164063453674,
+        "growth_component": 0.8059701323509216,
+        "lack_green_component": 0.7910447716712952
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7868717,
+              24.5383149
+            ],
+            [
+              46.7869996,
+              24.5473422
+            ],
+            [
+              46.7968687,
+              24.5472248
+            ],
+            [
+              46.7967401,
+              24.5381976
+            ],
+            [
+              46.7868717,
+              24.5383149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R10C02",
+        "longitude": 46.76264208239009,
+        "latitude": 24.570200986734218,
+        "priority_score": 48.95522689819336,
+        "priority_class": "Watch",
+        "lst_mean_c": 46.348846435546875,
+        "population_estimate": 7383.54736328125,
+        "built_fraction_2018": 0.7901111245155334,
+        "built_fraction_2025": 0.8763999938964844,
+        "new_built_fraction": 0.05585026368498802,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.051096174865961075,
+        "heat_component": 0.04477611929178238,
+        "population_component": 0.9701492786407471,
+        "growth_component": 0.6716417670249939,
+        "lack_green_component": 0.46268656849861145
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7576436,
+              24.565745
+            ],
+            [
+              46.7577695,
+              24.5747723
+            ],
+            [
+              46.767641,
+              24.5746568
+            ],
+            [
+              46.7675143,
+              24.5656295
+            ],
+            [
+              46.7576436,
+              24.565745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R11C06",
+        "longitude": 46.801996790828326,
+        "latitude": 24.56070663502861,
+        "priority_score": 48.35820770263672,
+        "priority_class": "Watch",
+        "lst_mean_c": 46.406185150146484,
+        "population_estimate": 6574.80712890625,
+        "built_fraction_2018": 0.7190999984741211,
+        "built_fraction_2025": 0.7731000185012817,
+        "new_built_fraction": 0.06809999793767929,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.054606933146715164,
+        "heat_component": 0.05970149114727974,
+        "population_component": 0.9253731369972229,
+        "growth_component": 0.746268630027771,
+        "lack_green_component": 0.3283582031726837
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7969974,
+              24.556252
+            ],
+            [
+              46.7971261,
+              24.5652792
+            ],
+            [
+              46.8069966,
+              24.5651611
+            ],
+            [
+              46.8068671,
+              24.556134
+            ],
+            [
+              46.7969974,
+              24.556252
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R11C10",
+        "longitude": 46.84147677073007,
+        "latitude": 24.56022927296523,
+        "priority_score": 47.91044616699219,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.586692810058594,
+        "population_estimate": 2739.214111328125,
+        "built_fraction_2018": 0.36512860655784607,
+        "built_fraction_2025": 0.37882283329963684,
+        "new_built_fraction": 0.040646325796842575,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.051399875432252884,
+        "heat_component": 0.5522388219833374,
+        "population_component": 0.31343284249305725,
+        "growth_component": 0.5970149040222168,
+        "lack_green_component": 0.447761207818985
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8364761,
+              24.555776
+            ],
+            [
+              46.8366076,
+              24.564803
+            ],
+            [
+              46.8464778,
+              24.5646823
+            ],
+            [
+              46.8463456,
+              24.5556554
+            ],
+            [
+              46.8364761,
+              24.555776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R11C07",
+        "longitude": 46.81186688113756,
+        "latitude": 24.560588263248835,
+        "priority_score": 47.76119613647461,
+        "priority_class": "Watch",
+        "lst_mean_c": 47.706844329833984,
+        "population_estimate": 3561.671142578125,
+        "built_fraction_2018": 0.22859999537467957,
+        "built_fraction_2025": 0.42480000853538513,
+        "new_built_fraction": 0.23970000445842743,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.052271824330091476,
+        "heat_component": 0.17910447716712952,
+        "population_component": 0.5820895433425903,
+        "growth_component": 0.9552238583564758,
+        "lack_green_component": 0.4029850661754608
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8068671,
+              24.556134
+            ],
+            [
+              46.8069966,
+              24.5651611
+            ],
+            [
+              46.816867,
+              24.5650424
+            ],
+            [
+              46.8167368,
+              24.5560153
+            ],
+            [
+              46.8068671,
+              24.556134
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R11C02",
+        "longitude": 46.76251580321437,
+        "latitude": 24.561173663472218,
+        "priority_score": 47.611942291259766,
+        "priority_class": "Watch",
+        "lst_mean_c": 47.203983306884766,
+        "population_estimate": 7633.8798828125,
+        "built_fraction_2018": 0.8833000063896179,
+        "built_fraction_2025": 0.7581999897956848,
+        "new_built_fraction": 0.035100001841783524,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.06406904757022858,
+        "heat_component": 0.13432836532592773,
+        "population_component": 0.9850746393203735,
+        "growth_component": 0.5522388219833374,
+        "lack_green_component": 0.16417910158634186
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7575177,
+              24.5567176
+            ],
+            [
+              46.7576436,
+              24.565745
+            ],
+            [
+              46.7675143,
+              24.5656295
+            ],
+            [
+              46.7673877,
+              24.5566022
+            ],
+            [
+              46.7575177,
+              24.5567176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R12C05",
+        "longitude": 46.79199830221362,
+        "latitude": 24.55179717128016,
+        "priority_score": 47.611942291259766,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.025875091552734,
+        "population_estimate": 5435.3759765625,
+        "built_fraction_2018": 0.7236195802688599,
+        "built_fraction_2025": 0.6518999934196472,
+        "new_built_fraction": 0.009018939919769764,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.039716657251119614,
+        "heat_component": 0.19402985274791718,
+        "population_component": 0.8805969953536987,
+        "growth_component": 0.2985074520111084,
+        "lack_green_component": 0.746268630027771
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7869996,
+              24.5473422
+            ],
+            [
+              46.7871275,
+              24.5563694
+            ],
+            [
+              46.7969974,
+              24.556252
+            ],
+            [
+              46.7968687,
+              24.5472248
+            ],
+            [
+              46.7869996,
+              24.5473422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R16C04",
+        "longitude": 46.78161889702222,
+        "latitude": 24.51580513534157,
+        "priority_score": 47.16417694091797,
+        "priority_class": "Watch",
+        "lst_mean_c": 51.24531173706055,
+        "population_estimate": 2146.1533203125,
+        "built_fraction_2018": 0.1656000018119812,
+        "built_fraction_2025": 0.15223701298236847,
+        "new_built_fraction": 0.0012010809732601047,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.16067533195018768,
+        "heat_component": 0.9552238583564758,
+        "population_component": 0.23880596458911896,
+        "growth_component": 0.0746268630027771,
+        "lack_green_component": 0.02985074557363987
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.776622,
+              24.5113497
+            ],
+            [
+              46.776749,
+              24.520377
+            ],
+            [
+              46.7866161,
+              24.5202604
+            ],
+            [
+              46.7864884,
+              24.5112332
+            ],
+            [
+              46.776622,
+              24.5113497
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R09C09",
+        "longitude": 46.83186938093123,
+        "latitude": 24.578403532959417,
+        "priority_score": 46.56716537475586,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.06589889526367,
+        "population_estimate": 6036.02783203125,
+        "built_fraction_2018": 0.8006411790847778,
+        "built_fraction_2025": 0.5874574184417725,
+        "new_built_fraction": 0.001203248742967844,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05634591728448868,
+        "heat_component": 0.3731343150138855,
+        "population_component": 0.9104477763175964,
+        "growth_component": 0.08955223858356476,
+        "lack_green_component": 0.2537313401699066
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8268682,
+              24.57395
+            ],
+            [
+              46.8269992,
+              24.582977
+            ],
+            [
+              46.8368709,
+              24.5828569
+            ],
+            [
+              46.8367392,
+              24.5738299
+            ],
+            [
+              46.8268682,
+              24.57395
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R12C02",
+        "longitude": 46.76238958564331,
+        "latitude": 24.552146328789526,
+        "priority_score": 46.417911529541016,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.02594757080078,
+        "population_estimate": 4526.72412109375,
+        "built_fraction_2018": 0.7005132436752319,
+        "built_fraction_2025": 0.7195000052452087,
+        "new_built_fraction": 0.010164033621549606,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04210415855050087,
+        "heat_component": 0.20895522832870483,
+        "population_component": 0.8208954930305481,
+        "growth_component": 0.3283582031726837,
+        "lack_green_component": 0.6865671873092651
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7573918,
+              24.5476903
+            ],
+            [
+              46.7575177,
+              24.5567176
+            ],
+            [
+              46.7673877,
+              24.5566022
+            ],
+            [
+              46.7672611,
+              24.5475749
+            ],
+            [
+              46.7573918,
+              24.5476903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R08C10",
+        "longitude": 46.84187275051143,
+        "latitude": 24.587310032020888,
+        "priority_score": 45.6716423034668,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.60896682739258,
+        "population_estimate": 3597.3984375,
+        "built_fraction_2018": 0.1708739846944809,
+        "built_fraction_2025": 0.174256831407547,
+        "new_built_fraction": 0.0006034395773895085,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05282516032457352,
+        "heat_component": 0.5671641826629639,
+        "population_component": 0.5970149040222168,
+        "growth_component": 0.05970149114727974,
+        "lack_green_component": 0.38805970549583435
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8368709,
+              24.5828569
+            ],
+            [
+              46.8370026,
+              24.5918838
+            ],
+            [
+              46.846875,
+              24.591763
+            ],
+            [
+              46.8467425,
+              24.5827361
+            ],
+            [
+              46.8368709,
+              24.5828569
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R14C03",
+        "longitude": 46.77200555863069,
+        "latitude": 24.533975981079536,
+        "priority_score": 43.432838439941406,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.38608169555664,
+        "population_estimate": 2924.449462890625,
+        "built_fraction_2018": 0.4940679669380188,
+        "built_fraction_2025": 0.3600480854511261,
+        "new_built_fraction": 0.03686543181538582,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.06669744849205017,
+        "heat_component": 0.5074626803398132,
+        "population_component": 0.34328359365463257,
+        "growth_component": 0.5671641826629639,
+        "lack_green_component": 0.1492537260055542
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7670083,
+              24.5295202
+            ],
+            [
+              46.7671347,
+              24.5385476
+            ],
+            [
+              46.7770032,
+              24.5384316
+            ],
+            [
+              46.7768761,
+              24.5294043
+            ],
+            [
+              46.7670083,
+              24.5295202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R10C01",
+        "longitude": 46.752770974313314,
+        "latitude": 24.570316176901528,
+        "priority_score": 43.28358459472656,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.14285659790039,
+        "population_estimate": 3020.029296875,
+        "built_fraction_2018": 0.568006157875061,
+        "built_fraction_2025": 0.6419230699539185,
+        "new_built_fraction": 0.08578052371740341,
+        "aoi_coverage_fraction": 0.7807146906852722,
+        "ndvi_mean_2025": 0.042662475258111954,
+        "heat_component": 0.23880596458911896,
+        "population_component": 0.35820895433425903,
+        "growth_component": 0.8208954930305481,
+        "lack_green_component": 0.6567164063453674
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7577695,
+              24.5747723
+            ],
+            [
+              46.7576436,
+              24.565745
+            ],
+            [
+              46.75,
+              24.565834
+            ],
+            [
+              46.75,
+              24.5666667
+            ],
+            [
+              46.75,
+              24.5690476
+            ],
+            [
+              46.75,
+              24.5714286
+            ],
+            [
+              46.75,
+              24.5738095
+            ],
+            [
+              46.75,
+              24.5748628
+            ],
+            [
+              46.7577695,
+              24.5747723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R15C03",
+        "longitude": 46.771878820852784,
+        "latitude": 24.524948660201606,
+        "priority_score": 42.08955383300781,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.53502655029297,
+        "population_estimate": 1564.8876953125,
+        "built_fraction_2018": 0.18152675032615662,
+        "built_fraction_2025": 0.23340000212192535,
+        "new_built_fraction": 0.04147465527057648,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.04814738780260086,
+        "heat_component": 0.5223880410194397,
+        "population_component": 0.11940298229455948,
+        "growth_component": 0.611940324306488,
+        "lack_green_component": 0.5373134613037109
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7668819,
+              24.5204929
+            ],
+            [
+              46.7670083,
+              24.5295202
+            ],
+            [
+              46.7768761,
+              24.5294043
+            ],
+            [
+              46.776749,
+              24.520377
+            ],
+            [
+              46.7668819,
+              24.5204929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R10C06",
+        "longitude": 46.802125895011955,
+        "latitude": 24.569733764386484,
+        "priority_score": 40.14925765991211,
+        "priority_class": "Watch",
+        "lst_mean_c": 46.626827239990234,
+        "population_estimate": 8235.49609375,
+        "built_fraction_2018": 0.9496999979019165,
+        "built_fraction_2025": 0.9211999773979187,
+        "new_built_fraction": 0.0032999999821186066,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05223141610622406,
+        "heat_component": 0.0746268630027771,
+        "population_component": 1.0,
+        "growth_component": 0.1492537260055542,
+        "lack_green_component": 0.41791045665740967
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7971261,
+              24.5652792
+            ],
+            [
+              46.7972549,
+              24.5743063
+            ],
+            [
+              46.8071261,
+              24.5741882
+            ],
+            [
+              46.8069966,
+              24.5651611
+            ],
+            [
+              46.7971261,
+              24.5652792
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R15C04",
+        "longitude": 46.78174627747018,
+        "latitude": 24.52483241932534,
+        "priority_score": 39.70149612426758,
+        "priority_class": "Watch",
+        "lst_mean_c": 50.693363189697266,
+        "population_estimate": 1651.417724609375,
+        "built_fraction_2018": 0.0039035130757838488,
+        "built_fraction_2025": 0.009600000455975533,
+        "new_built_fraction": 0.0006005404866300523,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.0931248739361763,
+        "heat_component": 0.8358209133148193,
+        "population_component": 0.16417910158634186,
+        "growth_component": 0.02985074557363987,
+        "lack_green_component": 0.0746268630027771
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.776749,
+              24.520377
+            ],
+            [
+              46.7768761,
+              24.5294043
+            ],
+            [
+              46.7867439,
+              24.5292877
+            ],
+            [
+              46.7866161,
+              24.5202604
+            ],
+            [
+              46.776749,
+              24.520377
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R12C03",
+        "longitude": 46.77225921987768,
+        "latitude": 24.55203058857948,
+        "priority_score": 38.0597038269043,
+        "priority_class": "Watch",
+        "lst_mean_c": 47.06971740722656,
+        "population_estimate": 5796.4140625,
+        "built_fraction_2018": 0.8537612557411194,
+        "built_fraction_2025": 0.7798018455505371,
+        "new_built_fraction": 0.00040156609611585736,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.042167387902736664,
+        "heat_component": 0.10447761416435242,
+        "population_component": 0.89552241563797,
+        "growth_component": 0.014925372786819935,
+        "lack_green_component": 0.6716417670249939
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7672611,
+              24.5475749
+            ],
+            [
+              46.7673877,
+              24.5566022
+            ],
+            [
+              46.7772576,
+              24.5564861
+            ],
+            [
+              46.7771304,
+              24.5474588
+            ],
+            [
+              46.7672611,
+              24.5475749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R10C08",
+        "longitude": 46.82186742468949,
+        "latitude": 24.56949627643149,
+        "priority_score": 37.611942291259766,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.36384582519531,
+        "population_estimate": 2598.53662109375,
+        "built_fraction_2018": 0.5420626401901245,
+        "built_fraction_2025": 0.46306705474853516,
+        "new_built_fraction": 0.0006023491732776165,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.026996398344635963,
+        "heat_component": 0.4776119291782379,
+        "population_component": 0.28358209133148193,
+        "growth_component": 0.04477611929178238,
+        "lack_green_component": 0.9104477763175964
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.816867,
+              24.5650424
+            ],
+            [
+              46.8169972,
+              24.5740694
+            ],
+            [
+              46.8268682,
+              24.57395
+            ],
+            [
+              46.8267373,
+              24.564923
+            ],
+            [
+              46.816867,
+              24.5650424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R16C05",
+        "longitude": 46.79148558690296,
+        "latitude": 24.515688298229808,
+        "priority_score": 37.16417694091797,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.70191192626953,
+        "population_estimate": 1722.8660888671875,
+        "built_fraction_2018": 0.32453906536102295,
+        "built_fraction_2025": 0.38374537229537964,
+        "new_built_fraction": 0.014070146717131138,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.12794388830661774,
+        "heat_component": 0.5970149040222168,
+        "population_component": 0.17910447716712952,
+        "growth_component": 0.3731343150138855,
+        "lack_green_component": 0.04477611929178238
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7864884,
+              24.5112332
+            ],
+            [
+              46.7866161,
+              24.5202604
+            ],
+            [
+              46.7964831,
+              24.5201432
+            ],
+            [
+              46.7963547,
+              24.511116
+            ],
+            [
+              46.7864884,
+              24.5112332
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R12C01",
+        "longitude": 46.75251988982367,
+        "latitude": 24.552261423351823,
+        "priority_score": 36.417911529541016,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.06782150268555,
+        "population_estimate": 908.1343994140625,
+        "built_fraction_2018": 0.004800000227987766,
+        "built_fraction_2025": 0.47756409645080566,
+        "new_built_fraction": 0.2572115361690521,
+        "aoi_coverage_fraction": 0.7553150653839111,
+        "ndvi_mean_2025": 0.07794217765331268,
+        "heat_component": 0.38805970549583435,
+        "population_component": 0.014925372786819935,
+        "growth_component": 0.9701492786407471,
+        "lack_green_component": 0.10447761416435242
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7575177,
+              24.5567176
+            ],
+            [
+              46.7573918,
+              24.5476903
+            ],
+            [
+              46.75,
+              24.5477763
+            ],
+            [
+              46.75,
+              24.55
+            ],
+            [
+              46.75,
+              24.552381
+            ],
+            [
+              46.75,
+              24.5547619
+            ],
+            [
+              46.75,
+              24.5568051
+            ],
+            [
+              46.7575177,
+              24.5567176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R12C06",
+        "longitude": 46.80186774962672,
+        "latitude": 24.551679494223077,
+        "priority_score": 35.82089614868164,
+        "priority_class": "Watch",
+        "lst_mean_c": 46.34803009033203,
+        "population_estimate": 2848.56787109375,
+        "built_fraction_2018": 0.08705223351716995,
+        "built_fraction_2025": 0.4106999933719635,
+        "new_built_fraction": 0.33920353651046753,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05023760721087456,
+        "heat_component": 0.02985074557363987,
+        "population_component": 0.3283582031726837,
+        "growth_component": 1.0,
+        "lack_green_component": 0.4776119291782379
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7968687,
+              24.5472248
+            ],
+            [
+              46.7969974,
+              24.556252
+            ],
+            [
+              46.8068671,
+              24.556134
+            ],
+            [
+              46.8067378,
+              24.5471069
+            ],
+            [
+              46.7968687,
+              24.5472248
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R04C04",
+        "longitude": 46.78315157290062,
+        "latitude": 24.62413178864098,
+        "priority_score": 32.537315368652344,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.60179138183594,
+        "population_estimate": 3237.930419921875,
+        "built_fraction_2018": 0.6418974995613098,
+        "built_fraction_2025": 0.48340120911598206,
+        "new_built_fraction": 0.006924045272171497,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.0615791492164135,
+        "heat_component": 0.31343284249305725,
+        "population_component": 0.41791045665740967,
+        "growth_component": 0.26865673065185547,
+        "lack_green_component": 0.20895522832870483
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7781501,
+              24.6196767
+            ],
+            [
+              46.7782778,
+              24.6287038
+            ],
+            [
+              46.7881534,
+              24.6285867
+            ],
+            [
+              46.7880249,
+              24.6195596
+            ],
+            [
+              46.7781501,
+              24.6196767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R14C05",
+        "longitude": 46.79174181940107,
+        "latitude": 24.533742757616984,
+        "priority_score": 31.343284606933594,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.401458740234375,
+        "population_estimate": 2727.05029296875,
+        "built_fraction_2018": 0.5365976095199585,
+        "built_fraction_2025": 0.21690000593662262,
+        "new_built_fraction": 0.015383068472146988,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.054115090519189835,
+        "heat_component": 0.26865673065185547,
+        "population_component": 0.2985074520111084,
+        "growth_component": 0.4029850661754608,
+        "lack_green_component": 0.35820895433425903
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7867439,
+              24.5292877
+            ],
+            [
+              46.7868717,
+              24.5383149
+            ],
+            [
+              46.7967401,
+              24.5381976
+            ],
+            [
+              46.7966116,
+              24.5291705
+            ],
+            [
+              46.7867439,
+              24.5292877
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R13C06",
+        "longitude": 46.80173877138733,
+        "latitude": 24.542652341973188,
+        "priority_score": 27.6119441986084,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.09215545654297,
+        "population_estimate": 3079.17529296875,
+        "built_fraction_2018": 0.567152202129364,
+        "built_fraction_2025": 0.28795915842056274,
+        "new_built_fraction": 0.003921174444258213,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.054563846439123154,
+        "heat_component": 0.2238806039094925,
+        "population_component": 0.38805970549583435,
+        "growth_component": 0.17910447716712952,
+        "lack_green_component": 0.34328359365463257
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7967401,
+              24.5381976
+            ],
+            [
+              46.7968687,
+              24.5472248
+            ],
+            [
+              46.8067378,
+              24.5471069
+            ],
+            [
+              46.8066085,
+              24.5380797
+            ],
+            [
+              46.7967401,
+              24.5381976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R17C04",
+        "longitude": 46.78149157876974,
+        "latitude": 24.50677783994011,
+        "priority_score": 27.462688446044922,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.17524719238281,
+        "population_estimate": 1265.734619140625,
+        "built_fraction_2018": 0.06714171171188354,
+        "built_fraction_2025": 0.1379999965429306,
+        "new_built_fraction": 0.017763949930667877,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.1091032475233078,
+        "heat_component": 0.4029850661754608,
+        "population_component": 0.05970149114727974,
+        "growth_component": 0.447761207818985,
+        "lack_green_component": 0.05970149114727974
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7764951,
+              24.5023223
+            ],
+            [
+              46.776622,
+              24.5113497
+            ],
+            [
+              46.7864884,
+              24.5112332
+            ],
+            [
+              46.7863608,
+              24.5022059
+            ],
+            [
+              46.7764951,
+              24.5023223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R12C07",
+        "longitude": 46.8117371340776,
+        "latitude": 24.551561171582676,
+        "priority_score": 25.82089614868164,
+        "priority_class": "Watch",
+        "lst_mean_c": 46.73960876464844,
+        "population_estimate": 1229.966064453125,
+        "built_fraction_2018": 0.0,
+        "built_fraction_2025": 0.23849999904632568,
+        "new_built_fraction": 0.20190000534057617,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05704127252101898,
+        "heat_component": 0.08955223858356476,
+        "population_component": 0.04477611929178238,
+        "growth_component": 0.9253731369972229,
+        "lack_green_component": 0.23880596458911896
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8067378,
+              24.5471069
+            ],
+            [
+              46.8068671,
+              24.556134
+            ],
+            [
+              46.8167368,
+              24.5560153
+            ],
+            [
+              46.8166068,
+              24.5469882
+            ],
+            [
+              46.8067378,
+              24.5471069
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R15C05",
+        "longitude": 46.79161367187254,
+        "latitude": 24.52471553363725,
+        "priority_score": 24.92537498474121,
+        "priority_class": "Watch",
+        "lst_mean_c": 49.02265548706055,
+        "population_estimate": 2024.104736328125,
+        "built_fraction_2018": 0.002414486836642027,
+        "built_fraction_2025": 0.0414000004529953,
+        "new_built_fraction": 0.002414486836642027,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.06334810703992844,
+        "heat_component": 0.35820895433425903,
+        "population_component": 0.2238806039094925,
+        "growth_component": 0.10447761416435242,
+        "lack_green_component": 0.17910447716712952
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7866161,
+              24.5202604
+            ],
+            [
+              46.7867439,
+              24.5292877
+            ],
+            [
+              46.7966116,
+              24.5291705
+            ],
+            [
+              46.7964831,
+              24.5201432
+            ],
+            [
+              46.7866161,
+              24.5202604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R14C04",
+        "longitude": 46.78187372013318,
+        "latitude": 24.533859691888136,
+        "priority_score": 24.029850006103516,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.902652740478516,
+        "population_estimate": 1333.38134765625,
+        "built_fraction_2018": 0.025800000876188278,
+        "built_fraction_2025": 0.04410000145435333,
+        "new_built_fraction": 0.00989999994635582,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.06232808902859688,
+        "heat_component": 0.3283582031726837,
+        "population_component": 0.08955223858356476,
+        "growth_component": 0.31343284249305725,
+        "lack_green_component": 0.19402985274791718
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7768761,
+              24.5294043
+            ],
+            [
+              46.7770032,
+              24.5384316
+            ],
+            [
+              46.7868717,
+              24.5383149
+            ],
+            [
+              46.7867439,
+              24.5292877
+            ],
+            [
+              46.7768761,
+              24.5294043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R05C07",
+        "longitude": 46.81264669404891,
+        "latitude": 24.614750572586583,
+        "priority_score": 21.94029998779297,
+        "priority_class": "Watch",
+        "lst_mean_c": 48.36540222167969,
+        "population_estimate": 1644.4803466796875,
+        "built_fraction_2018": 0.32277148962020874,
+        "built_fraction_2025": 0.1927734911441803,
+        "new_built_fraction": 0.005419510416686535,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.05538862571120262,
+        "heat_component": 0.2537313401699066,
+        "population_component": 0.1492537260055542,
+        "growth_component": 0.2238806039094925,
+        "lack_green_component": 0.28358209133148193
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8076446,
+              24.6102965
+            ],
+            [
+              46.8077744,
+              24.6193235
+            ],
+            [
+              46.8176491,
+              24.6192045
+            ],
+            [
+              46.8175186,
+              24.6101775
+            ],
+            [
+              46.8076446,
+              24.6102965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "R13C02",
+        "longitude": 46.76226342965753,
+        "latitude": 24.54311898268941,
+        "priority_score": 6.8656721115112305,
+        "priority_class": "Watch",
+        "lst_mean_c": 43.47036361694336,
+        "population_estimate": 1299.6947021484375,
+        "built_fraction_2018": 0.05114603042602539,
+        "built_fraction_2025": 0.03880000114440918,
+        "new_built_fraction": 0.005204684101045132,
+        "aoi_coverage_fraction": 1.0,
+        "ndvi_mean_2025": 0.3720444440841675,
+        "heat_component": 0.014925372786819935,
+        "population_component": 0.0746268630027771,
+        "growth_component": 0.19402985274791718,
+        "lack_green_component": 0.014925372786819935
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7572661,
+              24.5386629
+            ],
+            [
+              46.7573918,
+              24.5476903
+            ],
+            [
+              46.7672611,
+              24.5475749
+            ],
+            [
+              46.7671347,
+              24.5385476
+            ],
+            [
+              46.7572661,
+              24.5386629
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

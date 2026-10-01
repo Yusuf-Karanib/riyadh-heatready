@@ -1,0 +1,144 @@
+{
+  "source": "Planet Tanager open archive",
+  "item_id": "20250515_080954_16_4001",
+  "date": "2025-05-15",
+  "role_in_project": "Descriptive 2025 surface-material context; not change proof and not Satellite 813 data.",
+  "grid": {
+    "crs": "EPSG:32638",
+    "width": 760,
+    "height": 654,
+    "resolution_m": 30
+  },
+  "valid_pixel_fraction": 0.7293598100756479,
+  "beta_cloud_flag_fraction": 0.540393127313697,
+  "cloud_mask_note": "The beta cloud mask flagged much of a visually cloud-free bright desert/urban scene, so it was reported but not used as the primary validity mask.",
+  "selected_band_indices": {
+    "red": 58,
+    "red_edge": 66,
+    "nir": 91,
+    "swir1": 246
+  },
+  "selected_band_wavelengths_nm": {
+    "red": 665.8699951171875,
+    "red_edge": 705.9199829101562,
+    "nir": 831.1900024414062,
+    "swir1": 1607.6600341796875
+  },
+  "class_statistics": {
+    "Confirmed growth": {
+      "sampled_spectral_pixels": 442,
+      "full_resolution_pixels": 4025,
+      "ndvi": {
+        "count": 4025,
+        "median": 0.03570468723773956,
+        "p25": 0.014239979907870293,
+        "p75": 0.04307464137673378
+      },
+      "ndbi": {
+        "count": 4025,
+        "median": 0.056939806789159775,
+        "p25": 0.04372619837522507,
+        "p75": 0.07310844957828522
+      },
+      "red_edge_slope": {
+        "count": 4025,
+        "median": 0.010374575853347778,
+        "p25": -0.0022823214530944824,
+        "p75": 0.014026880264282227
+      }
+    },
+    "Established built": {
+      "sampled_spectral_pixels": 4240,
+      "full_resolution_pixels": 38207,
+      "ndvi": {
+        "count": 38207,
+        "median": 0.03380186855792999,
+        "p25": 0.003897862508893013,
+        "p75": 0.04483538493514061
+      },
+      "ndbi": {
+        "count": 38207,
+        "median": 0.04931728541851044,
+        "p25": 0.03965064510703087,
+        "p75": 0.06237410753965378
+      },
+      "red_edge_slope": {
+        "count": 38207,
+        "median": 0.007758021354675293,
+        "p25": -0.007964685559272766,
+        "p75": 0.013208836317062378
+      }
+    },
+    "Likely unbuilt": {
+      "sampled_spectral_pixels": 5000,
+      "full_resolution_pixels": 55768,
+      "ndvi": {
+        "count": 55768,
+        "median": 0.05448247492313385,
+        "p25": 0.04767206311225891,
+        "p75": 0.06498967111110687
+      },
+      "ndbi": {
+        "count": 55768,
+        "median": 0.08389783650636673,
+        "p25": 0.07382070273160934,
+        "p75": 0.09292182326316833
+      },
+      "red_edge_slope": {
+        "count": 55768,
+        "median": 0.023943722248077393,
+        "p25": 0.018844515085220337,
+        "p75": 0.02970770001411438
+      }
+    }
+  },
+  "beta_cloud_mask_sensitivity": {
+    "purpose": "Checks whether the narrow-band NDBI pattern remains when every pixel flagged by the beta cloud mask is excluded.",
+    "class_statistics": {
+      "Confirmed growth": {
+        "full_resolution_pixels": 165,
+        "ndbi": {
+          "count": 165,
+          "median": 0.07218628376722336,
+          "p25": 0.049969758838415146,
+          "p75": 0.0789252519607544
+        }
+      },
+      "Established built": {
+        "full_resolution_pixels": 1247,
+        "ndbi": {
+          "count": 1247,
+          "median": 0.04195278137922287,
+          "p25": 0.029450220987200737,
+          "p75": 0.05354096740484238
+        }
+      },
+      "Likely unbuilt": {
+        "full_resolution_pixels": 17251,
+        "ndbi": {
+          "count": 17251,
+          "median": 0.08264091610908508,
+          "p25": 0.038507282733917236,
+          "p75": 0.09806609153747559
+        }
+      }
+    },
+    "ndbi_order_high_to_low": [
+      "Likely unbuilt",
+      "Confirmed growth",
+      "Established built"
+    ]
+  },
+  "spectral_angle_separation": {
+    "growth_vs_established_degrees": 0.6100564065055075,
+    "growth_vs_likely_unbuilt_degrees": 3.211686103405145,
+    "established_vs_likely_unbuilt_degrees": 3.5805851557770443
+  },
+  "conclusion": "Tanager shows measurable spectral differences among independently defined surface groups. It adds material context, but the single scene is not used to claim growth or heat exposure.",
+  "limitations": [
+    "The classes were defined using other satellite products, so this is descriptive comparison rather than independent validation.",
+    "Mixed 30 m pixels can contain several materials.",
+    "Spectral separation does not by itself identify a specific roofing or pavement material.",
+    "Field spectra or labelled local materials would be required for material classification."
+  ]
+}

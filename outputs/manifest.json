@@ -1,0 +1,107 @@
+[
+  {
+    "file": "analysis_overview.png",
+    "bytes": 2355968,
+    "sha256": "ed25e08015fb072fa47ea127ce1f6a7a12f09b7edcf95fe2af741ffa0d2abf97"
+  },
+  {
+    "file": "annual_built_area_timeseries.csv",
+    "bytes": 212,
+    "sha256": "e456dfdd693fd8a1f841de230c2945838e08df0efd9afbe644b0f16b0c6ee080"
+  },
+  {
+    "file": "annual_built_area_timeseries.png",
+    "bytes": 72427,
+    "sha256": "581a4f8ec91e7885c04288e938b269cfec603a5addf867595986494e57c3aa01"
+  },
+  {
+    "file": "annual_lulc_candidate_growth_2018_2023.tif",
+    "bytes": 7832,
+    "sha256": "573075b2e73422b582e4df0281ac9bce7014df8cf885369783bf7ba37898dc3f"
+  },
+  {
+    "file": "built_probability_2018.tif",
+    "bytes": 650626,
+    "sha256": "da96b82290d24897f92440795018fb6a1b7cb208bdd4e0a4d937634442a34770"
+  },
+  {
+    "file": "built_probability_2025.tif",
+    "bytes": 674253,
+    "sha256": "9ed5b9933d6f85421dfbdb2a258f3988b8dcfe27d19e12a7ca63ab75cc18e7e7"
+  },
+  {
+    "file": "confirmed_built_growth_2018_2023.tif",
+    "bytes": 4832,
+    "sha256": "722633f9daf389d0c406282d548dabe7e77e68c20fdb7d046af07fdcb02dcc5b"
+  },
+  {
+    "file": "dashboard.html",
+    "bytes": 6608025,
+    "sha256": "dfdc11deb2d17947b6e566653c9201c854bf5ac72b6c14f532f2f3aeaaa606e9"
+  },
+  {
+    "file": "data_feasibility.json",
+    "bytes": 13749,
+    "sha256": "62c74f699fd36c16f70b1d4d399a9d3b2ed07e2c64c2104bfe6ee90c0ea54a46"
+  },
+  {
+    "file": "data_feasibility.md",
+    "bytes": 1866,
+    "sha256": "e940398a7012f6f2d02e073af837571fd1da3798549770613d14fabd2870f9f3"
+  },
+  {
+    "file": "decision_map.png",
+    "bytes": 2120449,
+    "sha256": "2f9f4fe5ab6335911c504561cb5015ea21f93a84f2d04e1ce0d90d82f5ccaf7f"
+  },
+  {
+    "file": "land_surface_temperature_2025_c.tif",
+    "bytes": 347072,
+    "sha256": "12b0edc50349e44dd68e9928a41cfd4a35527f70a6c2c6f24d45c760fa7df8e2"
+  },
+  {
+    "file": "priority_score_1km.tif",
+    "bytes": 1244,
+    "sha256": "2483a154f39fa7a4ad2bf8d2d38bbd97dc481f0dfae895f1e935a626352dd12f"
+  },
+  {
+    "file": "priority_zones.csv",
+    "bytes": 18256,
+    "sha256": "edaa77626b780b756ba8869f3a7b3ae2e5d876cdcf55f961693c3e4e8bdc6bb0"
+  },
+  {
+    "file": "priority_zones.geojson",
+    "bytes": 90996,
+    "sha256": "2125857f8efdee9ed275dd5df47d2946d308565e283efa6c896135c59f97b97a"
+  },
+  {
+    "file": "results_summary.json",
+    "bytes": 9334,
+    "sha256": "ba483cbd421a021b948dfe81af1c97a8b5816757e1745d3c53a7b1a2b02dac95"
+  },
+  {
+    "file": "tanager_material_analysis.png",
+    "bytes": 316873,
+    "sha256": "dadf3458b478d50066c8f285d1eae79b1da78dd98dfcbf3158dc1d2a5b8d269e"
+  },
+  {
+    "file": "tanager_summary.json",
+    "bytes": 4709,
+    "sha256": "2a0b4c9f8162fdccf145070dfc63fbc1b7104e3c61c68fe3aa6356ef6e2c37c1"
+  },
+  {
+    "file": "tanager_surface_groups.csv",
+    "bytes": 327,
+    "sha256": "122943087a20420747cb1850b66a2d1ba9b3e9d03c3f8d9a911aabf48050bea5"
+  },
+  {
+    "file": "validation.png",
+    "bytes": 83976,
+    "sha256": "ec4156b81ed61f027a7ec366cb3061ed4199b278fac2209078a0711b4ec0ecf6"
+  },
+  {
+    "file": "validation_metrics.json",
+    "bytes": 1187,
+    "sha256": "cc7e9b5fa58f88a52bc000f30958f094b7c28abe12adf794f7c8f943294ecbad"
+  }
+]

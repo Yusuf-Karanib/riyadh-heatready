@@ -1,0 +1,13 @@
+.venv/
+data/raw/
+data/cache/
+__pycache__/
+*.pyc
+*.pyo
+*.part
+.env
+.env.*
+!.env.example
+work/
+submission_candidate/
+

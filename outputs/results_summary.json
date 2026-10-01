@@ -1,0 +1,259 @@
+{
+  "project_name": "Riyadh HeatReady",
+  "problem_statement": "We want to identify 1 km zones along southeastern Riyadh's urban-industrial fringe where built-up growth from a separate annual land-cover product for 2018 to 2023, confirmed by 2025 optical and radar observations, overlaps high 2025 land-surface temperature and population exposure, so municipal planning and heat-resilience teams can prioritize cooling measures and field checks.",
+  "aoi": "Southeastern Riyadh urban-industrial fringe",
+  "analysis_period": "Built-up change: 2018 to 2023; heat and exposure context: 2025",
+  "aoi_bbox_wgs84": [
+    46.75,
+    24.5,
+    46.85,
+    24.65
+  ],
+  "analysis_area_km2": 168.30429726489106,
+  "annual_lulc_built_area_2018_km2": 85.3911,
+  "annual_lulc_built_area_2023_km2": 98.0298,
+  "annual_lulc_built_area_timeseries_km2": {
+    "2018": 85.3911,
+    "2019": 91.3527,
+    "2020": 92.0115,
+    "2021": 94.086,
+    "2022": 92.0007,
+    "2023": 98.0298
+  },
+  "annual_lulc_candidate_growth_km2": 13.8222,
+  "new_built_area_km2": 3.7403999999999997,
+  "lst_mean_c": 49.01667785644531,
+  "lst_p90_c": 51.713958740234375,
+  "population_estimate": 594901.875,
+  "eligible_grid_cells": 67,
+  "high_priority_grid_cells": 14,
+  "priority_weights": {
+    "heat": 0.4,
+    "population": 0.3,
+    "recent_growth": 0.2,
+    "lack_of_vegetation": 0.1
+  },
+  "validation": {
+    "reference": "ESA WorldCover 2021 built-up class (50)",
+    "split": "west train / middle tune / east test with gaps",
+    "threshold": 0.42000000000000004,
+    "test_pixels": 36156,
+    "accuracy": 0.8926595862374156,
+    "balanced_accuracy": 0.8906578418719397,
+    "precision": 0.8835153734452933,
+    "recall": 0.8729881472239551,
+    "f1": 0.8782202140010669,
+    "iou": 0.7828811188811189,
+    "confusion_matrix": [
+      [
+        18281,
+        1845
+      ],
+      [
+        2036,
+        13994
+      ]
+    ],
+    "important_caveat": "Reference agreement is not independent field-verified accuracy; WorldCover is also satellite-derived."
+  },
+  "top_priority_zones": [
+    {
+      "grid_id": "R05C10",
+      "longitude": 46.84226931007317,
+      "latitude": 24.614390687710607,
+      "priority_score": 78.65672302246094,
+      "lst_mean_c": 50.7926025390625,
+      "population_estimate": 3818.000244140625,
+      "new_built_fraction": 0.07109580934047699
+    },
+    {
+      "grid_id": "R02C10",
+      "longitude": 46.84266644996388,
+      "latitude": 24.64147123994535,
+      "priority_score": 78.2089614868164,
+      "lst_mean_c": 51.5894889831543,
+      "population_estimate": 3457.641357421875,
+      "new_built_fraction": 0.057860370725393295
+    },
+    {
+      "grid_id": "R03C10",
+      "longitude": 46.842534005485405,
+      "latitude": 24.63244440070093,
+      "priority_score": 74.62686157226562,
+      "lst_mean_c": 51.07908630371094,
+      "population_estimate": 3414.15234375,
+      "new_built_fraction": 0.06972550600767136
+    },
+    {
+      "grid_id": "R02C09",
+      "longitude": 46.832790182977064,
+      "latitude": 24.641591998984165,
+      "priority_score": 72.68656921386719,
+      "lst_mean_c": 51.156978607177734,
+      "population_estimate": 3417.513671875,
+      "new_built_fraction": 0.0639575645327568
+    },
+    {
+      "grid_id": "R11C01",
+      "longitude": 46.75264540143835,
+      "latitude": 24.561288805833694,
+      "priority_score": 68.05970001220703,
+      "lst_mean_c": 51.1467399597168,
+      "population_estimate": 1837.1917724609375,
+      "new_built_fraction": 0.101216159760952
+    }
+  ],
+  "limitations": [
+    "This is a screening model, not an automatic policy decision.",
+    "Land-surface temperature is not air temperature or personal heat exposure.",
+    "WorldPop is a modelled population estimate and may miss industrial worker exposure.",
+    "Bright roofs, compacted soil, and bare desert can confuse built-up classification.",
+    "The growth layer is an intersection of an annual land-cover change product and an optical-radar confirmation rule; it can miss real change that either source fails to detect.",
+    "WorldCover agreement is not independent field-verified accuracy.",
+    "The open Tanager scene is one date, so it cannot independently prove change."
+  ],
+  "tanager": {
+    "source": "Planet Tanager open archive",
+    "item_id": "20250515_080954_16_4001",
+    "date": "2025-05-15",
+    "role_in_project": "Descriptive 2025 surface-material context; not change proof and not Satellite 813 data.",
+    "grid": {
+      "crs": "EPSG:32638",
+      "width": 760,
+      "height": 654,
+      "resolution_m": 30
+    },
+    "valid_pixel_fraction": 0.7293598100756479,
+    "beta_cloud_flag_fraction": 0.540393127313697,
+    "cloud_mask_note": "The beta cloud mask flagged much of a visually cloud-free bright desert/urban scene, so it was reported but not used as the primary validity mask.",
+    "selected_band_indices": {
+      "red": 58,
+      "red_edge": 66,
+      "nir": 91,
+      "swir1": 246
+    },
+    "selected_band_wavelengths_nm": {
+      "red": 665.8699951171875,
+      "red_edge": 705.9199829101562,
+      "nir": 831.1900024414062,
+      "swir1": 1607.6600341796875
+    },
+    "class_statistics": {
+      "Confirmed growth": {
+        "sampled_spectral_pixels": 442,
+        "full_resolution_pixels": 4025,
+        "ndvi": {
+          "count": 4025,
+          "median": 0.03570468723773956,
+          "p25": 0.014239979907870293,
+          "p75": 0.04307464137673378
+        },
+        "ndbi": {
+          "count": 4025,
+          "median": 0.056939806789159775,
+          "p25": 0.04372619837522507,
+          "p75": 0.07310844957828522
+        },
+        "red_edge_slope": {
+          "count": 4025,
+          "median": 0.010374575853347778,
+          "p25": -0.0022823214530944824,
+          "p75": 0.014026880264282227
+        }
+      },
+      "Established built": {
+        "sampled_spectral_pixels": 4240,
+        "full_resolution_pixels": 38207,
+        "ndvi": {
+          "count": 38207,
+          "median": 0.03380186855792999,
+          "p25": 0.003897862508893013,
+          "p75": 0.04483538493514061
+        },
+        "ndbi": {
+          "count": 38207,
+          "median": 0.04931728541851044,
+          "p25": 0.03965064510703087,
+          "p75": 0.06237410753965378
+        },
+        "red_edge_slope": {
+          "count": 38207,
+          "median": 0.007758021354675293,
+          "p25": -0.007964685559272766,
+          "p75": 0.013208836317062378
+        }
+      },
+      "Likely unbuilt": {
+        "sampled_spectral_pixels": 5000,
+        "full_resolution_pixels": 55768,
+        "ndvi": {
+          "count": 55768,
+          "median": 0.05448247492313385,
+          "p25": 0.04767206311225891,
+          "p75": 0.06498967111110687
+        },
+        "ndbi": {
+          "count": 55768,
+          "median": 0.08389783650636673,
+          "p25": 0.07382070273160934,
+          "p75": 0.09292182326316833
+        },
+        "red_edge_slope": {
+          "count": 55768,
+          "median": 0.023943722248077393,
+          "p25": 0.018844515085220337,
+          "p75": 0.02970770001411438
+        }
+      }
+    },
+    "beta_cloud_mask_sensitivity": {
+      "purpose": "Checks whether the narrow-band NDBI pattern remains when every pixel flagged by the beta cloud mask is excluded.",
+      "class_statistics": {
+        "Confirmed growth": {
+          "full_resolution_pixels": 165,
+          "ndbi": {
+            "count": 165,
+            "median": 0.07218628376722336,
+            "p25": 0.049969758838415146,
+            "p75": 0.0789252519607544
+          }
+        },
+        "Established built": {
+          "full_resolution_pixels": 1247,
+          "ndbi": {
+            "count": 1247,
+            "median": 0.04195278137922287,
+            "p25": 0.029450220987200737,
+            "p75": 0.05354096740484238
+          }
+        },
+        "Likely unbuilt": {
+          "full_resolution_pixels": 17251,
+          "ndbi": {
+            "count": 17251,
+            "median": 0.08264091610908508,
+            "p25": 0.038507282733917236,
+            "p75": 0.09806609153747559
+          }
+        }
+      },
+      "ndbi_order_high_to_low": [
+        "Likely unbuilt",
+        "Confirmed growth",
+        "Established built"
+      ]
+    },
+    "spectral_angle_separation": {
+      "growth_vs_established_degrees": 0.6100564065055075,
+      "growth_vs_likely_unbuilt_degrees": 3.211686103405145,
+      "established_vs_likely_unbuilt_degrees": 3.5805851557770443
+    },
+    "conclusion": "Tanager shows measurable spectral differences among independently defined surface groups. It adds material context, but the single scene is not used to claim growth or heat exposure.",
+    "limitations": [
+      "The classes were defined using other satellite products, so this is descriptive comparison rather than independent validation.",
+      "Mixed 30 m pixels can contain several materials.",
+      "Spectral separation does not by itself identify a specific roofing or pavement material.",
+      "Field spectra or labelled local materials would be required for material classification."
+    ]
+  }
+}

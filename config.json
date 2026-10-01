@@ -1,0 +1,96 @@
+{
+  "project_name": "Riyadh HeatReady",
+  "subtitle": "A growth-to-heat priority map for southeastern Riyadh",
+  "problem_statement": "We want to identify 1 km zones along southeastern Riyadh's urban-industrial fringe where built-up growth from a separate annual land-cover product for 2018 to 2023, confirmed by 2025 optical and radar observations, overlaps high 2025 land-surface temperature and population exposure, so municipal planning and heat-resilience teams can prioritize cooling measures and field checks.",
+  "primary_user": "A municipal urban-planning and heat-resilience team",
+  "decision": "Which zones should be inspected first for shade, trees, cool roofs or pavements, and other locally suitable cooling measures?",
+  "aoi_name": "Southeastern Riyadh urban-industrial fringe",
+  "aoi_bbox_wgs84": [46.75, 24.50, 46.85, 24.65],
+  "target_crs": "EPSG:32638",
+  "analysis_resolution_m": 30,
+  "priority_grid_m": 1000,
+  "stac_api": "https://planetarycomputer.microsoft.com/api/stac/v1",
+  "items": {
+    "sentinel2_2018": {
+      "collection": "sentinel-2-l2a",
+      "id": "S2A_MSIL2A_20180511T072621_R049_T38RPN_20201012T082634",
+      "date": "2018-05-11"
+    },
+    "sentinel1_2018": {
+      "collection": "sentinel-1-rtc",
+      "id": "S1A_IW_GRDH_1SDV_20180510T145710_20180510T145735_021844_025B78_rtc",
+      "date": "2018-05-10"
+    },
+    "sentinel2_2021": {
+      "collection": "sentinel-2-l2a",
+      "id": "S2B_MSIL2A_20210510T072619_R049_T38RPN_20210511T101721",
+      "date": "2021-05-10"
+    },
+    "sentinel1_2021": {
+      "collection": "sentinel-1-rtc",
+      "id": "S1A_IW_GRDH_1SDV_20210506T145728_20210506T145753_037769_047525_rtc",
+      "date": "2021-05-06"
+    },
+    "sentinel2_2025": {
+      "collection": "sentinel-2-l2a",
+      "id": "S2B_MSIL2A_20250509T072619_R049_T38RPN_20250509T094732",
+      "date": "2025-05-09"
+    },
+    "sentinel1_2025": {
+      "collection": "sentinel-1-rtc",
+      "id": "S1A_IW_GRDH_1SDV_20250509T145740_20250509T145805_059119_rtc",
+      "date": "2025-05-09"
+    },
+    "landsat_2025": {
+      "collection": "landsat-c2-l2",
+      "id": "LC08_L2SP_166043_20250510_02_T1",
+      "date": "2025-05-10"
+    },
+    "worldcover_2021": {
+      "collection": "esa-worldcover",
+      "id": "ESA_WorldCover_10m_2021_v200_N24E045",
+      "date": "2021"
+    },
+    "annual_lulc_2018": {
+      "collection": "io-lulc-annual-v02",
+      "id": "38R-2018",
+      "date": "2018"
+    },
+    "annual_lulc_2019": {
+      "collection": "io-lulc-annual-v02",
+      "id": "38R-2019",
+      "date": "2019"
+    },
+    "annual_lulc_2020": {
+      "collection": "io-lulc-annual-v02",
+      "id": "38R-2020",
+      "date": "2020"
+    },
+    "annual_lulc_2021": {
+      "collection": "io-lulc-annual-v02",
+      "id": "38R-2021",
+      "date": "2021"
+    },
+    "annual_lulc_2022": {
+      "collection": "io-lulc-annual-v02",
+      "id": "38R-2022",
+      "date": "2022"
+    },
+    "annual_lulc_2023": {
+      "collection": "io-lulc-annual-v02",
+      "id": "38R-2023",
+      "date": "2023"
+    },
+    "tanager_2025": {
+      "collection_url": "https://www.planet.com/data/stac/tanager-core-imagery/urban",
+      "id": "20250515_080954_16_4001",
+      "date": "2025-05-15"
+    }
+  },
+  "worldpop": {
+    "year": 2025,
+    "resolution": "1 km",
+    "doi": "10.5258/SOTON/WP00840",
+    "url": "https://data.worldpop.org/GIS/Population/Global_2015_2030/R2025A/2025/SAU/v1/1km_ua/constrained/sau_pop_2025_CN_1km_R2025A_UA_v1.tif"
+  }
+}
