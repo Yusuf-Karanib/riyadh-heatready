@@ -167,5 +167,5 @@ The guide still contains an organizer placeholder about whether teams receive an
 
 - Decide whether to make the GitHub repository public. This is the lowest-risk access choice and matches the orientation speaker's instruction. If it stays private, the exact evaluation account must be invited and tested.
 - Confirm both portal accounts meet nationality and age eligibility and confirm the second account's real role.
-- Review the AI-assistance disclosure and choose a code licence.
+- Review every final claim and choose a code licence.
 - Submit through the platform; this project does not submit automatically.

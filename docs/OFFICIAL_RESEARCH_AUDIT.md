@@ -155,8 +155,7 @@ The official notebooks are teaching examples, not submission rules or validated 
 
 1. The exact evaluation-account username/email for a private repository.
 2. Whether teams receive an automated validation report or any correction window; the live guide leaves this as an organizer placeholder.
-3. The exact AI-assistance wording, if the final form adds one.
-4. Whether the missing 29 September orientation recording exists and when the broken PDF link will be fixed.
-5. When Satellite 813 data will become available and what later-stage access will apply if the team is shortlisted.
+3. Whether the missing 29 September orientation recording exists and when the broken PDF link will be fixed.
+4. When Satellite 813 data will become available and what later-stage access will apply if the team is shortlisted.
 
 These unknowns do not block the open-data PoC. Repository access is the only one that can block validation if the GitHub repository remains private.

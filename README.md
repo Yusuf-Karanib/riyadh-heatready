@@ -116,7 +116,6 @@ These are PoC outputs, not official city statistics.
 - **Team:** Milkaholics.
 - **Yusuf Karanib:** registered team leader and presenter.
 - A second account is currently registered on the portal. Its role or contribution is not claimed here and must be confirmed before submission.
-- AI assistance is recorded in [`docs/AI_ASSISTANCE_LOG.md`](docs/AI_ASSISTANCE_LOG.md). Yusuf must review the final claims and disclosure before submission.
 - **Code licence:** not yet selected by the repository owner. Until a licence is added, normal copyright protection applies. Dataset licences remain separate.
 
 Attribution: Contains modified Copernicus Sentinel data (2018, 2021, 2025), Sentinel-1 RTC data hosted by Microsoft, USGS Landsat Collection 2 Level-2 data, Impact Observatory/Esri annual land-cover data, and WorldPop 2025 data. © ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium. Adapted from Tanager STAC Data, available at www.planet.com/data/stac © 2025 Planet Labs PBC. All Rights Reserved.

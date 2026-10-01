@@ -43,6 +43,6 @@ Upload only if the form still accepts an optional ZIP and the final package repo
 - Confirm the second account's real role.
 - Choose the repository-access method.
 - Choose a code licence or knowingly keep normal copyright protection.
-- Review and correct the AI-assistance disclosure.
+- Review and correct every final claim.
 - Test all links while signed out.
 - Submit through the platform before 11 October 2026, 23:59 UAE time.

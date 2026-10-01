@@ -99,7 +99,6 @@ Finish when you can state every number with its limitation.
 Open:
 
 - `project/docs/PRESENTER_GUIDE.md`
-- `project/docs/AI_ASSISTANCE_LOG.md`
 - `project/output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`
 
 Practice:
@@ -108,7 +107,7 @@ Practice:
 2. 60-second answer.
 3. Official 10-minute pitch.
 4. Judge questions.
-5. Honest AI disclosure.
+5. Honest explanation of what you personally checked and decided.
 
 Finish when you can answer without pretending that surface temperature is air temperature, WorldPop is a census, Tanager is Satellite 813, or WorldCover agreement is field truth.
 

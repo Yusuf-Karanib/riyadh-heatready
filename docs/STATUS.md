@@ -30,14 +30,13 @@
 - Confirm the second account's actual role and contribution.
 - Choose public GitHub access or invite the exact evaluation account.
 - Choose a code licence or knowingly keep normal copyright protection.
-- Review the project and AI-assistance disclosure.
+- Review the project and every final claim.
 - Enter and submit the form before 11 October 2026, 23:59 UAE time.
 
 ## Unknown official details
 
 - Exact private-repository evaluation account.
 - Whether organizers provide a validation report or correction window; the official guide contains a placeholder, so none is assumed.
-- Any final form-specific AI disclosure wording.
 - When Satellite 813 data will become available for later phases.
 
 These unknowns do not block the completed open-data PoC. Repository access can block administrative validation if it is not resolved before submission.

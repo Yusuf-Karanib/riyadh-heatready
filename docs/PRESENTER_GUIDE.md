@@ -120,10 +120,6 @@ The potential adopter is a municipality or urban-planning authority. The honest 
 
 It is not a new satellite index. The useful difference is the narrow decision workflow: annual change proposes growth, separate optical-radar evidence confirms it, heat and population set inspection priority, and hyperspectral data tests a known desert failure mode.
 
-### Where is AI used?
-
-AI assisted with coding, source checking, testing, documentation, and presentation preparation. The submission must disclose this. Yusuf still needs to review the claims, understand the method, and make the final submission decisions.
-
 ## Six terms to understand
 
 - **Pixel:** one measured square on Earth.
