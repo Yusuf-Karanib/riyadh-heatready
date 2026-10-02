@@ -1,4 +1,4 @@
-# Project status - 1 October 2026
+# Project status - 2 October 2026
 
 ## Complete and verified
 
@@ -12,6 +12,7 @@
 - Open Planet Tanager spectral comparison completed without mislabelling it as Satellite 813.
 - Official onboarding, starter repository, training notebooks, provider documentation, and linked resources audited.
 - Complete 1 October Detailed PoC Submission Process recording reviewed.
+- All three newly published official orientation recordings reviewed, including slides, platform demonstrations, captions, and Q&A.
 - Live submission guide and linked resources verified.
 - Current five judging criteria, bonuses, deadlines, form fields, file limits, and pitch process documented.
 - Root README rebuilt in the official ten-part order.
@@ -19,8 +20,8 @@
 - Small sample input added.
 - End-to-end notebook executed successfully with committed visible outputs and no saved errors.
 - Example output added under `results/` and embedded in the README.
-- Nine-slide pitch deck created, structurally validated, rendered, and visually checked.
-- Final PDF verified: 9 pages, about 2.7 MB, below the 50 MB limit.
+- Nine-slide timed pitch plus three judge-reference appendix slides created, structurally validated, rendered, and visually checked.
+- Final PDF verified: 12 pages and below the 50 MB limit.
 - Submission-form draft and current checklist created.
 - Private orientation recording, transcript, portal details, raw satellite scenes, caches, and credentials excluded from GitHub.
 
@@ -28,15 +29,14 @@
 
 - Confirm both registered portal accounts meet nationality and age eligibility.
 - Confirm the second account's actual role and contribution.
-- Choose public GitHub access or invite the exact evaluation account.
+- Approve making the GitHub repository public, then test the URL while signed out.
 - Choose a code licence or knowingly keep normal copyright protection.
 - Review the project and every final claim.
 - Enter and submit the form before 11 October 2026, 23:59 UAE time.
 
 ## Unknown official details
 
-- Exact private-repository evaluation account.
 - Whether organizers provide a validation report or correction window; the official guide contains a placeholder, so none is assumed.
 - When Satellite 813 data will become available for later phases.
 
-These unknowns do not block the completed open-data PoC. Repository access can block administrative validation if it is not resolved before submission.
+These unknowns do not block the completed open-data PoC. The repository is still private, which can block administrative validation.

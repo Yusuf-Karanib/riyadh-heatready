@@ -18,15 +18,9 @@ Attach these files if the chat permits attachments:
 - `project/outputs/decision_map.png`
 - `project/docs/PROJECT_BRIEF.md`
 
-## Question 2 — missing orientation material
+## Confirmed answer — orientation recordings
 
-Send this now because the portal resource is broken.
-
-> Hi, I missed the 29 September Hackathon Overview and Guidelines orientation. The Learning Track shows “Orientation session 29-9,” but clicking Open displays “No PDF URL configured.” Could you please fix or upload the slides and share the recording, if one is available? Thank you.
-
-Attach this screenshot if the chat permits attachments:
-
-- Attach the portal screenshot showing the “No PDF URL configured” message. Keep private portal screenshots outside the public project files.
+The organizers published the first, second, and special technical orientation recordings on YouTube on 2 October. The PDF row may still be broken, but the missing spoken guidance, slides, platform demonstration, and Q&A are now available. Do not ask the old recording question again.
 
 ## Question 3 — correct hyperspectral claim
 
@@ -43,11 +37,11 @@ Attach:
 
 The 1 October orientation and live official guide now confirm the fields, GitHub requirements, PDF and ZIP limits, validation checks, README order, slide order, deadline, and 10-minute pitch plus 5-minute questions. Do not ask the old broad submission question again.
 
-## Question 4 — private repository access and correction window
+## Question 4 — correction window
 
-Ask only if Yusuf decides not to make the repository public.
+Ask only if this remains unclear when Yusuf opens the final submission form.
 
-> Hi, the PoC submission guide says a private GitHub repository is allowed if access is granted to the evaluation account. Could you please provide the exact GitHub username or email to invite? The guide also contains a placeholder about an automated validation report or correction window. Could you confirm whether either will be available? Thank you.
+> Hi, the PoC submission guide contains a placeholder about an automated validation report or correction window. Could you please confirm whether teams will receive a validation report and whether corrections are allowed after the first submission? Thank you.
 
 No attachment is needed. If the answer changes the process, update `project/docs/SUBMISSION_CHECKLIST.md`.
 

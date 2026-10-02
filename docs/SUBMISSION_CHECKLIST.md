@@ -27,7 +27,7 @@
 - [x] Example output exists under `results/` and is embedded in the README.
 - [x] Exact full-pipeline scene IDs and dates are in `config.json`.
 - [x] No credentials, signed URLs, restricted imagery, raw scenes, model weights, or private recording are committed.
-- [ ] Repository is public, or the exact evaluator account is invited and access is tested while signed out.
+- [ ] Repository is public and the URL works while signed out.
 - [ ] Yusuf chooses a code licence or knowingly keeps normal copyright protection.
 
 ## PDF slides
@@ -41,6 +41,7 @@
 - [x] Validation and limitations.
 - [x] Impact.
 - [x] Next incubation steps.
+- [x] Judge-reference appendices for data traceability, validation, and likely questions.
 - [x] PDF is under 50 MB and visually checked.
 
 ## Form fields
@@ -61,6 +62,7 @@
 - [ ] Pick a 14–16 October slot immediately; slots are first come, first served.
 - [ ] Ensure at least one member can attend.
 - [ ] Prepare a 10-minute presentation and 5-minute question period.
+- [ ] Present slides 1–9 only; use slides 10–12 when a judge asks for detail.
 - [ ] Keep valid identification ready for team verification.
 
 ## Claims not to make

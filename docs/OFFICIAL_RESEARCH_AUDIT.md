@@ -1,6 +1,6 @@
 # Official hackathon research audit
 
-**Checked:** 1 October 2026  
+**Checked:** 2 October 2026
 **Purpose:** separate current official rules from older guidance and technical training material.
 
 ## Source order used when information conflicts
@@ -25,7 +25,10 @@ The starter repository is useful for code and learning, but it contains older da
 - Live official PoC submission guide and every direct link it contains: `https://spaceacademy-hackathons.space.gov.ae/guides/poc-submission-guide.html`
 - Private onboarding and data-resource text supplied by Yusuf.
 - Both webinar PDFs supplied by Yusuf. They are byte-for-byte identical copies of the same 22-slide deck.
-- Both briefing video pages linked by the official website. Their public metadata was available, but a usable Q&A transcript was not.
+- All three official public orientation recordings, including their slides, platform demonstrations, captions, and Q&A:
+  - **1st Orientation Session:** `https://www.youtube.com/watch?v=942fmaGOHGk`
+  - **2nd Orientation Session:** `https://www.youtube.com/watch?v=LZtVr-1ER2c`
+  - **Special Technical Orientation Session:** `https://www.youtube.com/watch?v=w35Y_sM_e2Y`
 - Official starter repository, its links, and its notebooks: `https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon`
 - The quickstart, land-use/change, and Week 2 time-series notebooks supplied by Yusuf.
 - The complete live participant onboarding guide, every direct provider/tool link relevant to this project, and all ten files in the current starter repository at commit `55d310a0cd3dadbf0ffb39563eb466570e01b73c`. Detailed findings are in `ONBOARDING_REPOSITORY_AUDIT.md`.
@@ -46,6 +49,8 @@ The remote starter-repository head was also checked against the local copy. Both
 - **Space-data gate:** Earth-observation or other space data must be core to the result. A complete entry that does not rest on space data is not scored. Drone, field, or other data may support but not replace it.
 - **Hyperspectral data:** meaningful use that improves the result can earn bonus consideration, but it is not mandatory.
 - **Submission:** both the platform form and the linked GitHub repository are required. A form without its registered repository, or a repository not registered in the form, is invalid.
+- **Repository access:** the public orientations repeatedly instruct teams to make the GitHub repository public. This is the operational rule used by the checklist even though the written guide still mentions a private-repository access route.
+- **Submission page:** the organizers confirmed during the second orientation that the PoC submission tab had been activated. Yusuf should now see it in the Cockpit.
 
 ## Current dates
 
@@ -84,6 +89,8 @@ The README must present, in order: title/summary; business use case; problem and
 
 The PDF slides must cover, in order: title; problem; business user; data and hyperspectral role; workflow; large readable example outputs; validation and limitations; impact; and next incubation steps.
 
+The submitted PDF may contain extra appendix slides. Only the live pitch must fit ten minutes. Judges can score answers given during the five-minute question period, so the appendix should hold traceability and validation details rather than extend the spoken pitch.
+
 ## Current PoC judging criteria
 
 Every complete entry first passes the space-data gate. Each reviewer then scores five criteria independently:
@@ -113,12 +120,11 @@ Riyadh HeatReady can claim working features and a useful open Tanager analysis. 
 
 **Project decision:** keep the complete PoC reproducible with open data. This is now confirmed by the organizer rather than merely being a cautious interpretation. Any later sponsored, gIQ, Satellite 813, or MBZ-SAT access may support a future shortlisted-stage improvement, but it is not a PoC dependency.
 
-## Missing 29 September orientation material
+## Recovered orientation material
 
-- The authenticated Learning Track lists **Orientation session 29-9**, described as slides from the hackathon orientation session.
-- Opening that row displays **“No PDF URL configured.”** This is a portal configuration problem, not a missing step on Yusuf's computer.
-- A check of the public official website, indexed official pages, and the platform's publicly served application assets found the error component but no PDF address or publicly indexed copy of the orientation slides or recording.
-- This does not prove that no recording exists. It means the material cannot currently be recovered from the accessible official sources and should be requested from the organizers.
+- The authenticated Learning Track PDF row still displays **“No PDF URL configured.”** This is a portal configuration problem, not a missing step on Yusuf's computer.
+- The organizers have now published the first, second, and special technical orientation recordings on YouTube. These recordings recover the important spoken guidance, slide content, platform demonstration, and Q&A even though the PDF row remains broken.
+- The first and second orientations confirm the PoC rules and submission process. The special technical session mainly concerns the biosecurity track; its problem-first design advice is useful across themes, but its biosecurity examples are not rules for Yusuf's urban track.
 
 ## Important source conflicts
 
@@ -129,7 +135,7 @@ Riyadh HeatReady can claim working features and a useful open Tanager analysis. 
 | Team size | Live site says 1–5; older registration/GitHub language says 2–5 or 3–5 | Use live 1–5 generally; use the accepted two-account portal team for Yusuf's actual eligibility |
 | Training dates | Older webinar slide begins in August; live site begins 7 September | Use the live site |
 | GIQ/commercial data | Live site suggests access; onboarding says not guaranteed; the organizer later clarified the stage | Open Sentinel/Landsat data for the PoC; gIQ and sponsored imagery only for shortlisted teams after PoC evaluation |
-| Repository visibility | The form and live guide allow public or private with evaluation-account access; the orientation Q&A speaker strongly recommended/said public | Public is the lowest-risk option. If kept private, Yusuf must obtain and invite the exact evaluation account and test access. |
+| Repository visibility | The written guide mentions public or private with evaluator access; the public orientations repeatedly say the repository must be public | Use a **public repository** unless organizers give Yusuf a written exception. Test the URL while signed out. |
 | Validation correction window | The guide contains an organizer placeholder rather than a final rule | Do not assume a correction window exists |
 
 ## Technical findings that affect this project
@@ -153,9 +159,8 @@ The official notebooks are teaching examples, not submission rules or validated 
 
 ## What remains genuinely unknown
 
-1. The exact evaluation-account username/email for a private repository.
-2. Whether teams receive an automated validation report or any correction window; the live guide leaves this as an organizer placeholder.
-3. Whether the missing 29 September orientation recording exists and when the broken PDF link will be fixed.
-4. When Satellite 813 data will become available and what later-stage access will apply if the team is shortlisted.
+1. Whether teams receive an automated validation report or any correction window; the live guide leaves this as an organizer placeholder.
+2. When the broken orientation PDF link will be fixed.
+3. When Satellite 813 data will become available and what later-stage access will apply if the team is shortlisted.
 
-These unknowns do not block the open-data PoC. Repository access is the only one that can block validation if the GitHub repository remains private.
+These unknowns do not block the open-data PoC. The remaining access risk is that the GitHub repository is still private.

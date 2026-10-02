@@ -8,6 +8,9 @@ Open:
 
 - `project/docs/OFFICIAL_RESEARCH_AUDIT.md`
 - `project/docs/POC_SUBMISSION_ORIENTATION_AUDIT.md`
+- First official orientation: `https://www.youtube.com/watch?v=942fmaGOHGk`
+- Second official orientation: `https://www.youtube.com/watch?v=LZtVr-1ER2c`
+- Special technical orientation: `https://www.youtube.com/watch?v=w35Y_sM_e2Y`
 
 Learn:
 

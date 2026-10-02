@@ -1,8 +1,14 @@
 # Detailed PoC Submission Process — verified orientation audit
 
-**Reviewed:** 1 October 2026
-**Source:** Yusuf's complete recording of the official 1 October orientation, the live official submission guide, the displayed platform form, and every linked resource relevant to this entry.
+**Reviewed:** 2 October 2026
+**Source:** Yusuf's complete recording of the official 1 October orientation, the three official public orientation recordings, the live official submission guide, the displayed platform form, and every linked resource relevant to this entry.
 **Official guide:** `https://spaceacademy-hackathons.space.gov.ae/guides/poc-submission-guide.html`
+
+Public recordings:
+
+- First orientation: `https://www.youtube.com/watch?v=942fmaGOHGk`
+- Second orientation: `https://www.youtube.com/watch?v=LZtVr-1ER2c`
+- Special technical orientation: `https://www.youtube.com/watch?v=w35Y_sM_e2Y`
 
 The private recording and transcript remain in the ignored `work/` folder. They are not included in GitHub or the submission ZIP.
 
@@ -44,7 +50,7 @@ Email does not count. A form without its repository, or a repository not registe
 |---|---|
 | Project title | Required |
 | One-line summary | What the PoC does; maximum 2,000 characters |
-| GitHub URL | Public, or private with access granted to the evaluation account |
+| GitHub URL | Use a public repository. The written guide mentions private access, but the public orientations repeatedly instruct teams to make the repository public. |
 | Presentation slides | PDF only; maximum 50 MB |
 | Supporting archive | Optional ZIP; maximum 200 MB |
 | Repository-content checkbox | Confirms README, end-to-end notebook, pinned requirements, example input/output, and no credentials or restricted imagery |
@@ -103,6 +109,13 @@ Recommended but not blocking: a Colab badge, `environment.yml` or Dockerfile, a 
 
 The slides must show real PoC outputs rather than stock pictures of a system that was not built.
 
+The first public orientation adds two useful clarifications:
+
+- the submitted PDF may include extra appendix slides even though the spoken pitch must remain ten minutes; and
+- answers in the five-minute question period count toward the score when the main slides do not cover a detail.
+
+Riyadh HeatReady therefore keeps slides 1–9 as the timed pitch and uses slides 10–12 only as judge-reference appendices.
+
 ## Judging
 
 Every complete entry first passes the space-data gate. Reviewers then score independently on:
@@ -143,6 +156,8 @@ The live guide describes the deadline as local time for the team creator, while 
 
 Pitch slots are first come, first served. One member may present for the team. A no-show scores zero and cannot move forward. Shortlisted members must have valid identification for verification.
 
+The special technical orientation also confirms that solo entries are judged on the merit of the submission and that the requirements were designed to be achievable by individuals. It does not remove the normal eligibility rules.
+
 Relevant recording sections: 28:34–32:07.
 
 ## Link and resource verification
@@ -160,12 +175,13 @@ The guide still contains an organizer placeholder about whether teams receive an
 - Pinned JupyterLab in `requirements.txt`.
 - Rebuilt the README in the exact ten-part order.
 - Added the required nine-part PDF pitch deck.
+- Added three appendix slides for data traceability, validation logic, and likely judge questions while keeping the timed pitch at nine slides.
 - Updated the scoring strategy from older seven-part public language to the detailed five-criterion rubric and bonuses.
 - Kept the raw orientation recording, transcript, credentials, and large satellite files out of GitHub.
 
 ## Remaining human actions
 
-- Decide whether to make the GitHub repository public. This is the lowest-risk access choice and matches the orientation speaker's instruction. If it stays private, the exact evaluation account must be invited and tested.
+- Make the GitHub repository public and test it while signed out. This requires Yusuf's approval because it changes external visibility.
 - Confirm both portal accounts meet nationality and age eligibility and confirm the second account's real role.
 - Review every final claim and choose a code licence.
 - Submit through the platform; this project does not submit automatically.

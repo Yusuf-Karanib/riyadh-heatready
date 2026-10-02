@@ -14,13 +14,13 @@ Riyadh HeatReady ranks 1 km zones in southeastern Riyadh where confirmed 2018–
 
 `https://github.com/Yusuf-Karanib/riyadh-heatready`
 
-Before entering this URL, make the repository public or invite the exact evaluation account and test access outside the team.
+Before entering this URL, make the repository public and test it while signed out. The newest official orientations repeatedly instruct teams to use a public repository.
 
 ## Presentation PDF
 
 `output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`
 
-Verified: 9 pages and approximately 2.7 MB, below the 50 MB limit.
+Verified: 12 pages, including three judge-reference appendices, and below the 50 MB limit.
 
 ## Optional supporting ZIP
 
@@ -41,7 +41,7 @@ Upload only if the form still accepts an optional ZIP and the final package repo
 
 - Confirm both registered portal accounts still meet eligibility.
 - Confirm the second account's real role.
-- Choose the repository-access method.
+- Make the repository public and test it while signed out.
 - Choose a code licence or knowingly keep normal copyright protection.
 - Review and correct every final claim.
 - Test all links while signed out.

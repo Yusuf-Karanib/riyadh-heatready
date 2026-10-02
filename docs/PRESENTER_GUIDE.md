@@ -62,6 +62,8 @@ The PoC delivers a dashboard and GIS-ready ranked layer. A sensible first pilot 
 
 Interview at least three real users, agree on the score weights, add city plans and worker-exposure data, field-check the top zones, measure false alarms, and test a repeatable update for another Riyadh area. Stop at 10 minutes.
 
+Slides 10–12 are appendices. Do not present them during the ten-minute pitch. Open them only when a judge asks about exact data, validation, or assumptions. The official orientation says question-period answers count toward the score.
+
 ## How the project fits the five official criteria
 
 - **Quality of space-data use:** each EO source has a defined purpose; quality masks, exact scenes, two-source confirmation, and Tanager sensitivity analysis are documented.
@@ -119,6 +121,12 @@ The potential adopter is a municipality or urban-planning authority. The honest 
 ### What is innovative here?
 
 It is not a new satellite index. The useful difference is the narrow decision workflow: annual change proposes growth, separate optical-radar evidence confirms it, heat and population set inspection priority, and hyperspectral data tests a known desert failure mode.
+
+## Appendix map
+
+- **Slide 10:** exact data dates, item IDs, and licences.
+- **Slide 11:** spatial validation and conservative growth confirmation.
+- **Slide 12:** short answers about weights, claims, reproducibility, and the first pilot.
 
 ## Six terms to understand
 
