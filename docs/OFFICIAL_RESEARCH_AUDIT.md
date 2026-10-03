@@ -1,6 +1,6 @@
 # Official hackathon research audit
 
-**Checked:** 2 October 2026
+**Checked:** 3 October 2026
 **Purpose:** separate current official rules from older guidance and technical training material.
 
 ## Source order used when information conflicts
@@ -46,6 +46,7 @@ The remote starter-repository head was also checked against the local copy. Both
 - **Format:** the core program is remote and part-time.
 - **Official track:** Sustainable Urban Planning and Smart Cities. Yusuf's Cockpit names the assigned challenge **Urban Expansion, Land Use Change & Heat Risk**.
 - **Required product:** a working, demonstrable slice that proves the idea is feasible with data. A written report alone is not a PoC.
+- **Evaluation intent:** this is not a Kaggle-style model leaderboard. The organizers prefer a complete, usable solution with a path to an MVP or business over a technically complex model presented without an end-user workflow.
 - **Space-data gate:** Earth-observation or other space data must be core to the result. A complete entry that does not rest on space data is not scored. Drone, field, or other data may support but not replace it.
 - **Hyperspectral data:** meaningful use that improves the result can earn bonus consideration, but it is not mandatory.
 - **Submission:** both the platform form and the linked GitHub repository are required. A form without its registered repository, or a repository not registered in the form, is invalid.

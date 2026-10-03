@@ -1,6 +1,6 @@
 # Detailed PoC Submission Process — verified orientation audit
 
-**Reviewed:** 2 October 2026
+**Reviewed:** 3 October 2026
 **Source:** Yusuf's complete recording of the official 1 October orientation, the three official public orientation recordings, the live official submission guide, the displayed platform form, and every linked resource relevant to this entry.
 **Official guide:** `https://spaceacademy-hackathons.space.gov.ae/guides/poc-submission-guide.html`
 
@@ -17,9 +17,10 @@ The private recording and transcript remain in the ignored `work/` folder. They 
 - It is a working, demonstrable slice that proves the idea can work with data, not a finished product.
 - Satellite or other space data must be a core input. A complete project that does not rest on space data is not scored.
 - The orientation recommends one focused problem, a simple baseline, repeatable execution, and iteration before complexity.
+- This is not a Kaggle-style model leaderboard. The organizers said they prefer a holistic solution that can become an MVP or business over a complicated model built only to push technical performance.
 - In the Q&A, the organizers confirmed that an executable notebook is the minimum. A written report alone is insufficient.
 
-Relevant recording sections: 19:27–20:22 and 56:09–57:14.
+Relevant recording sections: first orientation 19:27–20:22 and 56:09–57:14; second orientation 58:35–1:00:12.
 
 ## Team and eligibility
 

@@ -1,4 +1,4 @@
-# Project status - 2 October 2026
+# Project status - 3 October 2026
 
 ## Complete and verified
 
@@ -13,6 +13,7 @@
 - Official onboarding, starter repository, training notebooks, provider documentation, and linked resources audited.
 - Complete 1 October Detailed PoC Submission Process recording reviewed.
 - All three newly published official orientation recordings reviewed, including slides, platform demonstrations, captions, and Q&A.
+- Confirmed that judging favors a holistic, usable MVP path rather than a Kaggle-style model benchmark; the existing dashboard, ranked zones, notebook, and pilot path already follow that guidance.
 - Live submission guide and linked resources verified.
 - Current five judging criteria, bonuses, deadlines, form fields, file limits, and pitch process documented.
 - Root README rebuilt in the official ten-part order.
