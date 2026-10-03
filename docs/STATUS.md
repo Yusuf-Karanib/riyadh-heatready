@@ -26,6 +26,7 @@
 - Submission-form draft and current checklist created.
 - Private orientation recording, transcript, portal details, raw satellite scenes, caches, and credentials excluded from GitHub.
 - GitHub repository confirmed public and anonymously accessible on 3 October 2026.
+- Live PoC submission form inspected on 3 October; its fields, checkboxes, and file limits match the prepared package.
 
 ## Waiting only on Yusuf or the portal
 

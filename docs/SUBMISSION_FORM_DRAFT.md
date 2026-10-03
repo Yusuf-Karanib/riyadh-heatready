@@ -2,6 +2,8 @@
 
 Copy only after Yusuf has reviewed the final project and the live form has been checked again.
 
+**Live form checked:** 3 October 2026. The visible fields and limits match this draft.
+
 ## Project title
 
 Riyadh HeatReady
@@ -41,7 +43,6 @@ Upload only if the form still accepts an optional ZIP and the final package repo
 
 - Confirm both registered portal accounts still meet eligibility.
 - Confirm the second account's real role.
-- Make the repository public and test it while signed out.
 - Choose a code licence or knowingly keep normal copyright protection.
 - Review and correct every final claim.
 - Test all links while signed out.

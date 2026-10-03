@@ -46,6 +46,7 @@
 
 ## Form fields
 
+- [x] Live form fields and limits checked against the portal screenshot on 3 October 2026.
 - [ ] Project title entered: `Riyadh HeatReady` unless Yusuf changes it.
 - [ ] One-line summary entered and under 2,000 characters.
 - [ ] GitHub URL entered: `https://github.com/Yusuf-Karanib/riyadh-heatready`.
