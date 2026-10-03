@@ -14,7 +14,7 @@ Riyadh HeatReady ranks 1 km zones in southeastern Riyadh where confirmed 2018–
 
 `https://github.com/Yusuf-Karanib/riyadh-heatready`
 
-Before entering this URL, make the repository public and test it while signed out. The newest official orientations repeatedly instruct teams to use a public repository.
+Verified on 3 October 2026: the repository is public and its README opens without signing in.
 
 ## Presentation PDF
 

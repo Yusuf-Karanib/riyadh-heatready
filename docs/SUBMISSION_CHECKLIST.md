@@ -27,7 +27,7 @@
 - [x] Example output exists under `results/` and is embedded in the README.
 - [x] Exact full-pipeline scene IDs and dates are in `config.json`.
 - [x] No credentials, signed URLs, restricted imagery, raw scenes, model weights, or private recording are committed.
-- [ ] Repository is public and the URL works while signed out.
+- [x] Repository is public and the URL works while signed out; verified 3 October 2026.
 - [ ] Yusuf chooses a code licence or knowingly keeps normal copyright protection.
 
 ## PDF slides

@@ -164,4 +164,4 @@ The official notebooks are teaching examples, not submission rules or validated 
 2. When the broken orientation PDF link will be fixed.
 3. When Satellite 813 data will become available and what later-stage access will apply if the team is shortlisted.
 
-These unknowns do not block the open-data PoC. The remaining access risk is that the GitHub repository is still private.
+These unknowns do not block the open-data PoC. The GitHub repository was confirmed public and anonymously accessible on 3 October 2026.

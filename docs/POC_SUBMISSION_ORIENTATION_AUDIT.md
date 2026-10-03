@@ -182,7 +182,7 @@ The guide still contains an organizer placeholder about whether teams receive an
 
 ## Remaining human actions
 
-- Make the GitHub repository public and test it while signed out. This requires Yusuf's approval because it changes external visibility.
+- The GitHub repository was confirmed public and anonymously accessible on 3 October 2026.
 - Confirm both portal accounts meet nationality and age eligibility and confirm the second account's real role.
 - Review every final claim and choose a code licence.
 - Submit through the platform; this project does not submit automatically.

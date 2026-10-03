@@ -25,12 +25,12 @@
 - Final PDF verified: 12 pages and below the 50 MB limit.
 - Submission-form draft and current checklist created.
 - Private orientation recording, transcript, portal details, raw satellite scenes, caches, and credentials excluded from GitHub.
+- GitHub repository confirmed public and anonymously accessible on 3 October 2026.
 
 ## Waiting only on Yusuf or the portal
 
 - Confirm both registered portal accounts meet nationality and age eligibility.
 - Confirm the second account's actual role and contribution.
-- Approve making the GitHub repository public, then test the URL while signed out.
 - Choose a code licence or knowingly keep normal copyright protection.
 - Review the project and every final claim.
 - Enter and submit the form before 11 October 2026, 23:59 UAE time.
@@ -40,4 +40,4 @@
 - Whether organizers provide a validation report or correction window; the official guide contains a placeholder, so none is assumed.
 - When Satellite 813 data will become available for later phases.
 
-These unknowns do not block the completed open-data PoC. The repository is still private, which can block administrative validation.
+These unknowns do not block the completed open-data PoC. Repository visibility is resolved.
