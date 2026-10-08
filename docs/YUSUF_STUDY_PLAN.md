@@ -8,6 +8,7 @@ Open:
 
 - `project/docs/OFFICIAL_RESEARCH_AUDIT.md`
 - `project/docs/POC_SUBMISSION_ORIENTATION_AUDIT.md`
+- `project/docs/PREP_TRAINING_AUDIT_2026-10-08.md`
 - First official orientation: `https://www.youtube.com/watch?v=942fmaGOHGk`
 - Second official orientation: `https://www.youtube.com/watch?v=LZtVr-1ER2c`
 - Special technical orientation: `https://www.youtube.com/watch?v=w35Y_sM_e2Y`
@@ -15,12 +16,13 @@ Open:
 Learn:
 
 - the 11 October deadline;
-- the space-data pass/fail gate and five judging criteria;
+- the space-data pass/fail gate;
+- the seven detailed public criteria and the five broader orientation headings;
 - the three possible bonuses;
 - the form files, limits, deadline, and pitch process;
 - why the live official platform overrides older GitHub text when they conflict.
 
-Finish when you can name the five criteria, three bonuses, and deadline without guessing.
+Finish when you can explain why both official judging descriptions matter, name the three bonuses, and state the deadline without guessing.
 
 ## Lesson 1 — What did we build?
 

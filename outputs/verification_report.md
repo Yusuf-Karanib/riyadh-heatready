@@ -1,6 +1,6 @@
 # Verification report
 
-**Result:** PASS — 98 checks passed.
+**Result:** PASS — 105 checks passed.
 
 - PASS: dashboard.html exists and is not empty
 - PASS: decision_map.png exists and is not empty
@@ -27,6 +27,7 @@
 - PASS: results/example_priority_output.png exists and is not empty
 - PASS: output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf exists and is not empty
 - PASS: slides/Riyadh_HeatReady_PoC_Pitch.pptx exists and is not empty
+- PASS: docs/PREP_TRAINING_AUDIT_2026-10-08.md exists and is not empty
 - PASS: every Python requirement is pinned with ==
 - PASS: submission notebook contains executable code cells
 - PASS: every submission notebook code cell has a committed execution count
@@ -39,6 +40,9 @@
 - PASS: presentation file has a valid PDF header
 - PASS: README contains all ten required sections
 - PASS: README sections follow the official required order
+- PASS: README contains judging evidence: What is different
+- PASS: README contains judging evidence: SDGs 9 and 11
+- PASS: README contains judging evidence: Viability hypothesis
 - PASS: data feasibility result is PASS
 - PASS: all 38 planned source assets were checked
 - PASS: every source-asset check is usable
@@ -89,6 +93,9 @@
 - PASS: confirmed_built_growth_2018_2023.tif uses 255 rather than valid zero as nodata
 - PASS: confirmed_built_growth_2018_2023.tif contains only valid binary values
 - PASS: confirmed_built_growth_2018_2023.tif contains both no-growth and growth pixels
+- PASS: all delivered GeoTIFFs are tiled
+- PASS: all delivered GeoTIFFs use DEFLATE compression
+- PASS: all delivered GeoTIFFs declare NoData
 - PASS: summary validation matches validation_metrics.json
 - PASS: summary Tanager result matches tanager_summary.json
 - PASS: strict Tanager cloud-mask sensitivity has enough pixels in every surface group

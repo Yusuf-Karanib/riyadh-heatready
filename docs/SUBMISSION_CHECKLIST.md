@@ -2,6 +2,7 @@
 
 **Deadline:** 11 October 2026, 23:59 UAE time for this team.
 **Method:** submit on the platform. Email does not count. Both the form and its registered GitHub repository are required.
+**Rule check:** current official website and all supplied training material rechecked on 8 October 2026.
 
 ## Eligibility — Yusuf must confirm
 
@@ -12,6 +13,9 @@
 - [ ] At least 30% of the team is age 35 or younger on 11 October.
 - [ ] Second portal account's real role and contribution are confirmed.
 - [ ] Team is final before 4 October and confirmed by 5 October.
+- [x] Project materials are in English.
+- [x] Project materials are professional and contain no inappropriate content.
+- [ ] Yusuf confirms the portal entry is opted in for judging and has not been withdrawn.
 
 ## GitHub repository
 
@@ -43,6 +47,19 @@
 - [x] Next incubation steps.
 - [x] Judge-reference appendices for data traceability, validation, and likely questions.
 - [x] PDF is under 50 MB and visually checked.
+
+## Judging coverage
+
+The public site and kickoff deck list seven detailed criteria. The later submission orientation groups review into five broader headings. The project covers both descriptions without inventing weights.
+
+- [x] Problem definition and real-world relevance.
+- [x] Technical soundness, feasibility, and scalability path.
+- [x] Meaningful space-data and hyperspectral use.
+- [x] Product, delivery model, and visible decision output.
+- [x] Innovation compared with a single-index urban map.
+- [x] Impact, regional alignment, and SDGs 9 and 11.
+- [x] Cautious business-viability hypothesis with no invented customer or revenue.
+- [ ] Team strength can be described only after both registered members' real roles and contributions are confirmed.
 
 ## Form fields
 

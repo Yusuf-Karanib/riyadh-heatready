@@ -20,6 +20,7 @@ EXAMPLE_CSV = ROOT / "results" / "example_priority_zones.csv"
 EXAMPLE_PNG = ROOT / "results" / "example_priority_output.png"
 SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_PoC_Pitch.pdf"
 SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_PoC_Pitch.pptx"
+TRAINING_AUDIT = ROOT / "docs" / "PREP_TRAINING_AUDIT_2026-10-08.md"
 
 
 def sha256(path: Path) -> str:
@@ -63,7 +64,15 @@ def main() -> None:
         path = OUTPUT_DIR / name
         check(path.exists() and path.stat().st_size > 0, f"{name} exists and is not empty", checks)
 
-    for path in [NOTEBOOK, SAMPLE_INPUT, EXAMPLE_CSV, EXAMPLE_PNG, SLIDES_PDF, SLIDES_PPTX]:
+    for path in [
+        NOTEBOOK,
+        SAMPLE_INPUT,
+        EXAMPLE_CSV,
+        EXAMPLE_PNG,
+        SLIDES_PDF,
+        SLIDES_PPTX,
+        TRAINING_AUDIT,
+    ]:
         check(
             path.exists() and path.stat().st_size > 0,
             f"{path.relative_to(ROOT).as_posix()} exists and is not empty",
@@ -115,6 +124,8 @@ def main() -> None:
     positions = [readme.find(heading) for heading in required_readme_sections]
     check(all(position >= 0 for position in positions), "README contains all ten required sections", checks)
     check(positions == sorted(positions), "README sections follow the official required order", checks)
+    for phrase in ["What is different", "SDGs 9 and 11", "Viability hypothesis"]:
+        check(phrase in readme, f"README contains judging evidence: {phrase}", checks)
 
     config = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     feasibility = json.loads((OUTPUT_DIR / "data_feasibility.json").read_text(encoding="utf-8"))
@@ -257,6 +268,27 @@ def main() -> None:
             check(src.nodata == 255, f"{name} uses 255 rather than valid zero as nodata", checks)
             check(values.issubset({0, 1}), f"{name} contains only valid binary values", checks)
             check(0 in values and 1 in values, f"{name} contains both no-growth and growth pixels", checks)
+
+    delivered_rasters = sorted(OUTPUT_DIR.glob("*.tif"))
+    raster_profiles = []
+    for path in delivered_rasters:
+        with rasterio.open(path) as src:
+            raster_profiles.append((src.is_tiled, src.compression.value.lower(), src.nodata))
+    check(
+        all(tiled for tiled, _, _ in raster_profiles),
+        "all delivered GeoTIFFs are tiled",
+        checks,
+    )
+    check(
+        all(compression == "deflate" for _, compression, _ in raster_profiles),
+        "all delivered GeoTIFFs use DEFLATE compression",
+        checks,
+    )
+    check(
+        all(nodata is not None for _, _, nodata in raster_profiles),
+        "all delivered GeoTIFFs declare NoData",
+        checks,
+    )
 
     validation_file = json.loads((OUTPUT_DIR / "validation_metrics.json").read_text(encoding="utf-8"))
     check(validation_file["metrics"] == validation, "summary validation matches validation_metrics.json", checks)

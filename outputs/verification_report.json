@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "checks_passed": 98,
+  "checks_passed": 105,
   "checks": [
     {
       "status": "PASS",
@@ -104,6 +104,10 @@
     },
     {
       "status": "PASS",
+      "check": "docs/PREP_TRAINING_AUDIT_2026-10-08.md exists and is not empty"
+    },
+    {
+      "status": "PASS",
       "check": "every Python requirement is pinned with =="
     },
     {
@@ -149,6 +153,18 @@
     {
       "status": "PASS",
       "check": "README sections follow the official required order"
+    },
+    {
+      "status": "PASS",
+      "check": "README contains judging evidence: What is different"
+    },
+    {
+      "status": "PASS",
+      "check": "README contains judging evidence: SDGs 9 and 11"
+    },
+    {
+      "status": "PASS",
+      "check": "README contains judging evidence: Viability hypothesis"
     },
     {
       "status": "PASS",
@@ -349,6 +365,18 @@
     {
       "status": "PASS",
       "check": "confirmed_built_growth_2018_2023.tif contains both no-growth and growth pixels"
+    },
+    {
+      "status": "PASS",
+      "check": "all delivered GeoTIFFs are tiled"
+    },
+    {
+      "status": "PASS",
+      "check": "all delivered GeoTIFFs use DEFLATE compression"
+    },
+    {
+      "status": "PASS",
+      "check": "all delivered GeoTIFFs declare NoData"
     },
     {
       "status": "PASS",

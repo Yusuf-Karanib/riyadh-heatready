@@ -1,6 +1,6 @@
 # Official hackathon research audit
 
-**Checked:** 3 October 2026
+**Checked:** 8 October 2026
 **Purpose:** separate current official rules from older guidance and technical training material.
 
 ## Source order used when information conflicts
@@ -31,6 +31,7 @@ The starter repository is useful for code and learning, but it contains older da
   - **Special Technical Orientation Session:** `https://www.youtube.com/watch?v=w35Y_sM_e2Y`
 - Official starter repository, its links, and its notebooks: `https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon`
 - The quickstart, land-use/change, and Week 2 time-series notebooks supplied by Yusuf.
+- The complete current preparatory-training set supplied on 8 October: kickoff, remote-sensing, machine-learning, GDAL, hyperspectral, and deep-learning decks; the two example CSV files; the GDAL and time-series notebook text; and both copies of the deep-learning notebook. Detailed findings are in `PREP_TRAINING_AUDIT_2026-10-08.md`.
 - The complete live participant onboarding guide, every direct provider/tool link relevant to this project, and all ten files in the current starter repository at commit `55d310a0cd3dadbf0ffb39563eb466570e01b73c`. Detailed findings are in `ONBOARDING_REPOSITORY_AUDIT.md`.
 - Primary documentation for Sentinel-1, Sentinel-2, Landsat, ESA WorldCover, the Impact Observatory/Esri annual land-cover product, WorldPop Global2, Planet Tanager, STAC, and the other providers linked by the official data page.
 
@@ -94,15 +95,21 @@ The submitted PDF may contain extra appendix slides. Only the live pitch must fi
 
 ## Current PoC judging criteria
 
-Every complete entry first passes the space-data gate. Each reviewer then scores five criteria independently:
+Two official descriptions are still visible and both are treated as relevant.
 
-1. **Quality of space-data use** — the heaviest criterion: suitable EO data, correct processing, and a result that genuinely depends on it.
-2. **Team strength and expertise.**
-3. **Problem relevance and impact** — a regional problem and a clearly defined user group.
-4. **Innovation.**
-5. **Feasibility** — technically sound, aligned to stated goals, and workable under real conditions.
+The current public site and the September kickoff deck list seven detailed PoC criteria:
 
-The technical tie-breaker is the combined score for feasibility and quality of space-data use. The organizers did not publish numeric weights, so this project does not invent any.
+1. **Problem definition** — clarity and real-world relevance.
+2. **Technical soundness** — methodology quality, robustness, and scalability.
+3. **Hyperspectral or other EO data use** — meaningful use, with bonus credit for effective hyperspectral use and Satellite 813 when available.
+4. **Product and delivery model** — clear decision output, insight, API, or analytics service with a plausible deployment path.
+5. **Innovation** — distinction from existing approaches.
+6. **Impact and strategic alignment** — societal, environmental, or economic value plus regional and SDG alignment.
+7. **Business viability** — a short, credible path showing possible economic value.
+
+The detailed 1 October submission orientation groups review into five broader operational headings: **quality of space-data use, team strength and expertise, problem relevance and impact, innovation, and feasibility**. It also states that technical evidence decides ties.
+
+These formulations overlap. The project covers their union instead of assuming that one silently cancels the other. The organizers did not publish numeric weights, so this project does not invent any. Clear communication is explicit judging advice, not an additional numbered criterion.
 
 Three optional bonuses were stated:
 
@@ -132,7 +139,7 @@ Riyadh HeatReady can claim working features and a useful open Tanager analysis. 
 | Topic | Conflicting evidence | Decision used |
 |---|---|---|
 | PoC deadline | Current guide says 11:59 PM in the team creator's local time; orientation slide says UAE time; one old GitHub table says 26 October | Use **11 October 2026, 11:59 PM UAE time** for Yusuf because he is the UAE-based creator |
-| Judging | Older public material lists seven broad themes; the detailed 1 October orientation gives the operational five-criterion rubric and bonuses | Use the newer detailed **five criteria**, space-data gate, technical tie-breaker, and three bonuses |
+| Judging | The current public site and kickoff deck list seven detailed criteria; the detailed 1 October orientation groups review into five broader headings and bonuses | Cover the **union of both official descriptions**, keep the space-data gate and technical tie-breaker, and invent no weights |
 | Team size | Live site says 1–5; older registration/GitHub language says 2–5 or 3–5 | Use live 1–5 generally; use the accepted two-account portal team for Yusuf's actual eligibility |
 | Training dates | Older webinar slide begins in August; live site begins 7 September | Use the live site |
 | GIQ/commercial data | Live site suggests access; onboarding says not guaranteed; the organizer later clarified the stage | Open Sentinel/Landsat data for the PoC; gIQ and sponsored imagery only for shortlisted teams after PoC evaluation |

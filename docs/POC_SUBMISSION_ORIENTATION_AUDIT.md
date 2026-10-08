@@ -129,6 +129,8 @@ Every complete entry first passes the space-data gate. Reviewers then score inde
 
 Ties are decided by the technical score: feasibility plus quality of space-data use. Numeric weights were not published.
 
+**8 October reconciliation:** the current public official site and the September kickoff deck still show seven more detailed PoC criteria: problem definition, technical soundness, EO/hyperspectral use, product and delivery model, innovation, impact and strategic alignment, and business viability. These overlap with the five orientation headings. The submission is checked against the union of both official descriptions; neither unpublished weights nor a silent replacement are assumed.
+
 Bonus consideration is available for:
 
 - progress beyond the basic PoC;
@@ -177,7 +179,7 @@ The guide still contains an organizer placeholder about whether teams receive an
 - Rebuilt the README in the exact ten-part order.
 - Added the required nine-part PDF pitch deck.
 - Added three appendix slides for data traceability, validation logic, and likely judge questions while keeping the timed pitch at nine slides.
-- Updated the scoring strategy from older seven-part public language to the detailed five-criterion rubric and bonuses.
+- Documented the five detailed-orientation headings and bonuses, then reconciled them with the seven-part public criteria still visible on the official site.
 - Kept the raw orientation recording, transcript, credentials, and large satellite files out of GitHub.
 
 ## Remaining human actions

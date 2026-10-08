@@ -10,6 +10,9 @@
 - **Decision:** which zones should be inspected first for locally suitable measures such as shade, trees, cool roofs, or cool pavements?
 - **Current practice:** no real user interview has been completed, so the current municipal process is unknown. The PoC tests whether joining separate growth, heat, population, and vegetation layers into one ranked list could make initial screening easier.
 - **Product:** a self-contained dashboard plus CSV, GeoJSON, and GeoTIFF layers for review in an existing GIS workflow.
+- **What is different:** annual land-cover change proposes possible growth, separate optical and radar evidence confirms it, and an open hyperspectral scene tests a known bright-desert failure mode instead of being added only for appearance.
+- **Impact alignment:** the screening workflow supports evidence-based urban planning and heat mitigation, aligned with the official urban theme and SDGs 9 and 11.
+- **Viability hypothesis:** after a real municipal pilot, a supported analytics service or licensed local deployment could be tested. No customer, price, revenue, procurement agreement, or proven demand is claimed.
 
 This is a screening aid. It does not automatically choose an intervention or make an official planning decision.
 

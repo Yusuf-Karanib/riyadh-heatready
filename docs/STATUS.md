@@ -1,4 +1,4 @@
-# Project status - 3 October 2026
+# Project status - 8 October 2026
 
 ## Complete and verified
 
@@ -10,12 +10,15 @@
 - Conservative confirmed-growth signal: 3.74 km².
 - Six-year mapped built-up trend completed.
 - Open Planet Tanager spectral comparison completed without mislabelling it as Satellite 813.
+- Complete 8 October preparatory-training set reviewed: kickoff, remote sensing, hyperspectral imaging, machine learning, GDAL, time-series/change detection, deep learning, example datasets, notebooks, and linked source material.
+- Confirmed that the two supplied deep-learning notebooks contain identical lesson code and text; neither has saved execution results.
+- Confirmed that the remaining unsupplied portal items are optional learning resources, not submission blockers.
 - Official onboarding, starter repository, training notebooks, provider documentation, and linked resources audited.
 - Complete 1 October Detailed PoC Submission Process recording reviewed.
 - All three newly published official orientation recordings reviewed, including slides, platform demonstrations, captions, and Q&A.
 - Confirmed that judging favors a holistic, usable MVP path rather than a Kaggle-style model benchmark; the existing dashboard, ranked zones, notebook, and pilot path already follow that guidance.
 - Live submission guide and linked resources verified.
-- Current five judging criteria, bonuses, deadlines, form fields, file limits, and pitch process documented.
+- Both current official judging descriptions are documented: seven detailed public criteria and five broader detailed-orientation headings. The project covers their union without invented weights.
 - Root README rebuilt in the official ten-part order.
 - Pinned JupyterLab added to `requirements.txt`.
 - Small sample input added.
@@ -27,6 +30,8 @@
 - Private orientation recording, transcript, portal details, raw satellite scenes, caches, and credentials excluded from GitHub.
 - GitHub repository confirmed public and anonymously accessible on 3 October 2026.
 - Live PoC submission form inspected on 3 October; its fields, checkboxes, and file limits match the prepared package.
+- Current official website rechecked on 8 October; the PoC date remains 11 October and the public seven-criterion list remains visible.
+- Finished outputs pass all 98 automated checks, including raster CRS, ranges, explicit NoData, spatial validation, notebook execution, README order, and PDF size.
 
 ## Waiting only on Yusuf or the portal
 

@@ -64,7 +64,7 @@ Interview at least three real users, agree on the score weights, add city plans 
 
 Slides 10–12 are appendices. Do not present them during the ten-minute pitch. Open them only when a judge asks about exact data, validation, or assumptions. The official orientation says question-period answers count toward the score.
 
-## How the project fits the five official criteria
+## How the project fits both official judging descriptions
 
 - **Quality of space-data use:** each EO source has a defined purpose; quality masks, exact scenes, two-source confirmation, and Tanager sensitivity analysis are documented.
 - **Team strength and expertise:** do not invent qualifications. Demonstrate strength through the working notebook, clear explanation, tested outputs, and honest ownership of the method.
@@ -72,7 +72,9 @@ Slides 10–12 are appendices. Do not present them during the ten-minute pitch. 
 - **Innovation:** the workflow joins growth, heat, people, and vegetation while measuring why NDBI alone fails in bright desert.
 - **Feasibility:** a focused area, traditional baseline, spatial holdout, reproducible sample, dashboard, and GIS-ready outputs.
 
-The technical tie-breaker is feasibility plus quality of space-data use. The project can claim working features and meaningful hyperspectral analysis as bonuses. It cannot claim the three-user validation bonus.
+The current public seven-part list is also covered: problem definition and technical soundness are explicit; the data roles cover EO use; the dashboard and GIS layers cover product delivery; the desert-confusion test supports innovation; the municipal heat use case aligns with SDGs 9 and 11; and the pilot path gives a cautious business-viability hypothesis. Do not claim a customer, price, revenue, or proven demand.
+
+The technical tie-breaker is feasibility plus quality of space-data use. The project can claim working features and meaningful hyperspectral analysis as bonuses. It cannot claim the three-user validation bonus. Clear communication matters throughout the pitch.
 
 ## What the Tanager result means
 
