@@ -1,93 +1,41 @@
-# PoC submission checklist
+# Submission and finals checklist
 
-**Deadline:** 11 October 2026, 23:59 UAE time for this team.
-**Method:** submit on the platform. Email does not count. Both the form and its registered GitHub repository are required.
-**Rule check:** current official website and all supplied training material rechecked on 8 October 2026.
+## PoC submission
 
-## Eligibility — Yusuf must confirm
+- [x] Platform form submitted before the PoC deadline.
+- [x] Public GitHub repository registered.
+- [x] Presentation PDF, README, notebook, pinned requirements, example input and output supplied.
+- [x] Receipt received by email.
+- [x] Team qualified for final judging.
 
-- [x] Team was approved.
-- [x] Official challenge is assigned.
-- [x] Portal currently shows two registered accounts.
-- [ ] Every registered member is a national of an Arab League state.
-- [ ] At least 30% of the team is age 35 or younger on 11 October.
-- [ ] Second portal account's real role and contribution are confirmed.
-- [ ] Team is final before 4 October and confirmed by 5 October.
-- [x] Project materials are in English.
-- [x] Project materials are professional and contain no inappropriate content.
-- [ ] Yusuf confirms the portal entry is opted in for judging and has not been withdrawn.
+## Final presentation
 
-## GitHub repository
+**Deadline:** 19 October 2026, 11:59 PM UAE time.
 
-- [x] Root `README.md` follows the official ten-part order.
-- [x] Business user and decision are clear.
-- [x] Data, dates, processing, licences, and attribution are recorded.
-- [x] Exact setup and run commands are included.
-- [x] `requirements.txt` contains pinned versions.
-- [x] End-to-end notebook exists at `notebooks/02_main_analysis.ipynb`.
-- [x] Notebook was restarted and run from top to bottom without errors.
-- [x] Notebook uses relative paths and committed visible outputs.
-- [x] Sample input exists at `data/sample_input/riyadh_priority_drivers.csv`.
-- [x] Example output exists under `results/` and is embedded in the README.
-- [x] Exact full-pipeline scene IDs and dates are in `config.json`.
-- [x] No credentials, signed URLs, restricted imagery, raw scenes, model weights, or private recording are committed.
-- [x] Repository is public and the URL works while signed out; verified 3 October 2026.
-- [ ] Yusuf chooses a code licence or knowingly keeps normal copyright protection.
+- [x] Final deck uses the official 8-minute structure.
+- [x] Dedicated team slide included.
+- [x] Core and bonus criteria covered.
+- [x] PPTX validated and PDF visually checked.
+- [x] PDF has 11 pages and is below 50 MB.
+- [ ] Yusuf and Raed confirm the wording and understand their assigned sections.
+- [ ] Organizer sends the upload instructions.
+- [ ] Final PDF uploaded using the official method.
+- [ ] Upload confirmation saved.
 
-## PDF slides
+## Judging session
 
-- [x] Title/team/theme/country.
-- [x] Problem and affected group.
-- [x] Business user and decision.
-- [x] Data and hyperspectral role.
-- [x] Technical workflow.
-- [x] Large real PoC outputs.
-- [x] Validation and limitations.
-- [x] Impact.
-- [x] Next incubation steps.
-- [x] Judge-reference appendices for data traceability, validation, and likely questions.
-- [x] PDF is under 50 MB and visually checked.
+- [ ] Team availability sent for 21–23 October.
+- [ ] Exact slot and meeting link received.
+- [ ] Complete pitch rehearsed to 7:40 or less.
+- [ ] Four-minute Q&A rehearsed.
+- [ ] Dashboard and slide-5 fallback tested.
+- [ ] Both members join 15 minutes early.
 
-## Judging coverage
+## Files to use
 
-The public site and kickoff deck list seven detailed criteria. The later submission orientation groups review into five broader headings. The project covers both descriptions without inventing weights.
-
-- [x] Problem definition and real-world relevance.
-- [x] Technical soundness, feasibility, and scalability path.
-- [x] Meaningful space-data and hyperspectral use.
-- [x] Product, delivery model, and visible decision output.
-- [x] Innovation compared with a single-index urban map.
-- [x] Impact, regional alignment, and SDGs 9 and 11.
-- [x] Cautious business-viability hypothesis with no invented customer or revenue.
-- [ ] Team strength can be described only after both registered members' real roles and contributions are confirmed.
-
-## Form fields
-
-- [x] Live form fields and limits checked against the portal screenshot on 3 October 2026.
-- [ ] Project title entered: `Riyadh HeatReady` unless Yusuf changes it.
-- [ ] One-line summary entered and under 2,000 characters.
-- [ ] GitHub URL entered: `https://github.com/Yusuf-Karanib/riyadh-heatready`.
-- [ ] Presentation PDF uploaded; maximum 50 MB.
-- [ ] Optional ZIP uploaded only if useful; maximum 200 MB.
-- [ ] Both confirmation checkboxes read and selected.
-- [ ] Every link tested from outside the team.
-- [ ] Final submission sent before the deadline.
-- [ ] Confirmation page and email saved.
-
-## If shortlisted on 13 October
-
-- [ ] Check email and platform alerts often.
-- [ ] Pick a 14–16 October slot immediately; slots are first come, first served.
-- [ ] Ensure at least one member can attend.
-- [ ] Prepare a 10-minute presentation and 5-minute question period.
-- [ ] Present slides 1–9 only; use slides 10–12 when a judge asks for detail.
-- [ ] Keep valid identification ready for team verification.
-
-## Claims not to make
-
-- Do not call land-surface temperature air temperature or personal heat exposure.
-- Do not call WorldPop a census.
-- Do not call WorldCover agreement field accuracy.
-- Do not call every detected pixel a new building.
-- Do not say the project used Satellite 813 imagery.
-- Do not claim three-user validation, a customer, deployment, revenue, or Yusuf's unverified skills.
+- Final PDF: `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf`
+- Editable deck: `slides/Riyadh_HeatReady_Final_Judging_Pitch.pptx`
+- Speaking guide: `docs/PRESENTER_GUIDE.md`
+- Q&A: `docs/FINAL_JUDGING_QA.md`
+- Raed guide: `docs/RAED_FINALS_ROLE.md`
+- Full finals checklist: `docs/FINAL_JUDGING_CHECKLIST.md`

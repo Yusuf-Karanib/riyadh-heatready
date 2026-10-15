@@ -143,6 +143,8 @@ Relevant recording section: 21:21–24:01.
 
 ## Dates and pitch process
 
+> **Historical PoC-stage guidance:** the authenticated finals qualification email received later supersedes the pitch rows below. The current finals format is an 8-minute English presentation/demo plus 4 minutes of English questions, tentatively during 21–23 October 2026. The updated presentation is due 19 October 2026 at 11:59 PM UAE time.
+
 | Stage | Confirmed date or rule |
 |---|---|
 | Team changes close | 4 October 2026 |

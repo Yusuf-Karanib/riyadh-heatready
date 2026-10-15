@@ -1,149 +1,98 @@
-# Presenter guide for Yusuf
+# Final judging presenter guide
 
-This guide is for studying after the technical package is finished. Do not memorize words you do not understand.
+## Official format
 
-## The 20-second answer
+- Online final judging, tentatively 21–23 October 2026.
+- 8 minutes for the English pitch and demonstration.
+- 4 minutes for English questions.
+- Present slides 1–8. Slides 9–11 are appendices for questions only.
 
-> Riyadh HeatReady finds 1 km zones where recent built-up growth, hotter land surfaces, and modelled population overlap. It helps a city planning team decide where to inspect first for suitable cooling measures. It is a screening tool, not an automatic decision system.
+Aim to finish at **7:40** so a slow screen share does not cause an overrun.
 
-## The 60-second answer
+## The simple answer
 
-> I focused on southeastern Riyadh because one open Planet Tanager scene and matching optical, radar, thermal, land-cover, and population data cover the area. I used six annual land-cover maps to show the 2018–2023 built-up trend. I kept an endpoint growth pixel only when a separate Sentinel-2 and Sentinel-1 model confirmed that it still looked built-up in 2025. Then I added Landsat land-surface temperature, WorldPop population, and vegetation context. The result is a transparent 1 km priority score. The built-up model reached an F1 agreement of 0.88 against a spatially separate WorldCover reference area, but that is not field accuracy. The final map tells planners where to inspect first, and every result still needs local checking.
+> Riyadh HeatReady ranks 1 km zones in southeastern Riyadh where recent built-up growth, hotter land surfaces, and modelled population overlap. It helps a municipal planning and heat-resilience team decide where to inspect first. It is a screening tool, not an automatic decision system.
 
-## Official 10-minute pitch order
+## Eight-minute speaking order
 
-### 1. Problem — 0:00 to 0:45
+### Slide 1 — 0:00–0:20 — Yusuf
 
-Rapid development and hot surfaces can overlap, but planners need a short list of places to inspect rather than several disconnected satellite layers. State the 168.30 km² southeastern Riyadh study area and do not claim the whole city was analysed.
+> Riyadh HeatReady uses satellite data to rank 1 km zones in southeastern Riyadh where recent growth, hotter land surfaces and modelled population overlap. The decision is simple: where should a municipal team inspect first?
 
-### 2. User and decision — 0:45 to 1:30
+### Slide 2 — 0:20–1:00 — Yusuf
 
-The intended user is a municipal urban-planning and heat-resilience team. The decision is which 1 km zones should receive field review first. Say clearly that no real municipal user interview has happened yet.
+Introduce both members by project responsibility, not unverified biography.
 
-### 3. Data — 1:30 to 2:40
+- Yusuf: project lead; technical workflow, validation, limitations, and demo.
+- Raed: decision workflow, impact, field-validation plan, and incubation path.
 
-- Sentinel-2: reflected light, quality mask, vegetation, and built-surface features.
-- Sentinel-1: radar structure that helps separate buildings from bright desert.
-- Annual land cover: six maps showing the 2018–2023 trend and proposing endpoint change.
+### Slide 3 — 1:00–2:00 — Yusuf
+
+> The study covers 168.30 square kilometres in southeastern Riyadh, not the whole city. Growth, heat, population and vegetation are normally separate layers. Our intended user is a municipal planning and heat-resilience team. The MVP gives that team a ranked list of 1 km zones to inspect. It does not automatically prescribe trees, roofs or pavements. We have not yet completed a municipal user interview, so the workflow and value still require testing.
+
+### Slide 4 — 2:00–3:25 — Yusuf
+
+Explain one job per source.
+
+- Sentinel-2: optical features, vegetation and quality masking.
+- Sentinel-1: radar structure that helps reduce bright-desert confusion.
+- Annual LULC: six maps that propose 2018–2023 endpoint change.
 - Landsat: 2025 land-surface temperature.
-- WorldPop: modelled 2025 population.
-- Planet Tanager: detailed 2025 surface spectra used for material context and a desert-confusion test.
+- WorldPop: modelled population exposure.
+- Planet Tanager: material context and a desert failure-mode test.
 
-Explain that Earth-observation data are core: without them, the result cannot exist.
+Then state the chain: annual change proposes growth; separate 2025 optical and radar evidence confirms it; heat, population, growth and vegetation rank the eligible cells.
 
-### 4. Method — 2:40 to 4:30
+### Slide 5 — 3:25–5:00 — Yusuf
 
-Train the optical-radar model in the west, tune it in a separate middle strip, and test it in the east. Plot the six annual built-up estimates, then keep 2018–2023 endpoint growth only when the separate 2025 optical-radar model confirms it. Rank only cells containing confirmed growth with a transparent score: 40% heat, 30% population, 20% growth, and 10% lack of vegetation.
-
-### 5. Working outputs and results — 4:30 to 6:45
-
-Show the actual decision map, annual trend, priority table, and dashboard.
+Show the dashboard or the slide if live navigation is slow.
 
 - 3.74 km² conservative confirmed-growth signal.
-- Annual mapped built-up area rose overall from 85.39 km² to 98.03 km², with a 2022 dip that warns against treating each year as exact construction truth.
-- Mean May 2025 land-surface temperature: 49.02 °C.
-- F1 agreement: 0.88; IoU: 0.78.
 - 14 High-priority cells from 67 eligible cells.
-- R05C10 is the highest-ranked example at about 78.7.
+- R05C10 is first at about 78.7.
+- Score: 40% heat, 30% population, 20% confirmed growth, 10% lack of vegetation.
 
-### 6. Validation and limitations — 6:45 to 7:45
+Show that a planner can see each component and export CSV, GeoJSON, and GeoTIFF. End with: local checking is required before action.
 
-Explain the spatial holdout and then limit the claim: WorldCover is also satellite-derived, so the score is agreement, not field accuracy. Temperature is the land surface, population is modelled, and bright desert remains difficult.
+### Slide 6 — 5:00–6:10 — Yusuf
 
-### 7. Hyperspectral contribution and innovation — 7:45 to 8:30
+> The spatial east-side holdout reached F1 0.88, IoU 0.78 and balanced accuracy 0.89 against WorldCover. WorldCover is another satellite product, so this is agreement, not field accuracy. Land-surface temperature is not air temperature. WorldPop is modelled. Bright desert remains difficult. The score weights are transparent assumptions that a real user must review.
 
-Tanager showed likely-unbuilt bright desert with higher median narrow-band NDBI than established-built surfaces. This supports the decision not to use a simple "high NDBI means built" rule. Do not claim specific material identification or change from one Tanager date.
+### Slide 7 — 6:10–7:10 — Yusuf
 
-### 8. Impact and product path — 8:30 to 9:15
+> The innovation is the conservative, explainable evidence chain. Annual change alone is not trusted; optical and radar evidence confirm it. Tanager showed why a simple high-NDBI-means-built rule can fail in bright desert. One Tanager date adds material context, but it does not prove change or identify a specific material. The possible impact is faster, repeatable screening, but this remains a hypothesis until users test it.
 
-The PoC delivers a dashboard and GIS-ready ranked layer. A sensible first pilot is for one municipal team to inspect the top five zones and record whether the ranking improves its screening process. This is a value hypothesis, not a claimed customer or sale.
+Handoff line:
 
-### 9. Incubation next steps — 9:15 to 10:00
+> Raed will explain how we would test this as a real municipal workflow.
 
-Interview at least three real users, agree on the score weights, add city plans and worker-exposure data, field-check the top zones, measure false alarms, and test a repeatable update for another Riyadh area. Stop at 10 minutes.
+### Slide 8 — 7:10–7:55 — Raed
 
-Slides 10–12 are appendices. Do not present them during the ten-minute pitch. Open them only when a judge asks about exact data, validation, or assumptions. The official orientation says question-period answers count toward the score.
+> The next stage is a measured pilot, not a deployment claim. First, we would interview real users and confirm the workflow. Second, we would inspect the top five zones and record useful results and false alarms. Third, we would adjust the weights and add local plans and worker-exposure information. Finally, we would test a repeatable update in another Riyadh area. Our ask is support for one municipal pilot that measures whether the ranking improves screening.
 
-## How the project fits both official judging descriptions
+Close at or before 8:00.
 
-- **Quality of space-data use:** each EO source has a defined purpose; quality masks, exact scenes, two-source confirmation, and Tanager sensitivity analysis are documented.
-- **Team strength and expertise:** do not invent qualifications. Demonstrate strength through the working notebook, clear explanation, tested outputs, and honest ownership of the method.
-- **Problem relevance and impact:** one regional urban-heat problem, one municipal user, and one inspection decision.
-- **Innovation:** the workflow joins growth, heat, people, and vegetation while measuring why NDBI alone fails in bright desert.
-- **Feasibility:** a focused area, traditional baseline, spatial holdout, reproducible sample, dashboard, and GIS-ready outputs.
+## Demo fallback
 
-The current public seven-part list is also covered: problem definition and technical soundness are explicit; the data roles cover EO use; the dashboard and GIS layers cover product delivery; the desert-confusion test supports innovation; the municipal heat use case aligns with SDGs 9 and 11; and the pilot path gives a cautious business-viability hypothesis. Do not claim a customer, price, revenue, or proven demand.
+If the dashboard fails or the connection is slow:
 
-The technical tie-breaker is feasibility plus quality of space-data use. The project can claim working features and meaningful hyperspectral analysis as bonuses. It cannot claim the three-user validation bonus. Clear communication matters throughout the pitch.
+1. Stay on slide 5.
+2. Point to the decision map, top-ten score chart, and three headline numbers.
+3. Say that the repository contains the dashboard, CSV, GeoJSON, GeoTIFF, and a run-all sample notebook.
+4. Do not spend pitch time troubleshooting.
 
-## What the Tanager result means
+## Questions ownership
 
-The Tanager spectra separate likely-unbuilt surfaces from built and growth surfaces. More importantly, the likely-unbuilt desert group had a higher median narrow-band NDBI than the established-built group. The same order remains after excluding every pixel flagged by the beta cloud mask. This shows why a simple "high NDBI equals buildings" rule is unsafe in Riyadh. It does not identify a specific surface material.
-
-Do not say the project used Satellite 813 imagery. It used an **open Planet Tanager archive scene** because Satellite 813 data were not guaranteed during the PoC phase.
-
-## Questions judges may ask
-
-### Why not use only NDBI?
-
-Bright bare soil can have a high NDBI. In this case, Tanager showed likely-unbuilt land with higher median NDBI than established built land. Radar and reference land cover reduce this confusion.
-
-### Is 49 °C the air temperature?
-
-No. It is satellite-derived land-surface temperature for one Landsat observation. Roofs, roads, and soil can be much hotter than the air.
-
-### Is the F1 score true field accuracy?
-
-No. It is agreement with ESA WorldCover in a spatially separate test area. Independent field or city data are still needed.
-
-### Why is confirmed growth only 3.74 km² when the annual map proposed 13.82 km²?
-
-The final layer is conservative. A change must pass the annual-map test and the separate 2025 optical-radar confirmation. This reduces false positives but can miss real growth.
-
-### Why did mapped built-up area dip in 2022?
-
-The annual product can classify some pixels differently between years because of imagery and model uncertainty. The six-year line is supporting evidence, not an exact building-construction calendar.
-
-### Why use a 1 km decision grid?
-
-It is simple enough for a first planning screen and matches the population layer. It does not pretend the data can select an individual building intervention.
-
-### Why these score weights?
-
-They are transparent PoC assumptions: 40% heat, 30% population, 20% recent growth, and 10% lack of vegetation. A real user should review them.
-
-### What is the product, not just the analysis?
-
-The product is the decision dashboard and its GIS-ready ranked zones. A planning team can use them as a repeatable first screen before detailed local assessment.
-
-### Who is the customer and what is the business model?
-
-The potential adopter is a municipality or urban-planning authority. The honest next step is a small pilot that measures usefulness, accuracy, operating cost, and procurement fit. No customer, price, revenue, or contract is currently claimed.
-
-### What is innovative here?
-
-It is not a new satellite index. The useful difference is the narrow decision workflow: annual change proposes growth, separate optical-radar evidence confirms it, heat and population set inspection priority, and hyperspectral data tests a known desert failure mode.
-
-## Appendix map
-
-- **Slide 10:** exact data dates, item IDs, and licences.
-- **Slide 11:** spatial validation and conservative growth confirmation.
-- **Slide 12:** short answers about weights, claims, reproducibility, and the first pilot.
-
-## Six terms to understand
-
-- **Pixel:** one measured square on Earth.
-- **Band:** one wavelength range measured by a satellite.
-- **Index:** a band formula that highlights a pattern; it is not ground truth.
-- **F1:** one number balancing missed built pixels and false built pixels.
-- **IoU:** the overlap between predicted and reference built-up areas.
-- **Time series:** repeated observations of the same place across several dates.
+- Yusuf answers space data, method, metrics, reproducibility, Tanager, and technical limits.
+- Raed answers user workflow, score interpretation, impact, false alarms, and incubation.
+- Either member may start an answer; the owner should finish it.
 
 ## Statements to avoid
 
-- "We measured human heat risk directly."
-- "The population number is a census."
-- "The model is 88% accurate everywhere."
-- "Every red pixel is a new building."
-- "Tanager is Satellite 813."
-- "The score tells the municipality exactly what to build."
+- “We measured human heat risk directly.”
+- “WorldPop is a census.”
+- “The model is 88% accurate everywhere.”
+- “Every detected pixel is a new building.”
+- “We used Satellite 813 imagery.”
+- “The score tells the municipality what to build.”
+- Any education, job, customer, interview, revenue, or deployment claim that is not true.

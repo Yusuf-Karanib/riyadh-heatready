@@ -82,7 +82,7 @@ The sample run normally finishes in under one minute on a standard laptop.
 
 The complete run checks source availability, downloads and processes the exact scenes, runs the Tanager comparison, rebuilds the dashboard, verifies outputs, and creates the optional ZIP. Runtime depends mainly on connection speed and machine resources. Main interactive result: `outputs/dashboard.html`.
 
-Submission presentation: [`output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`](output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf). Editable source: [`slides/Riyadh_HeatReady_PoC_Pitch.pptx`](slides/Riyadh_HeatReady_PoC_Pitch.pptx).
+Final-judging presentation: [`output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf`](output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf). Editable source: [`slides/Riyadh_HeatReady_Final_Judging_Pitch.pptx`](slides/Riyadh_HeatReady_Final_Judging_Pitch.pptx). The submitted PoC deck remains available at [`output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`](output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf).
 
 ## 7. Example input and output
 
@@ -117,8 +117,8 @@ These are PoC outputs, not official city statistics.
 ## 10. Team, licence, and attribution
 
 - **Team:** Milkaholics.
-- **Yusuf Karanib:** registered team leader and presenter.
-- A second account is currently registered on the portal. Its role or contribution is not claimed here and must be confirmed before submission.
+- **Yusuf Karanib:** registered team leader; Project Lead and Technical Presenter for the final judging stage.
+- **Raed Mardoum:** Decision Workflow and Impact Lead; Co-presenter. He focuses on how planners interpret the ranked zones, the score's assumptions and limitations, and the field-validation and incubation plan.
 - **Code licence:** not yet selected by the repository owner. Until a licence is added, normal copyright protection applies. Dataset licences remain separate.
 
 Attribution: Contains modified Copernicus Sentinel data (2018, 2021, 2025), Sentinel-1 RTC data hosted by Microsoft, USGS Landsat Collection 2 Level-2 data, Impact Observatory/Esri annual land-cover data, and WorldPop 2025 data. © ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium. Adapted from Tanager STAC Data, available at www.planet.com/data/stac © 2025 Planet Labs PBC. All Rights Reserved.

@@ -20,6 +20,8 @@ EXAMPLE_CSV = ROOT / "results" / "example_priority_zones.csv"
 EXAMPLE_PNG = ROOT / "results" / "example_priority_output.png"
 SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_PoC_Pitch.pdf"
 SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_PoC_Pitch.pptx"
+FINAL_SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_Final_Judging_Pitch.pdf"
+FINAL_SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_Final_Judging_Pitch.pptx"
 TRAINING_AUDIT = ROOT / "docs" / "PREP_TRAINING_AUDIT_2026-10-08.md"
 
 
@@ -71,6 +73,8 @@ def main() -> None:
         EXAMPLE_PNG,
         SLIDES_PDF,
         SLIDES_PPTX,
+        FINAL_SLIDES_PDF,
+        FINAL_SLIDES_PPTX,
         TRAINING_AUDIT,
     ]:
         check(
@@ -107,6 +111,8 @@ def main() -> None:
 
     check(SLIDES_PDF.stat().st_size < 50 * 1024 * 1024, "presentation PDF is below the official 50 MB limit", checks)
     check(SLIDES_PDF.read_bytes()[:5] == b"%PDF-", "presentation file has a valid PDF header", checks)
+    check(FINAL_SLIDES_PDF.stat().st_size < 50 * 1024 * 1024, "final-judging PDF is below the official 50 MB limit", checks)
+    check(FINAL_SLIDES_PDF.read_bytes()[:5] == b"%PDF-", "final-judging presentation has a valid PDF header", checks)
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     required_readme_sections = [
@@ -329,11 +335,11 @@ def main() -> None:
                 }
             )
     (OUTPUT_DIR / "manifest.json").write_text(
-        json.dumps(manifest, indent=2), encoding="utf-8"
+        json.dumps(manifest, indent=2), encoding="utf-8", newline="\n"
     )
     report = {"result": "PASS", "checks_passed": len(checks), "checks": checks}
     (OUTPUT_DIR / "verification_report.json").write_text(
-        json.dumps(report, indent=2), encoding="utf-8"
+        json.dumps(report, indent=2), encoding="utf-8", newline="\n"
     )
     lines = [
         "# Verification report",
@@ -349,7 +355,7 @@ def main() -> None:
         ]
     )
     (OUTPUT_DIR / "verification_report.md").write_text(
-        "\n".join(lines) + "\n", encoding="utf-8"
+        "\n".join(lines) + "\n", encoding="utf-8", newline="\n"
     )
     print(json.dumps({"result": "PASS", "checks_passed": len(checks)}, indent=2))
 

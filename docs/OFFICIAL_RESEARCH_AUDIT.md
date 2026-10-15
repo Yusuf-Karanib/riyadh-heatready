@@ -1,7 +1,21 @@
 # Official hackathon research audit
 
-**Checked:** 8 October 2026
+**Checked:** 15 October 2026
 **Purpose:** separate current official rules from older guidance and technical training material.
+
+## Authenticated final-stage update
+
+Milkaholics has qualified for the Final Judging Stage. The latest authenticated email is now the authority for the judging schedule and evaluation criteria. It supersedes the earlier provisional Top 40 pitch dates and 10-minute presentation plus 5-minute question format recorded in the PoC orientation material.
+
+- **Final judging:** online, tentatively during 21–23 October 2026, subject to judge availability.
+- **Session:** approximately 12 minutes: 8 minutes for an English pitch/presentation and solution demonstration, then 4 minutes for English questions.
+- **Final presentation deadline:** 19 October 2026 at 11:59 PM UAE time.
+- **Pending:** confirmed date, individual time slot, meeting details, and presentation-submission instructions.
+- **Required team slide:** names, roles, and truthful relevant experience or expertise.
+- **Core evaluation criteria:** team capability and expertise; quality of space-data use and analytics; problem relevance, user need and potential impact; innovation and differentiation; scientific validity and technical feasibility; quality of the pitch.
+- **Bonus criteria:** development potential beyond the PoC; documentation, evidence and reproducibility; exceptional merit and overall distinction.
+
+The final deck and rehearsal materials use this newer 8+4-minute format. Any 14–16 October dates or 10+5-minute format elsewhere in the historical audit material describe the earlier PoC-stage briefing, not the active finals instructions.
 
 ## Source order used when information conflicts
 
@@ -65,8 +79,10 @@ The remote starter-repository head was also checked against the local copy. Both
 | PoC submission deadline | **11 October 2026, 11:59 PM**; the guide says creator-local time and the orientation slide says UAE time. Both are the same for Yusuf. |
 | Administrative validation | 12–13 October 2026 |
 | Top 40 announcement and pitch-slot link | 13 October 2026, by email and platform alert |
-| Top 40 pitches | 14–16 October 2026; 10-minute presentation plus 5-minute questions |
-| Incubation | 19 October 2026–11 January 2027 |
+| Earlier provisional Top 40 pitches | Superseded by the authenticated finals email |
+| Updated final presentation deadline | **19 October 2026, 11:59 PM UAE time** |
+| Final judging | **Tentatively 21–23 October 2026; 8-minute pitch/demo plus 4-minute questions** |
+| Incubation | Earlier schedule said 19 October 2026–11 January 2027; no newer final-stage confirmation supplied |
 | Final demonstrations and awards | 12–15 January 2027; exact award-ceremony date not confirmed |
 
 The project uses **10 October** as its internal readiness target. This is a safety target, not an organizer deadline. If a newer authenticated Cockpit notice later gives a different explicit deadline, the newer Cockpit notice wins.

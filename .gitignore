@@ -11,4 +11,5 @@ __pycache__/
 work/
 submission_candidate/
 .codex-finalizer/
+.codex-build/
 

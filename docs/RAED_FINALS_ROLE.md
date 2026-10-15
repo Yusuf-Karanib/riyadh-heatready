@@ -80,9 +80,9 @@ No real municipal user interview has happened yet, so this benefit remains a hyp
 
 ## Raed's speaking section
 
-Target length: 60–90 seconds.
+Target length: 45 seconds.
 
-> My role focused on the decision workflow and impact plan. Riyadh HeatReady is designed for a municipal planning and heat-resilience team. It ranks 1 km zones so the team can decide where to inspect first. The score combines land-surface heat, modelled population, confirmed built-up growth, and lack of vegetation. The weights are transparent assumptions, so the tool supports discussion rather than replacing local judgement. A planner would review the highest-ranked zones against local plans and field conditions before choosing an intervention. During incubation, we would interview real users, agree on the weights, field-check the priority zones, record false alarms, and then test the workflow in another part of Riyadh.
+> The next stage is a measured pilot, not a deployment claim. First, we would interview real users and confirm the workflow. Second, we would inspect the top five zones and record useful results and false alarms. Third, we would adjust the weights and add local plans and worker-exposure information. Finally, we would test a repeatable update in another Riyadh area. Our ask is support for one municipal pilot that measures whether the ranking improves screening.
 
 ## Questions Raed should be ready to answer
 
@@ -132,7 +132,7 @@ We would add user-approved weights, local plans, worker-exposure information, fi
 2. Memorize the four score components and their weights.
 3. Understand the result and its limitations.
 4. Learn the five incubation steps.
-5. Rehearse the speaking section until it fits within 90 seconds.
+5. Rehearse the speaking section until it fits within 45 seconds.
 6. Practise every question above with Yusuf.
 
 Raed does not need to claim that he wrote the code or processed the satellite data. Yusuf presents the technical workflow, validation metrics, and data sources.

@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "checks_passed": 105,
+  "checks_passed": 109,
   "checks": [
     {
       "status": "PASS",
@@ -104,6 +104,14 @@
     },
     {
       "status": "PASS",
+      "check": "output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf exists and is not empty"
+    },
+    {
+      "status": "PASS",
+      "check": "slides/Riyadh_HeatReady_Final_Judging_Pitch.pptx exists and is not empty"
+    },
+    {
+      "status": "PASS",
       "check": "docs/PREP_TRAINING_AUDIT_2026-10-08.md exists and is not empty"
     },
     {
@@ -145,6 +153,14 @@
     {
       "status": "PASS",
       "check": "presentation file has a valid PDF header"
+    },
+    {
+      "status": "PASS",
+      "check": "final-judging PDF is below the official 50 MB limit"
+    },
+    {
+      "status": "PASS",
+      "check": "final-judging presentation has a valid PDF header"
     },
     {
       "status": "PASS",

@@ -1,6 +1,6 @@
 # Verification report
 
-**Result:** PASS — 105 checks passed.
+**Result:** PASS — 109 checks passed.
 
 - PASS: dashboard.html exists and is not empty
 - PASS: decision_map.png exists and is not empty
@@ -27,6 +27,8 @@
 - PASS: results/example_priority_output.png exists and is not empty
 - PASS: output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf exists and is not empty
 - PASS: slides/Riyadh_HeatReady_PoC_Pitch.pptx exists and is not empty
+- PASS: output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf exists and is not empty
+- PASS: slides/Riyadh_HeatReady_Final_Judging_Pitch.pptx exists and is not empty
 - PASS: docs/PREP_TRAINING_AUDIT_2026-10-08.md exists and is not empty
 - PASS: every Python requirement is pinned with ==
 - PASS: submission notebook contains executable code cells
@@ -38,6 +40,8 @@
 - PASS: example notebook output reproduces the verified top score
 - PASS: presentation PDF is below the official 50 MB limit
 - PASS: presentation file has a valid PDF header
+- PASS: final-judging PDF is below the official 50 MB limit
+- PASS: final-judging presentation has a valid PDF header
 - PASS: README contains all ten required sections
 - PASS: README sections follow the official required order
 - PASS: README contains judging evidence: What is different

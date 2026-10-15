@@ -104,13 +104,13 @@ Finish when you can state every number with its limitation.
 Open:
 
 - `project/docs/PRESENTER_GUIDE.md`
-- `project/output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`
+- `project/output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf`
 
 Practice:
 
 1. 20-second answer.
 2. 60-second answer.
-3. Official 10-minute pitch.
+3. Official 8-minute final pitch.
 4. Judge questions.
 5. Honest explanation of what you personally checked and decided.
 

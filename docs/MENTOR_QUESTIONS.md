@@ -35,7 +35,7 @@ Attach:
 
 ## Confirmed answer — submission requirements
 
-The 1 October orientation and live official guide now confirm the fields, GitHub requirements, PDF and ZIP limits, validation checks, README order, slide order, deadline, and 10-minute pitch plus 5-minute questions. Do not ask the old broad submission question again.
+The 1 October orientation and live official guide confirmed the PoC fields, GitHub requirements, PDF and ZIP limits, validation checks, README order, slide order, and PoC deadline. The later authenticated finals email supersedes its preliminary pitch schedule: the final session is 8 minutes of presentation/demo plus 4 minutes of questions. Do not ask the old broad PoC-submission question again.
 
 ## Question 4 — correction window
 
