@@ -21,6 +21,8 @@
 - [x] Yusuf and Raed 60/40 speaking split prepared: 4:45 and 3:10.
 - [x] Judge Q&A prepared.
 - [x] Demo fallback prepared.
+- [x] Complete beginner study book with exact script and full Q&A prepared.
+- [x] Dashboard demonstration corrected to match the static report's real capabilities.
 
 ## Yusuf must do before 19 October
 
@@ -29,7 +31,7 @@
 - [ ] Read every slide and remove any claim that either member cannot explain honestly.
 - [ ] Practise slides 1–5 until Yusuf finishes the handoff at 4:45.
 - [ ] Practise the complete pitch until it finishes by 7:55.
-- [ ] Practise opening the dashboard and selecting a top zone in under 20 seconds.
+- [ ] Practise opening the dashboard, showing the Decision output section, and pointing to R05C10 in under 20 seconds.
 - [ ] Practise the demo fallback using slide 5 only.
 - [ ] Monitor email, spam, and the official platform twice each day.
 - [ ] Upload the final PDF using the organizer's instructions before 19 October, 11:59 PM UAE time.
@@ -37,7 +39,7 @@
 
 ## Raed must do before judging
 
-- [ ] Study `docs/RAED_FINALS_ROLE.md`.
+- [ ] Study Raed's section, slides 6–8, and Raed-owned questions in `docs/FINALS_COMPLETE_STUDY_BOOK.md`.
 - [ ] Memorize the validation metrics, what they mean, and what they do not prove.
 - [ ] Understand the bright-desert/NDBI finding and the innovation claim.
 - [ ] Memorize the user, decision, four score components, limitations, and four pilot steps.

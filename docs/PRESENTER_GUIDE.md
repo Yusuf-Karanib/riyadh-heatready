@@ -16,6 +16,8 @@ Aim to finish at **7:55**. The planned spoken time is split exactly 60/40:
 
 > Riyadh HeatReady ranks 1 km zones in southeastern Riyadh where recent built-up growth, hotter land surfaces, and modelled population overlap. It helps a municipal planning and heat-resilience team decide where to inspect first. It is a screening tool, not an automatic decision system.
 
+The word-for-word script, beginner lessons, complete Q&A, and separate Yusuf/Raed study sections are in `docs/FINALS_COMPLETE_STUDY_BOOK.md`.
+
 ## Eight-minute speaking order
 
 ### Slide 1 — 0:00–0:20 — Yusuf
@@ -48,14 +50,14 @@ Then state the chain: annual change proposes growth; separate 2025 optical and r
 
 ### Slide 5 — 3:10–4:45 — Yusuf
 
-Show the dashboard or the slide if live navigation is slow.
+Show the dashboard or stay on the slide if live navigation is slow. The dashboard is a static report, not an interactive app.
 
 - 3.74 km² conservative confirmed-growth signal.
 - 14 High-priority cells from 67 eligible cells.
 - R05C10 is first at about 78.7.
 - Score: 40% heat, 30% population, 20% confirmed growth, 10% lack of vegetation.
 
-Show that a planner can see each component and export CSV, GeoJSON, and GeoTIFF. End with: local checking is required before action.
+On slide 5, show the component chart. In the dashboard, show the map and top-five table. Explain that the repository contains separate CSV, GeoJSON, and GeoTIFF files. Do not claim that the dashboard has filters, zone selection, or export buttons. End with: local checking is required before action.
 
 Handoff line:
 

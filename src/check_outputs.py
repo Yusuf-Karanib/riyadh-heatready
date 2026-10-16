@@ -22,9 +22,10 @@ EXAMPLE_CSV = ROOT / "results" / "example_priority_zones.csv"
 EXAMPLE_PNG = ROOT / "results" / "example_priority_output.png"
 SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_PoC_Pitch.pdf"
 SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_PoC_Pitch.pptx"
-FINAL_SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_Final_Judging_Pitch.pdf"
-FINAL_SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_Final_Judging_Pitch.pptx"
+FINAL_SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf"
+FINAL_SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx"
 TRAINING_AUDIT = ROOT / "docs" / "PREP_TRAINING_AUDIT_2026-10-08.md"
+FINALS_STUDY_BOOK = ROOT / "docs" / "FINALS_COMPLETE_STUDY_BOOK.md"
 
 
 def sha256(path: Path) -> str:
@@ -78,6 +79,7 @@ def main() -> None:
         FINAL_SLIDES_PDF,
         FINAL_SLIDES_PPTX,
         TRAINING_AUDIT,
+        FINALS_STUDY_BOOK,
     ]:
         check(
             path.exists() and path.stat().st_size > 0,
@@ -161,6 +163,22 @@ def main() -> None:
     check(
         "Target length: **3 minutes 10 seconds**" in raed_guide,
         "Raed's study guide covers his full three-slide speaking section",
+        checks,
+    )
+    study_book = FINALS_STUDY_BOOK.read_text(encoding="utf-8")
+    for phrase in [
+        "## 8. Exact eight-minute presentation script",
+        "## 9. Yusuf's exact study section",
+        "## 10. Raed's exact study section",
+        "## 11. Exact demonstration plan",
+        "The dashboard is a static report",
+        "## 12. Judge questions and exact answers",
+        "## 16. What is still missing",
+    ]:
+        check(phrase in study_book, f"finals study book contains: {phrase}", checks)
+    check(
+        "self-contained static report, not an interactive application" in notes[4],
+        "slide 5 speaker notes describe the dashboard accurately",
         checks,
     )
 

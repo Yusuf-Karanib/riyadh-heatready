@@ -1,6 +1,6 @@
 # Verification report
 
-**Result:** PASS — 113 checks passed.
+**Result:** PASS — 122 checks passed.
 
 - PASS: dashboard.html exists and is not empty
 - PASS: decision_map.png exists and is not empty
@@ -27,9 +27,10 @@
 - PASS: results/example_priority_output.png exists and is not empty
 - PASS: output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf exists and is not empty
 - PASS: slides/Riyadh_HeatReady_PoC_Pitch.pptx exists and is not empty
-- PASS: output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf exists and is not empty
-- PASS: slides/Riyadh_HeatReady_Final_Judging_Pitch.pptx exists and is not empty
+- PASS: output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf exists and is not empty
+- PASS: slides/Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx exists and is not empty
 - PASS: docs/PREP_TRAINING_AUDIT_2026-10-08.md exists and is not empty
+- PASS: docs/FINALS_COMPLETE_STUDY_BOOK.md exists and is not empty
 - PASS: every Python requirement is pinned with ==
 - PASS: submission notebook contains executable code cells
 - PASS: every submission notebook code cell has a committed execution count
@@ -46,6 +47,14 @@
 - PASS: final-deck spoken slides assign 60% to Yusuf and 40% to Raed
 - PASS: presenter guide records the exact 60/40 speaking split
 - PASS: Raed's study guide covers his full three-slide speaking section
+- PASS: finals study book contains: ## 8. Exact eight-minute presentation script
+- PASS: finals study book contains: ## 9. Yusuf's exact study section
+- PASS: finals study book contains: ## 10. Raed's exact study section
+- PASS: finals study book contains: ## 11. Exact demonstration plan
+- PASS: finals study book contains: The dashboard is a static report
+- PASS: finals study book contains: ## 12. Judge questions and exact answers
+- PASS: finals study book contains: ## 16. What is still missing
+- PASS: slide 5 speaker notes describe the dashboard accurately
 - PASS: README contains all ten required sections
 - PASS: README sections follow the official required order
 - PASS: README contains judging evidence: What is different

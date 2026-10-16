@@ -37,8 +37,8 @@ def files_to_include() -> list[Path]:
     submission_files = [
         ROOT / "output" / "pdf" / "Riyadh_HeatReady_PoC_Pitch.pdf",
         ROOT / "slides" / "Riyadh_HeatReady_PoC_Pitch.pptx",
-        ROOT / "output" / "pdf" / "Riyadh_HeatReady_Final_Judging_Pitch.pdf",
-        ROOT / "slides" / "Riyadh_HeatReady_Final_Judging_Pitch.pptx",
+        ROOT / "output" / "pdf" / "Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf",
+        ROOT / "slides" / "Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx",
     ]
     output_names = [
         "dashboard.html",
