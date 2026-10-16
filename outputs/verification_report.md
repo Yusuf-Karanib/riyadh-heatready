@@ -1,6 +1,6 @@
 # Verification report
 
-**Result:** PASS — 122 checks passed.
+**Result:** PASS — 124 checks passed.
 
 - PASS: dashboard.html exists and is not empty
 - PASS: decision_map.png exists and is not empty
@@ -27,8 +27,8 @@
 - PASS: results/example_priority_output.png exists and is not empty
 - PASS: output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf exists and is not empty
 - PASS: slides/Riyadh_HeatReady_PoC_Pitch.pptx exists and is not empty
-- PASS: output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf exists and is not empty
-- PASS: slides/Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx exists and is not empty
+- PASS: output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf exists and is not empty
+- PASS: slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx exists and is not empty
 - PASS: docs/PREP_TRAINING_AUDIT_2026-10-08.md exists and is not empty
 - PASS: docs/FINALS_COMPLETE_STUDY_BOOK.md exists and is not empty
 - PASS: every Python requirement is pinned with ==
@@ -43,6 +43,8 @@
 - PASS: presentation file has a valid PDF header
 - PASS: final-judging PDF is below the official 50 MB limit
 - PASS: final-judging presentation has a valid PDF header
+- PASS: final-judging deck contains eight spoken slides and two evidence appendices
+- PASS: final-judging deck excludes internal Q&A and artificial role wording
 - PASS: final-deck speaker notes preserve the exact slide-by-slide timing
 - PASS: final-deck spoken slides assign 60% to Yusuf and 40% to Raed
 - PASS: presenter guide records the exact 60/40 speaking split

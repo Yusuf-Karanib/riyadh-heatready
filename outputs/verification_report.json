@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "checks_passed": 122,
+  "checks_passed": 124,
   "checks": [
     {
       "status": "PASS",
@@ -104,11 +104,11 @@
     },
     {
       "status": "PASS",
-      "check": "output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf exists and is not empty"
+      "check": "output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf exists and is not empty"
     },
     {
       "status": "PASS",
-      "check": "slides/Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx exists and is not empty"
+      "check": "slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx exists and is not empty"
     },
     {
       "status": "PASS",
@@ -165,6 +165,14 @@
     {
       "status": "PASS",
       "check": "final-judging presentation has a valid PDF header"
+    },
+    {
+      "status": "PASS",
+      "check": "final-judging deck contains eight spoken slides and two evidence appendices"
+    },
+    {
+      "status": "PASS",
+      "check": "final-judging deck excludes internal Q&A and artificial role wording"
     },
     {
       "status": "PASS",

@@ -22,8 +22,8 @@ EXAMPLE_CSV = ROOT / "results" / "example_priority_zones.csv"
 EXAMPLE_PNG = ROOT / "results" / "example_priority_output.png"
 SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_PoC_Pitch.pdf"
 SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_PoC_Pitch.pptx"
-FINAL_SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf"
-FINAL_SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx"
+FINAL_SLIDES_PDF = ROOT / "output" / "pdf" / "Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf"
+FINAL_SLIDES_PPTX = ROOT / "slides" / "Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx"
 TRAINING_AUDIT = ROOT / "docs" / "PREP_TRAINING_AUDIT_2026-10-08.md"
 FINALS_STUDY_BOOK = ROOT / "docs" / "FINALS_COMPLETE_STUDY_BOOK.md"
 
@@ -119,6 +119,26 @@ def main() -> None:
     check(FINAL_SLIDES_PDF.read_bytes()[:5] == b"%PDF-", "final-judging presentation has a valid PDF header", checks)
 
     with zipfile.ZipFile(FINAL_SLIDES_PPTX) as archive:
+        slide_parts = [
+            name
+            for name in archive.namelist()
+            if name.startswith("ppt/slides/slide") and name.endswith(".xml")
+        ]
+        check(
+            len(slide_parts) == 10,
+            "final-judging deck contains eight spoken slides and two evidence appendices",
+            checks,
+        )
+        slide_text = " ".join(
+            archive.read(name).decode("utf-8", errors="ignore")
+            for name in slide_parts
+        )
+        check(
+            "Fast answers judges may ask for" not in slide_text
+            and "Two clear owners for one testable decision" not in slide_text,
+            "final-judging deck excludes internal Q&A and artificial role wording",
+            checks,
+        )
         notes = []
         for slide_number in range(1, 9):
             note_xml = archive.read(f"ppt/notesSlides/notesSlide{slide_number}.xml")

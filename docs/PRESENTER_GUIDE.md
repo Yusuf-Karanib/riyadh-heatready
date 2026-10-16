@@ -5,7 +5,7 @@
 - Online final judging, tentatively 21–23 October 2026.
 - 8 minutes for the English pitch and demonstration.
 - 4 minutes for English questions.
-- Present slides 1–8. Slides 9–11 are appendices for questions only.
+- Present slides 1–8. Slides 9–10 are appendices for questions only.
 
 Aim to finish at **7:55**. The planned spoken time is split exactly 60/40:
 

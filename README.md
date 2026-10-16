@@ -82,7 +82,7 @@ The sample run normally finishes in under one minute on a standard laptop.
 
 The complete run checks source availability, downloads and processes the exact scenes, runs the Tanager comparison, rebuilds the dashboard, verifies outputs, and creates the optional ZIP. Runtime depends mainly on connection speed and machine resources. Main interactive result: `outputs/dashboard.html`.
 
-Final-judging presentation ready for upload: [`output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf`](output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf). Editable source: [`slides/Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx`](slides/Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx). The complete script, lessons, demo instructions, and Yusuf/Raed study sections are in [`docs/FINALS_COMPLETE_STUDY_BOOK.md`](docs/FINALS_COMPLETE_STUDY_BOOK.md). The submitted PoC deck remains available at [`output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`](output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf).
+Final-judging presentation ready for upload: [`output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`](output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf). Editable source: [`slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`](slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx). The complete script, lessons, demo instructions, and Yusuf/Raed study sections are in [`docs/FINALS_COMPLETE_STUDY_BOOK.md`](docs/FINALS_COMPLETE_STUDY_BOOK.md). The submitted PoC deck remains available at [`output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`](output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf).
 
 ## 7. Example input and output
 

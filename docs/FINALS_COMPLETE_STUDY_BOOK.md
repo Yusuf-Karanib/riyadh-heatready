@@ -4,10 +4,10 @@ This is the complete preparation guide for Yusuf Karanib and Raed Mardoum.
 
 Use it with the corrected final deck:
 
-- `slides/Riyadh_HeatReady_Final_Judging_Pitch_READY.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_READY.pdf`
+- `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
 
-Slides 1–8 are the spoken pitch. Slides 9–11 are backup slides for questions.
+Submit the `SUBMIT` files above, not the older `READY` files. Slides 1–8 are the spoken pitch. Slides 9–10 are backup evidence for questions.
 
 ## 1. Official final format
 
@@ -306,19 +306,19 @@ Do not read the words inside square brackets aloud.
 
 ### Slide 1, Yusuf, 0:00–0:20
 
-> Good afternoon. We are Team Milkaholics, and this is Riyadh HeatReady. It uses satellite evidence to rank one-kilometre zones in southeastern Riyadh where recent growth, hotter surfaces and modelled population overlap. Our question is simple: where should a municipal team inspect first?
+> Good afternoon. We are Team Milkaholics, and our project is Riyadh HeatReady. We used satellite data to find places in southeast Riyadh where recent growth, hot land surfaces and population overlap. Our question is: where should a municipal planning team inspect first?
 
 ### Slide 2, Yusuf, 0:20–0:55
 
-> I am Yusuf Karanib, the project lead and data and method presenter. I will explain the problem, satellite sources, analysis, priority score and working output. Raed Mardoum is our validation, workflow and impact lead. He will explain what the metrics do and do not prove, what makes the solution different, and how we would test it with a municipality. We have separated these responsibilities so each of us can answer the judges directly.
+> I am Yusuf Karanib, the project lead. I will explain the problem, satellite data, analysis, score and demonstration. Raed Mardoum will present the validation results and limitations, how a planning team could use the ranking, and how we would test the idea through a municipal pilot.
 
 ### Slide 3, Yusuf, 0:55–1:50
 
-> The study area covers 168.30 square kilometres along southeastern Riyadh's urban-industrial fringe; it does not represent the whole city. The intended user is a municipal planning and heat-resilience team. Today, growth, surface heat, population and vegetation can sit in separate layers. A planner still has to compare them before deciding where to inspect. Our MVP turns these layers into a ranked list of one-kilometre cells. The action is not “build trees here” or “install a cool roof here.” The action is “inspect this zone first, then compare it with local plans and field conditions.” We have not interviewed a municipality yet, so this workflow and its value are hypotheses that must be tested.
+> The study area covers 168.30 square kilometres on the southeastern edge of Riyadh. It is one part of the city, not all of Riyadh. Our intended user is a municipal planning and heat-resilience team. Growth, surface heat, population and vegetation can sit in separate layers, so staff still have to compare them before deciding where to inspect. HeatReady puts those layers into one ranked list of one-kilometre cells. It does not tell the user to plant trees or install a cool roof. It only suggests where to check first and compare with local plans and field conditions. We have not yet interviewed municipal users, so the first pilot must test whether this workflow is useful to them.
 
 ### Slide 4, Yusuf, 1:50–3:10
 
-> Each open source has one job. Sentinel-2 provides optical reflectance, vegetation information and built-up features. Sentinel-1 adds radar structure, which helps because bright desert can look built-up in optical data. Six annual land-cover maps propose built-up change from 2018 to 2023. Landsat 8 provides quality-masked land-surface temperature for 10 May 2025. WorldPop provides modelled 2025 population. Planet Tanager provides a 426-band spectral view for a material-context and failure-mode check. The chain is deliberately conservative. Annual change first proposes 13.82 square kilometres of possible growth. We retain only pixels for which separate 2025 Sentinel-2 and Sentinel-1 evidence also supports a built-up interpretation, leaving a 3.74 square-kilometre confirmed-growth signal. Eligible one-kilometre cells are then ranked with a transparent score: 40 percent heat, 30 percent population, 20 percent confirmed growth and 10 percent lack of vegetation. These weights are PoC assumptions, not official municipal policy.
+> We used six open data sources, and each one has a specific job. Sentinel-2 provides optical information about vegetation and built surfaces. Sentinel-1 adds radar structure, which helps because bright desert can look built-up in optical images. Six annual land-cover maps flag possible built-up change from 2018 to 2023. Landsat 8 provides land-surface temperature for 10 May 2025. WorldPop provides modelled population for 2025. Planet Tanager gives us a detailed spectrum for one date, which we use to test a known desert problem. We did not trust the annual change map by itself. It first flagged 13.82 square kilometres. We then kept only pixels where the 2025 optical and radar evidence also looked built-up. This left 3.74 square kilometres. We ranked the eligible one-kilometre cells using 40 percent heat, 30 percent population, 20 percent confirmed growth and 10 percent lack of vegetation. These weights are our PoC assumptions, not municipal policy.
 
 ### Slide 5, Yusuf, 3:10–4:45
 
@@ -334,11 +334,11 @@ Do not read the words inside square brackets aloud.
 
 ### Slide 7, Raed, 5:55–6:55
 
-> What makes this different is not a new index. It is the evidence chain and the visible decision logic. Annual maps propose change, while separate optical and radar evidence confirm it. We also tested a common shortcut: treating high NDBI as built-up. In the Tanager scene, likely-unbuilt desert had a higher median narrow-band NDBI than established built land. That is a warning that one threshold can fail in this environment. Tanager provides material context from one date; it does not prove change or identify a specific material. Every ranked cell keeps its component scores and GIS evidence. The potential impact is faster, more repeatable screening, but we cannot claim time savings or municipal value until real users test it.
+> HeatReady does not depend on one index. The annual maps flag possible change, and separate optical and radar evidence check whether the area still looks built-up. We also tested a common shortcut: using a high NDBI value as proof of built land. In the Tanager scene, likely-unbuilt desert had a higher median narrow-band NDBI than established built land, so one threshold can fail here. The Tanager image gives extra spectral context for one date. It cannot prove change or identify a material. Each ranked cell keeps its score parts and GIS evidence. This could make screening faster, but we need real users to test that before we claim a benefit.
 
 ### Slide 8, Raed, 6:55–7:55
 
-> The next stage should be a measured pilot, not a deployment claim. First, we would interview at least three planners, GIS staff or heat-resilience stakeholders and confirm their real decision and acceptable false alarms. Second, they would review the top five zones against local plans and field observations, marking useful results and false alarms. Third, we would adjust the weights and add missing local information, including worker exposure and city-plan constraints. Finally, we would test the same update process in another Riyadh area and measure analyst time, operating cost and repeatability. Our request is support for one municipal pilot that tests whether HeatReady helps a real team choose where to inspect first. Thank you; we welcome your questions.
+> Our next step is a small municipal pilot. First, we would speak with at least three planners, GIS staff or heat-resilience stakeholders and confirm how they currently choose areas to inspect. Second, they would review the top five cells against local plans and field observations, and record useful findings and false alarms. Third, we would adjust the weights and add missing local information such as worker exposure and city-plan constraints. Finally, we would repeat the test in another Riyadh area and measure the time, cost and repeatability. We are asking for support to run that pilot and find out whether HeatReady actually helps a municipal team. Thank you. We are ready for your questions.
 
 ## 9. Yusuf's exact study section
 

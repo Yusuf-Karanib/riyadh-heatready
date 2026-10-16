@@ -11,8 +11,8 @@
 
 ## Complete
 
-- [x] Eight spoken slides plus three appendix slides.
-- [x] Dedicated team slide with names, roles and project expertise.
+- [x] Eight spoken slides plus two appendix slides.
+- [x] Dedicated team slide with names and clear final-presentation responsibilities.
 - [x] Every official core criterion covered.
 - [x] Development, documentation and reproducibility bonuses covered without exaggeration.
 - [x] Real maps, metrics and output examples included.
