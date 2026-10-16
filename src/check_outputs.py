@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import hashlib
 import json
+import zipfile
 from pathlib import Path
+from xml.etree import ElementTree
 
 import numpy as np
 import pandas as pd
@@ -113,6 +115,54 @@ def main() -> None:
     check(SLIDES_PDF.read_bytes()[:5] == b"%PDF-", "presentation file has a valid PDF header", checks)
     check(FINAL_SLIDES_PDF.stat().st_size < 50 * 1024 * 1024, "final-judging PDF is below the official 50 MB limit", checks)
     check(FINAL_SLIDES_PDF.read_bytes()[:5] == b"%PDF-", "final-judging presentation has a valid PDF header", checks)
+
+    with zipfile.ZipFile(FINAL_SLIDES_PPTX) as archive:
+        notes = []
+        for slide_number in range(1, 9):
+            note_xml = archive.read(f"ppt/notesSlides/notesSlide{slide_number}.xml")
+            root = ElementTree.fromstring(note_xml)
+            notes.append(
+                " ".join(
+                    node.text or ""
+                    for node in root.iter()
+                    if node.tag.endswith("}t")
+                )
+            )
+    expected_note_prefixes = [
+        "0:00–0:20 | Yusuf",
+        "0:20–0:55 | Yusuf",
+        "0:55–1:50 | Yusuf",
+        "1:50–3:10 | Yusuf",
+        "3:10–4:45 | Yusuf",
+        "4:45–5:55 | Raed",
+        "5:55–6:55 | Raed",
+        "6:55–7:55 | Raed",
+    ]
+    check(
+        all(note.startswith(prefix) for note, prefix in zip(notes, expected_note_prefixes)),
+        "final-deck speaker notes preserve the exact slide-by-slide timing",
+        checks,
+    )
+    check(
+        all("Yusuf" in note for note in notes[:5])
+        and all("Raed" in note for note in notes[5:]),
+        "final-deck spoken slides assign 60% to Yusuf and 40% to Raed",
+        checks,
+    )
+
+    presenter_guide = (ROOT / "docs" / "PRESENTER_GUIDE.md").read_text(encoding="utf-8")
+    raed_guide = (ROOT / "docs" / "RAED_FINALS_ROLE.md").read_text(encoding="utf-8")
+    check(
+        "Yusuf: **4 minutes 45 seconds**" in presenter_guide
+        and "Raed: **3 minutes 10 seconds**" in presenter_guide,
+        "presenter guide records the exact 60/40 speaking split",
+        checks,
+    )
+    check(
+        "Target length: **3 minutes 10 seconds**" in raed_guide,
+        "Raed's study guide covers his full three-slide speaking section",
+        checks,
+    )
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     required_readme_sections = [

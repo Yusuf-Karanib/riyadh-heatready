@@ -1,4 +1,4 @@
-# Project status — 15 October 2026
+# Project status — 16 October 2026
 
 ## Current stage
 
@@ -20,8 +20,9 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Six-year mapped built-up trend and open Planet Tanager sensitivity analysis completed.
 - Final-judging deck rebuilt for the official 8-minute format.
 - Dedicated team slide added without inventing education or employment.
-- Yusuf assigned as Project Lead and Technical Presenter.
-- Raed Mardoum assigned as Decision Workflow and Impact Lead and Co-presenter.
+- Yusuf assigned as Project Lead and Data/Method Presenter for slides 1–5.
+- Raed Mardoum assigned as Validation, Decision Workflow and Impact Lead for slides 6–8.
+- Spoken time split changed to exactly 60/40: Yusuf 4:45 and Raed 3:10, finishing at 7:55.
 - Eight spoken slides plus three judge-reference appendix slides created.
 - Editable PPTX structurally validated with zero findings and zero layout warnings.
 - Final PDF exported through Microsoft PowerPoint, confirmed as 11 pages, below 50 MB, and visually checked page by page.

@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "checks_passed": 109,
+  "checks_passed": 113,
   "checks": [
     {
       "status": "PASS",
@@ -161,6 +161,22 @@
     {
       "status": "PASS",
       "check": "final-judging presentation has a valid PDF header"
+    },
+    {
+      "status": "PASS",
+      "check": "final-deck speaker notes preserve the exact slide-by-slide timing"
+    },
+    {
+      "status": "PASS",
+      "check": "final-deck spoken slides assign 60% to Yusuf and 40% to Raed"
+    },
+    {
+      "status": "PASS",
+      "check": "presenter guide records the exact 60/40 speaking split"
+    },
+    {
+      "status": "PASS",
+      "check": "Raed's study guide covers his full three-slide speaking section"
     },
     {
       "status": "PASS",

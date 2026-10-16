@@ -8,13 +8,13 @@ Keep answers short. Answer the question first, then add evidence.
 
 **Owner: Yusuf**
 
-I am the project lead and technical presenter. My responsibility is to explain the Earth-observation workflow, demonstrate the decision output, show how the result is reproduced, and state the technical limits clearly.
+I am the project lead and data/method presenter. My responsibility is to explain the problem, Earth-observation workflow, scoring method, demonstration, and reproducibility.
 
 ### What did Raed contribute?
 
 **Owner: Raed**
 
-I focused on how the analytical result becomes a usable municipal decision. I reviewed the ranked-zone workflow, score interpretation, limitations, expected impact, and the plan for user and field validation.
+My finals responsibility is to explain the validation evidence and its limits, the ranked-zone workflow, the solution's innovation and expected impact, and the municipal pilot plan.
 
 ## Space data and analytics
 
@@ -46,7 +46,7 @@ No. The PoC uses open Sentinel, Landsat, WorldCover, WorldPop, annual land-cover
 
 ### Is the F1 score field accuracy?
 
-**Owner: Yusuf**
+**Owner: Raed**
 
 No. It is agreement with ESA WorldCover in a spatially separate east-side holdout. Independent field or municipal reference data are still required.
 
@@ -78,13 +78,13 @@ A municipal urban-planning and heat-resilience team. The tool helps the team dec
 
 ### Why use 1 km cells?
 
-**Owner: Raed**
+**Owner: Yusuf**
 
 They match the population layer and support early area screening. They are not detailed enough to choose an intervention for one building.
 
 ### Why these score weights?
 
-**Owner: Raed**
+**Owner: Yusuf**
 
 They are transparent PoC assumptions: 40% heat, 30% population, 20% confirmed growth and 10% lack of vegetation. A real user must review and test them.
 
@@ -104,7 +104,7 @@ We can prove that the workflow produces a reproducible ranked map and exportable
 
 ### What is innovative?
 
-**Owner: Yusuf**
+**Owner: Raed**
 
 The innovation is not a new index. It is the conservative decision chain: annual change proposes growth, optical and radar evidence confirm it, heat and exposure rank it, and hyperspectral evidence tests a known desert failure mode.
 

@@ -18,7 +18,7 @@
 - [x] Real maps, metrics and output examples included.
 - [x] Editable PPTX structurally validated.
 - [x] Eleven-page PDF visually checked and below 50 MB.
-- [x] Yusuf and Raed speaking split prepared.
+- [x] Yusuf and Raed 60/40 speaking split prepared: 4:45 and 3:10.
 - [x] Judge Q&A prepared.
 - [x] Demo fallback prepared.
 
@@ -27,7 +27,8 @@
 - [ ] Reply to the qualification email with team availability for 21–23 October.
 - [ ] Confirm the team-slide wording with Raed.
 - [ ] Read every slide and remove any claim that either member cannot explain honestly.
-- [ ] Practise the complete pitch until it finishes by 7:40.
+- [ ] Practise slides 1–5 until Yusuf finishes the handoff at 4:45.
+- [ ] Practise the complete pitch until it finishes by 7:55.
 - [ ] Practise opening the dashboard and selecting a top zone in under 20 seconds.
 - [ ] Practise the demo fallback using slide 5 only.
 - [ ] Monitor email, spam, and the official platform twice each day.
@@ -37,8 +38,10 @@
 ## Raed must do before judging
 
 - [ ] Study `docs/RAED_FINALS_ROLE.md`.
+- [ ] Memorize the validation metrics, what they mean, and what they do not prove.
+- [ ] Understand the bright-desert/NDBI finding and the innovation claim.
 - [ ] Memorize the user, decision, four score components, limitations, and four pilot steps.
-- [ ] Practise slide 8 in 45 seconds.
+- [ ] Practise slides 6–8 in 3 minutes 10 seconds.
 - [ ] Practise every Raed-owned question in `docs/FINAL_JUDGING_QA.md`.
 
 ## Technical setup
@@ -54,6 +57,7 @@
 
 - [ ] Start with the decision, not the code.
 - [ ] Finish the spoken pitch before 8:00.
-- [ ] Yusuf answers technical questions; Raed answers workflow and impact questions.
+- [ ] Yusuf answers data, method, score, demo, and reproducibility questions.
+- [ ] Raed answers validation, limitations, innovation, impact, false alarms, and pilot questions.
 - [ ] Say “I do not know yet” when evidence is missing, then explain how it would be tested.
 - [ ] Do not claim field accuracy, air temperature, a census, Satellite 813 use, customers, revenue, or completed user validation.

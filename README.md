@@ -117,8 +117,8 @@ These are PoC outputs, not official city statistics.
 ## 10. Team, licence, and attribution
 
 - **Team:** Milkaholics.
-- **Yusuf Karanib:** registered team leader; Project Lead and Technical Presenter for the final judging stage.
-- **Raed Mardoum:** Decision Workflow and Impact Lead; Co-presenter. He focuses on how planners interpret the ranked zones, the score's assumptions and limitations, and the field-validation and incubation plan.
+- **Yusuf Karanib:** registered team leader; Project Lead and Data/Method Presenter. He presents the problem, data, method, score, and demonstration.
+- **Raed Mardoum:** Validation, Decision Workflow and Impact Lead; Co-presenter. He presents validation and limitations, innovation and impact, and the municipal pilot plan.
 - **Code licence:** not yet selected by the repository owner. Until a licence is added, normal copyright protection applies. Dataset licences remain separate.
 
 Attribution: Contains modified Copernicus Sentinel data (2018, 2021, 2025), Sentinel-1 RTC data hosted by Microsoft, USGS Landsat Collection 2 Level-2 data, Impact Observatory/Esri annual land-cover data, and WorldPop 2025 data. © ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium. Adapted from Tanager STAC Data, available at www.planet.com/data/stac © 2025 Planet Labs PBC. All Rights Reserved.

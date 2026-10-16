@@ -26,7 +26,7 @@
 
 - [ ] Team availability sent for 21–23 October.
 - [ ] Exact slot and meeting link received.
-- [ ] Complete pitch rehearsed to 7:40 or less.
+- [ ] Complete pitch rehearsed to 7:55 or less with the 60/40 speaking split.
 - [ ] Four-minute Q&A rehearsed.
 - [ ] Dashboard and slide-5 fallback tested.
 - [ ] Both members join 15 minutes early.

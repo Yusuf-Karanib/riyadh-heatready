@@ -1,6 +1,6 @@
 # Verification report
 
-**Result:** PASS — 109 checks passed.
+**Result:** PASS — 113 checks passed.
 
 - PASS: dashboard.html exists and is not empty
 - PASS: decision_map.png exists and is not empty
@@ -42,6 +42,10 @@
 - PASS: presentation file has a valid PDF header
 - PASS: final-judging PDF is below the official 50 MB limit
 - PASS: final-judging presentation has a valid PDF header
+- PASS: final-deck speaker notes preserve the exact slide-by-slide timing
+- PASS: final-deck spoken slides assign 60% to Yusuf and 40% to Raed
+- PASS: presenter guide records the exact 60/40 speaking split
+- PASS: Raed's study guide covers his full three-slide speaking section
 - PASS: README contains all ten required sections
 - PASS: README sections follow the official required order
 - PASS: README contains judging evidence: What is different
