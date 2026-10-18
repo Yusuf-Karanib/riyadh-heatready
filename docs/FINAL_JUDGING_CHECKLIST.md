@@ -17,7 +17,7 @@
 - [x] Development, documentation and reproducibility bonuses covered without exaggeration.
 - [x] Real maps, metrics and output examples included.
 - [x] Editable PPTX structurally validated.
-- [x] Eleven-page PDF visually checked and below 50 MB.
+- [x] Ten-page PDF visually checked and below 50 MB.
 - [x] Yusuf and Raed 60/40 speaking split prepared: 4:45 and 3:10.
 - [x] Judge Q&A prepared.
 - [x] Demo fallback prepared.

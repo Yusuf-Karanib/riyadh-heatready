@@ -21,7 +21,7 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Final-judging deck rebuilt for the official 8-minute format.
 - Dedicated team slide added without inventing education or employment.
 - Yusuf assigned as Project Lead and Data/Method Presenter for slides 1–5.
-- Raed Mardoum assigned as Validation, Decision Workflow and Impact Lead for slides 6–8.
+- Raed Mardoum assigned as validation and pilot presenter for slides 6–8.
 - Spoken time split changed to exactly 60/40: Yusuf 4:45 and Raed 3:10, finishing at 7:55.
 - Eight spoken slides plus two judge-reference appendix slides created.
 - Editable PPTX structurally validated with zero findings and zero layout warnings.

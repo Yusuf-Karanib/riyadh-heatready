@@ -2,7 +2,7 @@
 
 ## Assigned role
 
-**Validation, Decision Workflow and Impact Lead; Co-presenter**
+**Validation and pilot presenter**
 
 Raed presents slides 6–8. He explains what the validation proves, the main limitations, what makes the solution different, its possible impact, and how the team would test it through a municipal pilot.
 
@@ -14,11 +14,11 @@ Raed presents slides 6–8. He explains what the validation proves, the main lim
 
 **Raed Mardoum**
 
-Validation, Decision Workflow and Impact Lead; Co-presenter
+Validation and pilot presenter
 
-- Presents the validation evidence, limitations, and safe interpretation.
-- Presents the innovation, expected impact, and ranked-zone workflow.
-- Presents the field-validation and municipal pilot plan.
+- Explains what the validation results mean and what they do not prove.
+- Explains the main limits and how planners should use the ranking safely.
+- Presents how the team would test the ranking through a municipal pilot.
 
 **Project responsibility:** validation interpretation, municipal decision workflow, impact framing, and pilot planning.
 

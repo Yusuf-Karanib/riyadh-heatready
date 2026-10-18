@@ -376,7 +376,7 @@ Yusuf's learning order:
 
 Raed's finals role is:
 
-> Validation, Workflow and Impact Lead; Co-presenter.
+> Validation and pilot presenter.
 
 Raed owns:
 

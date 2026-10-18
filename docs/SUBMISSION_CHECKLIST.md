@@ -16,7 +16,7 @@
 - [x] Dedicated team slide included.
 - [x] Core and bonus criteria covered.
 - [x] PPTX validated and PDF visually checked.
-- [x] PDF has 11 pages and is below 50 MB.
+- [x] PDF has 10 pages and is below 50 MB.
 - [ ] Yusuf and Raed confirm the wording and understand their assigned sections.
 - [ ] Organizer sends the upload instructions.
 - [ ] Final PDF uploaded using the official method.
@@ -33,8 +33,8 @@
 
 ## Files to use
 
-- Final PDF: `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf`
-- Editable deck: `slides/Riyadh_HeatReady_Final_Judging_Pitch.pptx`
+- Final PDF: `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
+- Editable deck: `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
 - Speaking guide: `docs/PRESENTER_GUIDE.md`
 - Q&A: `docs/FINAL_JUDGING_QA.md`
 - Raed guide: `docs/RAED_FINALS_ROLE.md`

@@ -104,7 +104,7 @@ Finish when you can state every number with its limitation.
 Open:
 
 - `project/docs/PRESENTER_GUIDE.md`
-- `project/output/pdf/Riyadh_HeatReady_Final_Judging_Pitch.pdf`
+- `project/output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
 
 Practice:
 
