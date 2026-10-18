@@ -28,8 +28,8 @@ The word-for-word script, beginner lessons, complete Q&A, and separate Yusuf/Rae
 
 Introduce both members by project responsibility, not unverified biography.
 
-- Yusuf: project lead; problem, data, method, score, and demo.
-- Raed: validation meaning, limitations, innovation, impact, and pilot plan.
+- Yusuf: project lead; satellite data, priority map, final submission and demonstration.
+- Raed: validation results, limits and the municipal pilot.
 
 ### Slide 3 — 0:55–1:50 — Yusuf
 

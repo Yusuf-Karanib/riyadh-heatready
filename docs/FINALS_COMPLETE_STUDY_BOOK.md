@@ -310,7 +310,7 @@ Do not read the words inside square brackets aloud.
 
 ### Slide 2, Yusuf, 0:20–0:55
 
-> I am Yusuf Karanib, the project lead. I will explain the problem, satellite data, analysis, score and demonstration. Raed Mardoum will present the validation results and limitations, how a planning team could use the ranking, and how we would test the idea through a municipal pilot.
+> I am Yusuf Karanib, the project lead. I will explain how the satellite data becomes a priority map and run the demonstration. Raed Mardoum will explain what the validation results mean, where the method is limited and how we would test the ranking with a municipal team.
 
 ### Slide 3, Yusuf, 0:55–1:50
 
