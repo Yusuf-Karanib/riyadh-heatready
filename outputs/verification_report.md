@@ -1,6 +1,6 @@
 # Verification report
 
-**Result:** PASS — 124 checks passed.
+**Result:** PASS — 130 checks passed.
 
 - PASS: dashboard.html exists and is not empty
 - PASS: decision_map.png exists and is not empty
@@ -46,16 +46,22 @@
 - PASS: final-judging deck contains eight spoken slides and two evidence appendices
 - PASS: final-judging deck excludes internal Q&A and artificial role wording
 - PASS: final-deck speaker notes preserve the exact slide-by-slide timing
-- PASS: final-deck spoken slides assign 60% to Yusuf and 40% to Raed
-- PASS: presenter guide records the exact 60/40 speaking split
+- PASS: submitted final deck preserves its original two-presenter speaker notes
+- PASS: presenter guide records the current solo speaking plan
 - PASS: Raed's study guide covers his full three-slide speaking section
-- PASS: finals study book contains: ## 8. Exact eight-minute presentation script
+- PASS: finals study book contains: ## 8. Original two-presenter script, now superseded
 - PASS: finals study book contains: ## 9. Yusuf's exact study section
 - PASS: finals study book contains: ## 10. Raed's exact study section
 - PASS: finals study book contains: ## 11. Exact demonstration plan
 - PASS: finals study book contains: The dashboard is a static report
 - PASS: finals study book contains: ## 12. Judge questions and exact answers
 - PASS: finals study book contains: ## 16. What is still missing
+- PASS: solo finals guide contains: ## What to prepare for today's onboarding
+- PASS: solo finals guide contains: ## The ten facts Yusuf must know
+- PASS: solo finals guide contains: ## What the judges score
+- PASS: solo finals guide contains: ## Exact solo pitch
+- PASS: solo finals guide contains: ## Most likely judge questions
+- PASS: solo finals guide contains: ## Final technical checklist
 - PASS: slide 5 speaker notes describe the dashboard accurately
 - PASS: README contains all ten required sections
 - PASS: README sections follow the official required order

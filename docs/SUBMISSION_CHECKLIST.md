@@ -14,28 +14,28 @@
 
 - [x] Final deck uses the official 8-minute structure.
 - [x] Dedicated team slide included.
-- [x] Core and bonus criteria covered.
+- [x] All six latest 100-point judging criteria covered.
 - [x] PPTX validated and PDF visually checked.
 - [x] PDF has 10 pages and is below 50 MB.
-- [ ] Yusuf and Raed confirm the wording and understand their assigned sections.
-- [ ] Organizer sends the upload instructions.
-- [ ] Final PDF uploaded using the official method.
-- [ ] Upload confirmation saved.
+- [x] Organizer sent email-submission instructions.
+- [ ] Confirm that the final PDF was emailed to the four official addresses by the deadline.
+- [ ] Save or obtain confirmation that the presentation was received.
 
 ## Judging session
 
-- [ ] Team availability sent for 21–23 October.
 - [ ] Exact slot and meeting link received.
-- [ ] Complete pitch rehearsed to 7:55 or less with the 60/40 speaking split.
+- [ ] Organizers confirm that Yusuf may present alone because Raed is unavailable.
+- [ ] Yusuf rehearses the solo pitch to 7:50 or less.
 - [ ] Four-minute Q&A rehearsed.
 - [ ] Dashboard and slide-5 fallback tested.
-- [ ] Both members join 15 minutes early.
+- [ ] Yusuf joins 15 minutes early using his full name and registered email.
 
 ## Files to use
 
 - Final PDF: `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
 - Editable deck: `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
 - Speaking guide: `docs/PRESENTER_GUIDE.md`
+- Solo speaking and study guide: `docs/SOLO_FINALS_CRASH_GUIDE.md`
 - Q&A: `docs/FINAL_JUDGING_QA.md`
 - Raed guide: `docs/RAED_FINALS_ROLE.md`
 - Full finals checklist: `docs/FINAL_JUDGING_CHECKLIST.md`

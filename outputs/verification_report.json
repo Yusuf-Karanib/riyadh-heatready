@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "checks_passed": 124,
+  "checks_passed": 130,
   "checks": [
     {
       "status": "PASS",
@@ -180,11 +180,11 @@
     },
     {
       "status": "PASS",
-      "check": "final-deck spoken slides assign 60% to Yusuf and 40% to Raed"
+      "check": "submitted final deck preserves its original two-presenter speaker notes"
     },
     {
       "status": "PASS",
-      "check": "presenter guide records the exact 60/40 speaking split"
+      "check": "presenter guide records the current solo speaking plan"
     },
     {
       "status": "PASS",
@@ -192,7 +192,7 @@
     },
     {
       "status": "PASS",
-      "check": "finals study book contains: ## 8. Exact eight-minute presentation script"
+      "check": "finals study book contains: ## 8. Original two-presenter script, now superseded"
     },
     {
       "status": "PASS",
@@ -217,6 +217,30 @@
     {
       "status": "PASS",
       "check": "finals study book contains: ## 16. What is still missing"
+    },
+    {
+      "status": "PASS",
+      "check": "solo finals guide contains: ## What to prepare for today's onboarding"
+    },
+    {
+      "status": "PASS",
+      "check": "solo finals guide contains: ## The ten facts Yusuf must know"
+    },
+    {
+      "status": "PASS",
+      "check": "solo finals guide contains: ## What the judges score"
+    },
+    {
+      "status": "PASS",
+      "check": "solo finals guide contains: ## Exact solo pitch"
+    },
+    {
+      "status": "PASS",
+      "check": "solo finals guide contains: ## Most likely judge questions"
+    },
+    {
+      "status": "PASS",
+      "check": "solo finals guide contains: ## Final technical checklist"
     },
     {
       "status": "PASS",

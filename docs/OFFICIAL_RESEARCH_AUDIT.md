@@ -1,11 +1,23 @@
 # Official hackathon research audit
 
-**Checked:** 15 October 2026
+**Checked:** 22 October 2026
 **Purpose:** separate current official rules from older guidance and technical training material.
 
-## Authenticated final-stage update
+## Latest authenticated finals update
 
-Milkaholics has qualified for the Final Judging Stage. The latest authenticated email is now the authority for the judging schedule and evaluation criteria. It supersedes the earlier provisional Top 40 pitch dates and 10-minute presentation plus 5-minute question format recorded in the PoC orientation material.
+The 20 October final-presentation email and 22 October pre-pitch onboarding invitation now control the final-stage schedule and scoring where they differ from earlier messages.
+
+- **Format:** online through Microsoft Teams; 8-minute English presentation and demonstration plus 4-minute English Q&A.
+- **Schedule:** the 22 October invitation refers to pitches during the following week. The exact final date and time remain pending and will arrive through a separate meeting invitation.
+- **Pre-pitch onboarding:** 22 October 2026, 11:04–11:11 AM UAE time for Team Milkaholics.
+- **Final presentation:** the deadline was 19 October 2026 at 11:59 PM UAE time. Organizers instructed teams to email the final slides to the four named official recipients and began reviewing slides on 20 October.
+- **Current 100-point criteria:** problem relevance and potential impact, 20; scientific and technical validity, 25; innovation and differentiation, 20; quality of implementation, 20; documentation and evidence, 10; development potential, 5.
+- **Presentation quality:** supports the six criteria but does not receive separate points.
+- **Team change:** Raed Mardoum is unavailable for the final pitch. Yusuf must confirm during onboarding that he may present all sections alone.
+
+## Earlier qualification update
+
+Milkaholics qualified for the Final Judging Stage. This earlier email superseded the provisional Top 40 pitch dates and 10-minute presentation plus 5-minute question format recorded in the PoC orientation material. The later 20–22 October messages above now supersede its tentative dates and scoring structure where they differ.
 
 - **Final judging:** online, tentatively during 21–23 October 2026, subject to judge availability.
 - **Session:** approximately 12 minutes: 8 minutes for an English pitch/presentation and solution demonstration, then 4 minutes for English questions.
@@ -81,7 +93,8 @@ The remote starter-repository head was also checked against the local copy. Both
 | Top 40 announcement and pitch-slot link | 13 October 2026, by email and platform alert |
 | Earlier provisional Top 40 pitches | Superseded by the authenticated finals email |
 | Updated final presentation deadline | **19 October 2026, 11:59 PM UAE time** |
-| Final judging | **Tentatively 21–23 October 2026; 8-minute pitch/demo plus 4-minute questions** |
+| Pre-pitch onboarding | **22 October 2026, 11:04–11:11 AM UAE time** |
+| Final judging | **Online during the week after 22 October according to the latest invitation; exact slot pending; 8-minute pitch/demo plus 4-minute questions** |
 | Incubation | Earlier schedule said 19 October 2026–11 January 2027; no newer final-stage confirmation supplied |
 | Final demonstrations and awards | 12–15 January 2027; exact award-ceremony date not confirmed |
 

@@ -168,16 +168,16 @@ def main() -> None:
     check(
         all("Yusuf" in note for note in notes[:5])
         and all("Raed" in note for note in notes[5:]),
-        "final-deck spoken slides assign 60% to Yusuf and 40% to Raed",
+        "submitted final deck preserves its original two-presenter speaker notes",
         checks,
     )
 
     presenter_guide = (ROOT / "docs" / "PRESENTER_GUIDE.md").read_text(encoding="utf-8")
     raed_guide = (ROOT / "docs" / "RAED_FINALS_ROLE.md").read_text(encoding="utf-8")
     check(
-        "Yusuf: **4 minutes 45 seconds**" in presenter_guide
-        and "Raed: **3 minutes 10 seconds**" in presenter_guide,
-        "presenter guide records the exact 60/40 speaking split",
+        "Yusuf Karanib is preparing to present the full pitch alone" in presenter_guide
+        and "Target finish: 7:20–7:50" in presenter_guide,
+        "presenter guide records the current solo speaking plan",
         checks,
     )
     check(
@@ -187,7 +187,7 @@ def main() -> None:
     )
     study_book = FINALS_STUDY_BOOK.read_text(encoding="utf-8")
     for phrase in [
-        "## 8. Exact eight-minute presentation script",
+        "## 8. Original two-presenter script, now superseded",
         "## 9. Yusuf's exact study section",
         "## 10. Raed's exact study section",
         "## 11. Exact demonstration plan",
@@ -196,6 +196,18 @@ def main() -> None:
         "## 16. What is still missing",
     ]:
         check(phrase in study_book, f"finals study book contains: {phrase}", checks)
+    solo_guide = (ROOT / "docs" / "SOLO_FINALS_CRASH_GUIDE.md").read_text(
+        encoding="utf-8"
+    )
+    for phrase in [
+        "## What to prepare for today's onboarding",
+        "## The ten facts Yusuf must know",
+        "## What the judges score",
+        "## Exact solo pitch",
+        "## Most likely judge questions",
+        "## Final technical checklist",
+    ]:
+        check(phrase in solo_guide, f"solo finals guide contains: {phrase}", checks)
     check(
         "self-contained static report, not an interactive application" in notes[4],
         "slide 5 speaker notes describe the dashboard accurately",

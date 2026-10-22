@@ -1,6 +1,6 @@
 # Riyadh HeatReady finals study book
 
-This is the complete preparation guide for Yusuf Karanib and Raed Mardoum.
+This records the original two-presenter preparation for Yusuf Karanib and Raed Mardoum. Raed is now unavailable for the final pitch. Yusuf must use `docs/SOLO_FINALS_CRASH_GUIDE.md` as the active speaking and study guide.
 
 Use it with the corrected final deck:
 
@@ -11,18 +11,19 @@ Submit the `SUBMIT` files above, not the older `READY` files. Slides 1–8 are t
 
 ## 1. Official final format
 
-- Final judging is online and tentatively scheduled for 21–23 October 2026.
+- Final judging is online. The latest 22 October onboarding email refers to pitches during the following week, but the exact date and time are still pending.
 - The team receives about 12 minutes.
 - The English pitch and demonstration receive 8 minutes.
 - English questions receive 4 minutes.
-- The updated English presentation is due on 19 October 2026 at 11:59 PM UAE time.
-- The exact judging slot, meeting link, and upload method are still waiting for organizer confirmation.
+- The updated English presentation deadline was 19 October 2026 at 11:59 PM UAE time, with submission by email.
+- The exact judging slot and meeting link are still waiting for organizer confirmation.
+- A pre-pitch onboarding session is scheduled for 22 October 2026 at 11:04–11:11 AM UAE time.
 
-Planned speaking split:
+Current speaking plan:
 
-- Yusuf: slides 1–5, from 0:00 to 4:45. This is 60% of the planned speaking time.
-- Raed: slides 6–8, from 4:45 to 7:55. This is 40% of the planned speaking time.
-- Finish by 7:55 so there is a five-second safety margin.
+- Yusuf presents slides 1–8 alone, subject to organizer confirmation during onboarding.
+- The solo script targets 7:20, leaving time for normal pauses.
+- Slides 9–10 remain available for questions only.
 
 ## 2. The project in very simple words
 
@@ -300,7 +301,9 @@ Pronunciation:
 - IoU: “eye-oh-you”.
 - GeoTIFF: “geo-tiff”.
 
-## 8. Exact eight-minute presentation script
+## 8. Original two-presenter script, now superseded
+
+Use the solo script in `docs/SOLO_FINALS_CRASH_GUIDE.md`. The script below remains only as a record of the original split.
 
 Do not read the words inside square brackets aloud.
 
@@ -466,11 +469,11 @@ Owner: Raed
 
 Use this answer only after Raed completes that review.
 
-#### Why split the presentation 60/40?
+#### Why are you presenting alone?
 
-Owner: either
+Owner: Yusuf
 
-> Yusuf owns the problem, data, method, score and demonstration. Raed owns validation meaning, limitations, impact and the pilot. The split follows the subjects each person must answer during questions.
+> Raed Mardoum is unavailable for the final session. I am the registered team leader and prepared to present the complete project. I asked the organizers to confirm this arrangement during the pre-pitch onboarding.
 
 ### Problem and user
 
@@ -734,37 +737,33 @@ Use these corrections:
 
 ## 14. How the pitch covers the judging criteria
 
-### Team capability and expertise
+### Problem relevance and potential impact, 20 points
 
-Slide 2 gives each member a clear finals responsibility. The Q&A must prove that both members understand their sections.
+Slides 1 and 3 define the user, decision and intended value. Slide 8 explains how a pilot would test that value.
 
-### Quality of space-data use and analytics
+### Scientific and technical validity, 25 points
 
-Slide 4 explains the six sources and why each is necessary. Slides 5 and 6 show the result and validation.
+Slides 4 and 6 explain the data, method, spatial test, metrics and limits. Slides 9–10 provide supporting evidence.
 
-### Problem relevance, user need, and potential impact
-
-Slide 3 defines one user and one decision. Slides 7 and 8 explain the possible value and the test needed to prove it.
-
-### Innovation and differentiation
+### Innovation and differentiation, 20 points
 
 Slide 7 explains the conservative evidence chain and the bright-desert NDBI failure test.
 
-### Scientific validity and technical feasibility
+### Quality of implementation, 20 points
 
-Slide 6 gives the spatial holdout, metrics, limitations, and safe-use boundary.
+Slide 5 shows the working priority map, component chart and GIS-ready outputs. The dashboard and public repository provide the working evidence.
 
-### Pitch quality
+### Documentation and evidence, 10 points
 
-The pitch follows one story: problem, user, data, method, result, validity, difference, and next step. It finishes at 7:55.
+The public repository contains a README, pinned requirements, a run-all sample notebook, exact source configuration, example inputs and outputs, GIS files and documented limitations.
 
-### Bonus: development beyond the PoC
+### Development potential, 5 points
 
-Slide 8 gives a measurable pilot plan without pretending that deployment has happened.
+Slide 8 gives a measurable municipal pilot without claiming that deployment has happened.
 
-### Bonus: documentation and reproducibility
+### Presentation quality
 
-The public repository contains a README, pinned requirements, a run-all sample notebook, exact source configuration, example inputs and outputs, GIS files, and limitations.
+Presentation quality supports the six criteria but does not receive separate points. Yusuf should use the solo script, finish before eight minutes and answer questions directly.
 
 ## 15. Rehearsal plan
 
@@ -807,8 +806,7 @@ The public repository contains a README, pinned requirements, a run-all sample n
 - Join 15 minutes early.
 - Open the deck, dashboard, and repository before joining.
 - Yusuf watches the timer.
-- Yusuf hands over at 4:45.
-- Raed finishes by 7:55.
+- Yusuf follows the solo script and finishes before 8:00.
 - Answer briefly and honestly.
 
 ## 16. What is still missing
@@ -817,14 +815,15 @@ These are the only known external items still pending:
 
 - confirmed judging date and exact time;
 - meeting link;
-- final presentation upload instructions;
 - confirmation that the final PDF was received.
+- organizer confirmation that Yusuf may present alone;
 
 Yusuf must also complete these actions if they are not already complete:
 
-- reply with the team's availability for 21–23 October;
-- confirm with Raed that he will attend and accepts the role wording;
-- submit the corrected final PDF before the deadline;
+- attend the 22 October pre-pitch onboarding;
+- confirm the solo-presenter arrangement;
+- ask for the final date, time and Teams link;
+- confirm that the emailed final PDF was received;
 - save organizer confirmations;
 - monitor email, spam, and the platform at least twice each day.
 
