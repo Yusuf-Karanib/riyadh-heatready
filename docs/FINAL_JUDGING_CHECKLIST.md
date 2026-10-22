@@ -18,7 +18,8 @@
 - [x] Real maps, metrics and output examples included.
 - [x] Editable PPTX structurally validated.
 - [x] Ten-page PDF visually checked and below 50 MB.
-- [x] Solo script prepared for Yusuf after Raed became unavailable.
+- [x] Yusuf and Raed 60/40 speaking split prepared: 4:45 and 3:10.
+- [x] Solo backup script prepared in case Raed cannot attend the actual final pitch.
 - [x] Judge Q&A prepared.
 - [x] Demo fallback prepared.
 - [x] Complete beginner study book with exact script and full Q&A prepared.
@@ -27,23 +28,23 @@
 ## Yusuf's urgent actions
 
 - [ ] Attend the pre-pitch onboarding using the registered email, full name and camera.
-- [ ] Tell the organizers that Raed cannot attend and confirm that Yusuf may present alone.
+- [ ] Explain that Raed cannot attend today's onboarding because of university but may attend the final pitch.
 - [ ] Ask for the final judging date, time and Teams link.
 - [ ] Confirm that the organizers received the final presentation.
+- [ ] Give Raed the final slot immediately and confirm whether he can attend.
 - [ ] Read every slide and remove any claim that either member cannot explain honestly.
-- [ ] Practise the complete solo script in `docs/SOLO_FINALS_CRASH_GUIDE.md`.
+- [ ] Yusuf practises slides 1–5 and Raed practises slides 6–8.
 - [ ] Practise the complete pitch until it finishes by 7:55.
 - [ ] Practise opening the dashboard, showing the Decision output section, and pointing to R05C10 in under 20 seconds.
 - [ ] Practise the demo fallback using slide 5 only.
 - [ ] Monitor email, spam, and the official platform twice each day.
 - [ ] Confirm that the final PDF was emailed by the deadline and save the confirmation.
 
-## Solo presentation change
+## Solo contingency only
 
-- [ ] Yusuf studies slides 6–8, validation, limitations, innovation and the pilot.
-- [ ] Yusuf practises every question previously assigned to Raed.
-- [ ] Yusuf removes the spoken handoff to Raed without changing the submitted deck.
-- [ ] Yusuf keeps slides 9–10 for questions only.
+- [ ] Use the solo guide only if Raed cannot attend the confirmed final slot.
+- [ ] If needed, Yusuf studies slides 6–8 and every question assigned to Raed.
+- [ ] If needed, Yusuf removes the spoken handoff without changing the submitted deck.
 
 ## Technical setup
 
@@ -59,6 +60,6 @@
 - [ ] Start with the decision, not the code.
 - [ ] Finish the spoken pitch before 8:00.
 - [ ] Yusuf answers data, method, score, demo, and reproducibility questions.
-- [ ] Yusuf answers validation, limitations, innovation, impact, false alarms and pilot questions.
+- [ ] Raed answers validation, limitations, innovation, impact, false alarms and pilot questions.
 - [ ] Say “I do not know yet” when evidence is missing, then explain how it would be tested.
 - [ ] Do not claim field accuracy, air temperature, a census, Satellite 813 use, customers, revenue, or completed user validation.

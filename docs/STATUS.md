@@ -21,8 +21,9 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Six-year mapped built-up trend and open Planet Tanager sensitivity analysis completed.
 - Final-judging deck rebuilt for the official 8-minute format.
 - Dedicated team slide added without inventing education or employment.
-- The original plan assigned slides 1–5 to Yusuf and slides 6–8 to Raed.
-- Raed is now unavailable. A complete solo guide prepares Yusuf to present slides 1–8 and answer all questions.
+- The main plan assigns slides 1–5 to Yusuf and slides 6–8 to Raed, using the requested 60/40 split.
+- Raed cannot attend the 22 October onboarding because of university. He may still attend the final pitch after its date and time arrive.
+- A solo guide exists only as a backup if the final timetable prevents Raed from attending.
 - Eight spoken slides plus two judge-reference appendix slides created.
 - Editable PPTX structurally validated with zero findings and zero layout warnings.
 - Final PDF exported through Microsoft PowerPoint, confirmed as 10 pages, below 50 MB, and visually checked page by page.
@@ -33,8 +34,8 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 ## Waiting on Yusuf or the organizers
 
 - Yusuf must attend the 22 October pre-pitch onboarding.
-- Raed is unavailable for the final pitch. Yusuf is preparing to present all eight spoken slides alone and must confirm this arrangement with the organizers during onboarding.
-- Yusuf must ask for the exact final slot and meeting link.
+- Yusuf attends the onboarding alone and explains that Raed is unavailable only for today's readiness check.
+- Yusuf must ask for the exact final slot and meeting link so Raed can confirm his final-pitch availability.
 - Yusuf must confirm that the organizers received the emailed final presentation.
 - Yusuf must monitor email, calendar invitations, spam and the official platform.
 

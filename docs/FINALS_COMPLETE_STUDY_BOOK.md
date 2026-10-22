@@ -1,6 +1,6 @@
 # Riyadh HeatReady finals study book
 
-This records the original two-presenter preparation for Yusuf Karanib and Raed Mardoum. Raed is now unavailable for the final pitch. Yusuf must use `docs/SOLO_FINALS_CRASH_GUIDE.md` as the active speaking and study guide.
+This is the main two-presenter preparation guide for Yusuf Karanib and Raed Mardoum. Raed cannot attend the 22 October onboarding because of university, but he may still attend the final pitch. `docs/SOLO_FINALS_CRASH_GUIDE.md` is a backup only if the final schedule prevents Raed from attending.
 
 Use it with the corrected final deck:
 
@@ -19,11 +19,11 @@ Submit the `SUBMIT` files above, not the older `READY` files. Slides 1–8 are t
 - The exact judging slot and meeting link are still waiting for organizer confirmation.
 - A pre-pitch onboarding session is scheduled for 22 October 2026 at 11:04–11:11 AM UAE time.
 
-Current speaking plan:
+Main speaking plan:
 
-- Yusuf presents slides 1–8 alone, subject to organizer confirmation during onboarding.
-- The solo script targets 7:20, leaving time for normal pauses.
-- Slides 9–10 remain available for questions only.
+- Yusuf presents slides 1–5 from 0:00 to 4:45.
+- Raed presents slides 6–8 from 4:45 to 7:55.
+- Slides 9–10 remain available for questions only. The solo script is a backup.
 
 ## 2. The project in very simple words
 
@@ -301,9 +301,7 @@ Pronunciation:
 - IoU: “eye-oh-you”.
 - GeoTIFF: “geo-tiff”.
 
-## 8. Original two-presenter script, now superseded
-
-Use the solo script in `docs/SOLO_FINALS_CRASH_GUIDE.md`. The script below remains only as a record of the original split.
+## 8. Exact eight-minute two-presenter script
 
 Do not read the words inside square brackets aloud.
 
@@ -469,11 +467,11 @@ Owner: Raed
 
 Use this answer only after Raed completes that review.
 
-#### Why are you presenting alone?
+#### Why split the presentation 60/40?
 
-Owner: Yusuf
+Owner: either
 
-> Raed Mardoum is unavailable for the final session. I am the registered team leader and prepared to present the complete project. I asked the organizers to confirm this arrangement during the pre-pitch onboarding.
+> Yusuf owns the problem, data, method, score and demonstration. Raed owns validation meaning, limitations, impact and the pilot. The split follows the subjects each person must answer during questions.
 
 ### Problem and user
 
@@ -806,7 +804,8 @@ Presentation quality supports the six criteria but does not receive separate poi
 - Join 15 minutes early.
 - Open the deck, dashboard, and repository before joining.
 - Yusuf watches the timer.
-- Yusuf follows the solo script and finishes before 8:00.
+- Yusuf hands over at 4:45.
+- Raed finishes by 7:55.
 - Answer briefly and honestly.
 
 ## 16. What is still missing
@@ -816,14 +815,14 @@ These are the only known external items still pending:
 - confirmed judging date and exact time;
 - meeting link;
 - confirmation that the final PDF was received.
-- organizer confirmation that Yusuf may present alone;
+- confirmation that Raed can attend the assigned final slot;
 
 Yusuf must also complete these actions if they are not already complete:
 
 - attend the 22 October pre-pitch onboarding;
-- confirm the solo-presenter arrangement;
 - ask for the final date, time and Teams link;
 - confirm that the emailed final PDF was received;
+- confirm Raed's availability after the final slot arrives;
 - save organizer confirmations;
 - monitor email, spam, and the platform at least twice each day.
 

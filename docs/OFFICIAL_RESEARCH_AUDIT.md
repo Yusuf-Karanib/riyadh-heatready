@@ -13,7 +13,7 @@ The 20 October final-presentation email and 22 October pre-pitch onboarding invi
 - **Final presentation:** the deadline was 19 October 2026 at 11:59 PM UAE time. Organizers instructed teams to email the final slides to the four named official recipients and began reviewing slides on 20 October.
 - **Current 100-point criteria:** problem relevance and potential impact, 20; scientific and technical validity, 25; innovation and differentiation, 20; quality of implementation, 20; documentation and evidence, 10; development potential, 5.
 - **Presentation quality:** supports the six criteria but does not receive separate points.
-- **Team change:** Raed Mardoum is unavailable for the final pitch. Yusuf must confirm during onboarding that he may present all sections alone.
+- **Onboarding attendance:** Raed Mardoum cannot attend the 22 October readiness check because of university. At least one member is allowed to attend, so Yusuf can attend alone. Raed may still attend the separately scheduled final pitch.
 
 ## Earlier qualification update
 

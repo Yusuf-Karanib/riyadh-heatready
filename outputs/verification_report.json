@@ -184,7 +184,7 @@
     },
     {
       "status": "PASS",
-      "check": "presenter guide records the current solo speaking plan"
+      "check": "presenter guide records the main 60/40 plan and solo contingency"
     },
     {
       "status": "PASS",
@@ -192,7 +192,7 @@
     },
     {
       "status": "PASS",
-      "check": "finals study book contains: ## 8. Original two-presenter script, now superseded"
+      "check": "finals study book contains: ## 8. Exact eight-minute two-presenter script"
     },
     {
       "status": "PASS",
@@ -232,7 +232,7 @@
     },
     {
       "status": "PASS",
-      "check": "solo finals guide contains: ## Exact solo pitch"
+      "check": "solo finals guide contains: ## Exact solo pitch backup"
     },
     {
       "status": "PASS",

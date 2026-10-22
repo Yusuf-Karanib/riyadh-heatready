@@ -1,4 +1,4 @@
-# Yusuf's solo finals crash guide
+# Yusuf's solo finals backup guide
 
 ## Current situation
 
@@ -6,8 +6,9 @@
 - This is a readiness check, not the judged pitch.
 - Join the lobby at 10:59 AM using Yusuf Karanib as the display name.
 - Use the registered email if possible and keep the camera on.
-- Raed Mardoum cannot attend the final pitch. Yusuf is preparing to present all eight spoken slides alone.
-- The organizers must confirm that the solo arrangement is acceptable.
+- Raed Mardoum cannot attend today's onboarding because of university. This does not mean he cannot attend the final pitch.
+- The main final-pitch plan remains Yusuf on slides 1–5 and Raed on slides 6–8 once the organizers provide the final date and time.
+- Use the solo material in this guide only if Raed later confirms that he cannot attend the actual final pitch.
 - Keep the submitted deck unchanged unless the organizers approve a replacement.
 
 ## What to prepare for today's onboarding
@@ -27,13 +28,13 @@ If they ask for a short project introduction, say:
 
 Tell the organizers:
 
-> My teammate Raed Mardoum will be unable to attend the final pitch. I am prepared to present the full eight-minute pitch alone. Could you please confirm that this is acceptable and whether you need written confirmation?
+> My teammate Raed Mardoum could not attend today's onboarding because he has university. He may still attend the final pitch once we receive its date and time. Does his absence today affect anything we need to complete?
 
 Ask these three questions:
 
 1. What is our confirmed final pitch date and time?
 2. Did you receive our final presentation successfully?
-3. Should I use the submitted deck unchanged while presenting all sections myself?
+3. Should both registered members attend the final pitch, or is one presenter acceptable if a timetable conflict occurs?
 
 ## The ten facts Yusuf must know
 
@@ -61,9 +62,9 @@ The latest official email gives six criteria totalling 100 points:
 
 Presentation quality supports these criteria but does not receive a separate score.
 
-## Exact solo pitch
+## Exact solo pitch backup
 
-Target: finish between 7:30 and 7:50. Slides 9–10 stay hidden unless a judge asks for evidence.
+Use this only if Raed cannot attend the actual final pitch after the schedule arrives. Target: finish between 7:30 and 7:50. Slides 9–10 stay hidden unless a judge asks for evidence.
 
 ### Slide 1 — 0:00–0:20
 
@@ -210,7 +211,7 @@ Do not say:
 - the project has municipal users, field validation, customers or revenue;
 - Raed completed work that he did not complete.
 
-## Study order after onboarding
+## Study order if the final pitch becomes solo
 
 1. Learn the ten facts at the start of this guide.
 2. Read the complete solo script aloud once without timing.

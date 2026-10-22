@@ -175,9 +175,10 @@ def main() -> None:
     presenter_guide = (ROOT / "docs" / "PRESENTER_GUIDE.md").read_text(encoding="utf-8")
     raed_guide = (ROOT / "docs" / "RAED_FINALS_ROLE.md").read_text(encoding="utf-8")
     check(
-        "Yusuf Karanib is preparing to present the full pitch alone" in presenter_guide
-        and "Target finish: 7:20–7:50" in presenter_guide,
-        "presenter guide records the current solo speaking plan",
+        "Yusuf speaks for 4 minutes 45 seconds" in presenter_guide
+        and "Raed speaks for 3 minutes 10 seconds" in presenter_guide
+        and "backup only" in presenter_guide,
+        "presenter guide records the main 60/40 plan and solo contingency",
         checks,
     )
     check(
@@ -187,7 +188,7 @@ def main() -> None:
     )
     study_book = FINALS_STUDY_BOOK.read_text(encoding="utf-8")
     for phrase in [
-        "## 8. Original two-presenter script, now superseded",
+        "## 8. Exact eight-minute two-presenter script",
         "## 9. Yusuf's exact study section",
         "## 10. Raed's exact study section",
         "## 11. Exact demonstration plan",
@@ -203,7 +204,7 @@ def main() -> None:
         "## What to prepare for today's onboarding",
         "## The ten facts Yusuf must know",
         "## What the judges score",
-        "## Exact solo pitch",
+        "## Exact solo pitch backup",
         "## Most likely judge questions",
         "## Final technical checklist",
     ]:

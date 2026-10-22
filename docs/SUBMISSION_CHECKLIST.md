@@ -24,18 +24,18 @@
 ## Judging session
 
 - [ ] Exact slot and meeting link received.
-- [ ] Organizers confirm that Yusuf may present alone because Raed is unavailable.
-- [ ] Yusuf rehearses the solo pitch to 7:50 or less.
+- [ ] Raed confirms whether he can attend the assigned final slot.
+- [ ] Yusuf and Raed rehearse the main 60/40 pitch to 7:55 or less.
 - [ ] Four-minute Q&A rehearsed.
 - [ ] Dashboard and slide-5 fallback tested.
-- [ ] Yusuf joins 15 minutes early using his full name and registered email.
+- [ ] Both available presenters join 15 minutes early using full names and registered emails.
 
 ## Files to use
 
 - Final PDF: `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
 - Editable deck: `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
 - Speaking guide: `docs/PRESENTER_GUIDE.md`
-- Solo speaking and study guide: `docs/SOLO_FINALS_CRASH_GUIDE.md`
+- Solo backup guide: `docs/SOLO_FINALS_CRASH_GUIDE.md`
 - Q&A: `docs/FINAL_JUDGING_QA.md`
 - Raed guide: `docs/RAED_FINALS_ROLE.md`
 - Full finals checklist: `docs/FINAL_JUDGING_CHECKLIST.md`
