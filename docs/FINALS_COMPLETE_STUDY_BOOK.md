@@ -4,10 +4,11 @@ This is the main two-presenter preparation guide for Yusuf Karanib and Raed Mard
 
 Use these files during the judging session:
 
-- `slides/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pdf`
+- `slides/Riyadh_HeatReady_Final_Live_Pitch.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch.pdf`
+- `docs/FINAL_LIVE_SCRIPT.md`
 
-The content is unchanged from the submitted version. The problem-and-solution slide now comes before the team slide so the first minute follows the organizers' latest guidance. Slides 1–8 are the spoken pitch. Slides 9–10 are backup evidence for questions.
+The visible claims and results remain the same, but the wording is shorter and more natural. The live script targets 6:15 so normal delays do not push the team past eight minutes. Slides 1-8 are the spoken pitch. Slides 9-10 are backup evidence for questions. If an older script in this study book differs from `docs/FINAL_LIVE_SCRIPT.md`, follow the short live script.
 
 ## 1. Official final format
 
@@ -21,9 +22,9 @@ The content is unchanged from the submitted version. The problem-and-solution sl
 
 Main speaking plan:
 
-- Yusuf presents slides 1–5 from 0:00 to 4:45.
-- Raed presents slides 6–8 from 4:45 to 7:55.
-- Slides 9–10 remain available for questions only. The solo script is a backup.
+- Yusuf presents slides 1-5 from 0:00 to 3:45.
+- Raed presents slides 6-8 from 3:45 to 6:15.
+- Slides 9-10 remain available for questions only. The solo script is a backup.
 
 ## 2. The project in very simple words
 
@@ -301,7 +302,9 @@ Pronunciation:
 - IoU: “eye-oh-you”.
 - GeoTIFF: “geo-tiff”.
 
-## 8. Exact eight-minute two-presenter script
+## 8. Older detailed wording for study only
+
+**Do not use the longer wording below as the timed live script.** Use `docs/FINAL_LIVE_SCRIPT.md`, which finishes around 6:15. This older section remains only for learning the technical details.
 
 Do not read the words inside square brackets aloud.
 
@@ -370,7 +373,7 @@ Yusuf's learning order:
 3. Draw the eight method steps on paper from memory.
 4. Memorize the score and the main results.
 5. Practise the static-dashboard demonstration.
-6. Rehearse slides 1–5 until the handoff happens at 4:45.
+6. Rehearse slides 1-5 until the handoff happens at 3:45.
 7. Practise every Yusuf-owned question in section 12.
 
 ## 10. Raed's exact study section
@@ -804,8 +807,8 @@ Presentation quality supports the six criteria but does not receive separate poi
 - Join 15 minutes early.
 - Open the deck, dashboard, and repository before joining.
 - Yusuf watches the timer.
-- Yusuf hands over at 4:45.
-- Raed finishes by 7:55.
+- Yusuf hands over at 3:45.
+- Raed finishes around 6:15.
 - Answer briefly and honestly.
 
 ## 16. What is still missing
@@ -842,7 +845,7 @@ The team is ready only when all answers are yes:
 - Can Raed explain the four pilot steps?
 - Can both members explain the user and decision?
 - Can both members state what the project does not prove?
-- Can the team finish by 7:55 three times in a row?
+- Can the team finish between 6:15 and 6:30 three times in a row?
 - Can the team answer questions without inventing experience, users, customers, or results?
 
 If any answer is no, rehearse that exact section again.

@@ -1,5 +1,7 @@
 # Raed Mardoum — finals role and study guide
 
+For the live pitch, study slides 6-8 in `docs/FINAL_LIVE_SCRIPT.md`. That shorter script replaces any older timing in this guide.
+
 ## Assigned role
 
 **Validation and pilot presenter**

@@ -30,8 +30,12 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Speaker plan, Q&A, final checklist, and Raed study guide prepared.
 - Corrected final deck prepared with accurate static-dashboard demonstration wording.
 - Judging-session deck updated so the problem and solution appear immediately after the cover, before the team slide.
-- Matching `PRESENT` PPTX and PDF created and visually checked.
+- The earlier `PRESENT` files remain as an archive; the shorter live deck now replaces them for rehearsal and screen sharing.
 - Complete finals study book prepared with the exact script, beginner lessons, demo steps, and separate Yusuf/Raed study sections.
+- Shorter final live deck created with plain wording and a 6:15 target.
+- Final live PPTX structurally validated with zero findings and zero layout warnings.
+- Matching 10-page live PDF exported through PowerPoint and visually checked page by page.
+- Final 60/40 live script and failure shortcuts added in `docs/FINAL_LIVE_SCRIPT.md`.
 
 ## Waiting on Yusuf or the organizers
 

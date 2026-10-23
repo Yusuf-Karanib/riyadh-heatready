@@ -6,16 +6,18 @@
 - Final judging is scheduled for 28–29 October 2026. The exact team slot remains pending.
 - The main final-pitch plan remains Yusuf on slides 1–5 and Raed on slides 6–8 once the exact time arrives.
 - Use the solo material in this guide only if Raed later confirms that he cannot attend the actual final pitch.
-- Use the `PRESENT` deck for rehearsal and screen sharing. It contains the submitted content with the problem-and-solution slide moved before the team slide.
+- Use the final live deck for rehearsal and screen sharing. Its shorter wording and notes target a 6:15 finish.
 
 ## What to open before the final pitch
 
 Open these before joining:
 
-1. `slides/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pptx`
-2. `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pdf`
+1. `slides/Riyadh_HeatReady_Final_Live_Pitch.pptx`
+2. `output/pdf/Riyadh_HeatReady_Final_Live_Pitch.pdf`
 3. `outputs/dashboard.html`
 4. The public GitHub repository.
+
+Use `docs/FINAL_LIVE_SCRIPT.md` as the main script. If Yusuf presents alone, he reads Raed's slides as well and removes only the spoken handoff at the end of slide 5.
 
 Check the camera, microphone, speakers, internet connection and screen sharing. Close private tabs and notifications.
 
@@ -51,9 +53,9 @@ The latest official email gives six criteria totalling 100 points:
 
 Presentation quality supports these criteria but does not receive a separate score.
 
-## Exact solo pitch backup
+## Older detailed solo study notes
 
-Use this only if Raed cannot attend the actual final pitch after the schedule arrives. Target: finish between 7:30 and 7:50. Slides 9–10 stay hidden unless a judge asks for evidence.
+The timed script below is kept only as extra study material. For the live pitch, Yusuf should use `docs/FINAL_LIVE_SCRIPT.md`, speak both members' sections, remove the handoff at the end of slide 5, and target 6:15. Slides 9-10 stay hidden unless a judge asks for evidence.
 
 ### Slide 1 — 0:00–0:20
 

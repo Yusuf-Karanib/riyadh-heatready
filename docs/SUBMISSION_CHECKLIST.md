@@ -25,7 +25,7 @@
 
 - [ ] Exact slot and meeting link received.
 - [ ] Raed confirms whether he can attend the assigned final slot.
-- [ ] Yusuf and Raed rehearse the main 60/40 pitch to 7:55 or less.
+- [ ] Yusuf and Raed rehearse the main 60/40 pitch to about 6:15.
 - [ ] Four-minute Q&A rehearsed.
 - [ ] Dashboard and slide-5 fallback tested.
 - [ ] Both available presenters join 15 minutes early using full names and registered emails.
@@ -34,6 +34,9 @@
 
 - Final PDF: `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
 - Editable deck: `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
+- Live deck: `slides/Riyadh_HeatReady_Final_Live_Pitch.pptx`
+- Live backup PDF: `output/pdf/Riyadh_HeatReady_Final_Live_Pitch.pdf`
+- Short live script: `docs/FINAL_LIVE_SCRIPT.md`
 - Speaking guide: `docs/PRESENTER_GUIDE.md`
 - Solo backup guide: `docs/SOLO_FINALS_CRASH_GUIDE.md`
 - Q&A: `docs/FINAL_JUDGING_QA.md`

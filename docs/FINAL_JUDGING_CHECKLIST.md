@@ -19,7 +19,8 @@
 - [x] Real maps, metrics and output examples included.
 - [x] Editable PPTX structurally validated.
 - [x] Ten-page PDF visually checked and below 50 MB.
-- [x] Yusuf and Raed 60/40 speaking split prepared: 4:45 and 3:10.
+- [x] Short 60/40 speaking split prepared: about 3:45 for Yusuf and 2:30 for Raed.
+- [x] Main pitch targets 6:15, leaving about 1:45 of safety time.
 - [x] Solo backup script prepared in case Raed cannot attend the actual final pitch.
 - [x] Judge Q&A prepared.
 - [x] Demo fallback prepared.
@@ -32,8 +33,8 @@
 - [ ] Confirm that the organizers received the final presentation.
 - [ ] Give Raed the final slot immediately and confirm whether he can attend.
 - [ ] Read every slide and remove any claim that either member cannot explain honestly.
-- [ ] Yusuf practises slides 1–5 and Raed practises slides 6–8 using the `PRESENT` deck.
-- [ ] Practise the complete pitch until it finishes by 7:55.
+- [ ] Yusuf practises slides 1-5 and Raed practises slides 6-8 using the `Final_Live_Pitch` deck.
+- [ ] Practise the complete pitch until it finishes between 6:15 and 6:30.
 - [ ] Practise opening the dashboard, showing the Decision output section, and pointing to R05C10 in under 20 seconds.
 - [ ] Practise the demo fallback using slide 5 only.
 - [ ] Monitor email, spam, and the official platform twice each day.
@@ -57,7 +58,7 @@
 ## During the session
 
 - [ ] Start with the decision, not the code.
-- [ ] Finish the spoken pitch before 8:00.
+- [ ] Aim to finish by 6:15. Never continue past 8:00.
 - [ ] Yusuf answers data, method, score, demo, and reproducibility questions.
 - [ ] Raed answers validation, limitations, innovation, impact, false alarms and pilot questions.
 - [ ] Say “I do not know yet” when evidence is missing, then explain how it would be tested.
