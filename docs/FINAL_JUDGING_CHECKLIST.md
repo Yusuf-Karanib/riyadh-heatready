@@ -3,16 +3,17 @@
 ## Official facts
 
 - [x] Qualified for final judging after a process involving 294 registered teams.
-- [x] Online judging confirmed; the latest email refers to pitches during the week after 22 October.
+- [x] Online judging confirmed for 28–29 October 2026; exact team slot pending.
 - [x] Format: 8-minute English pitch/demo and 4-minute English Q&A.
 - [x] Updated English presentation due 19 October 2026 at 11:59 PM UAE time.
 - [ ] Exact judging date, time, and meeting link received.
 - [x] Final presentation-submission instructions received by email.
-- [x] Pre-pitch onboarding scheduled for 22 October, 11:04–11:11 AM UAE time.
+- [x] Pre-pitch onboarding completed on 22 October.
 
 ## Complete
 
 - [x] Eight spoken slides plus two appendix slides.
+- [x] Problem-and-solution slide placed directly after the cover so the project is clear within the first minute.
 - [x] Dedicated team slide with names and clear final-presentation responsibilities.
 - [x] All six latest 100-point criteria covered.
 - [x] Real maps, metrics and output examples included.
@@ -27,13 +28,11 @@
 
 ## Yusuf's urgent actions
 
-- [ ] Attend the pre-pitch onboarding using the registered email, full name and camera.
-- [ ] Explain that Raed cannot attend today's onboarding because of university but may attend the final pitch.
 - [ ] Ask for the final judging date, time and Teams link.
 - [ ] Confirm that the organizers received the final presentation.
 - [ ] Give Raed the final slot immediately and confirm whether he can attend.
 - [ ] Read every slide and remove any claim that either member cannot explain honestly.
-- [ ] Yusuf practises slides 1–5 and Raed practises slides 6–8.
+- [ ] Yusuf practises slides 1–5 and Raed practises slides 6–8 using the `PRESENT` deck.
 - [ ] Practise the complete pitch until it finishes by 7:55.
 - [ ] Practise opening the dashboard, showing the Decision output section, and pointing to R05C10 in under 20 seconds.
 - [ ] Practise the demo fallback using slide 5 only.

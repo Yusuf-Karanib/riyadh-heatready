@@ -2,21 +2,18 @@
 
 ## Current situation
 
-- Pre-pitch onboarding: Thursday, 22 October 2026, 11:04–11:11 AM UAE time.
-- This is a readiness check, not the judged pitch.
-- Join the lobby at 10:59 AM using Yusuf Karanib as the display name.
-- Use the registered email if possible and keep the camera on.
-- Raed Mardoum cannot attend today's onboarding because of university. This does not mean he cannot attend the final pitch.
-- The main final-pitch plan remains Yusuf on slides 1–5 and Raed on slides 6–8 once the organizers provide the final date and time.
+- Yusuf completed the pre-pitch onboarding on 22 October 2026.
+- Final judging is scheduled for 28–29 October 2026. The exact team slot remains pending.
+- The main final-pitch plan remains Yusuf on slides 1–5 and Raed on slides 6–8 once the exact time arrives.
 - Use the solo material in this guide only if Raed later confirms that he cannot attend the actual final pitch.
-- Keep the submitted deck unchanged unless the organizers approve a replacement.
+- Use the `PRESENT` deck for rehearsal and screen sharing. It contains the submitted content with the problem-and-solution slide moved before the team slide.
 
-## What to prepare for today's onboarding
+## What to open before the final pitch
 
 Open these before joining:
 
-1. `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
-2. `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
+1. `slides/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pptx`
+2. `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pdf`
 3. `outputs/dashboard.html`
 4. The public GitHub repository.
 
@@ -26,15 +23,7 @@ If they ask for a short project introduction, say:
 
 > I am Yusuf Karanib, team leader of Milkaholics. Riyadh HeatReady uses satellite and population data to rank one-kilometre zones in southeastern Riyadh for municipal inspection. The ranking combines recent built-up growth, land-surface heat, modelled population and vegetation. It supports local inspection and does not make an automatic planning decision.
 
-Tell the organizers:
-
-> My teammate Raed Mardoum could not attend today's onboarding because he has university. He may still attend the final pitch once we receive its date and time. Does his absence today affect anything we need to complete?
-
-Ask these three questions:
-
-1. What is our confirmed final pitch date and time?
-2. Did you receive our final presentation successfully?
-3. Should both registered members attend the final pitch, or is one presenter acceptable if a timetable conflict occurs?
+Continue monitoring email and the platform for the exact judging time and Teams link.
 
 ## The ten facts Yusuf must know
 
@@ -53,7 +42,7 @@ Ask these three questions:
 
 The latest official email gives six criteria totalling 100 points:
 
-- **Problem relevance and potential impact, 20 points:** slides 1 and 3.
+- **Problem relevance and potential impact, 20 points:** slides 1 and 2.
 - **Scientific and technical validity, 25 points:** slides 4 and 6, with slides 9–10 available for questions.
 - **Innovation and differentiation, 20 points:** slide 7.
 - **Quality of implementation, 20 points:** slide 5, the dashboard and repository outputs.
@@ -68,17 +57,17 @@ Use this only if Raed cannot attend the actual final pitch after the schedule ar
 
 ### Slide 1 — 0:00–0:20
 
-> Good afternoon. I am Yusuf Karanib from Team Milkaholics. Our project is Riyadh HeatReady. We used satellite data to find places in southeastern Riyadh where recent growth, hotter land surfaces and population overlap. Our question is simple: where should a municipal planning team inspect first?
+> Good afternoon. I am Yusuf Karanib from Team Milkaholics. City planners may need to compare separate maps of urban growth, surface heat, population and vegetation. Riyadh HeatReady combines satellite and population evidence into one ranked map of one-kilometre cells in southeastern Riyadh. Our question is: where should a municipal planning team inspect first?
 
-### Slide 2 — 0:20–0:45
-
-> I am the team leader and today's presenter. My teammate Raed Mardoum cannot attend this session, so I will present the complete project. I will cover the problem, satellite data, method, results, validation, limitations and proposed municipal pilot.
-
-Do not say that Raed completed work that he did not complete. If asked, explain that validation and pilot preparation were his assigned finals topics, but he cannot attend.
-
-### Slide 3 — 0:45–1:35
+### Slide 2 — 0:20–1:10
 
 > The study area covers 168.30 square kilometres on the southeastern edge of Riyadh. It is one part of the city, not all of Riyadh. Our intended user is a municipal planning and heat-resilience team. Growth, surface heat, population and vegetation can sit in separate layers. HeatReady combines them into a ranked list of one-kilometre cells. The list tells the team where to inspect first. It does not select trees, roofs or another intervention. We have not interviewed municipal users yet, so a pilot must test whether the ranking fits their work.
+
+### Slide 3 — 1:10–1:35
+
+> I am the team leader and today's presenter. My teammate Raed Mardoum cannot attend this session, so I will present the complete project. I will cover the satellite data, method, results, validation, limitations and proposed municipal pilot.
+
+Do not say that Raed completed work that he did not complete. If asked, explain that validation and pilot preparation were his assigned finals topics, but he cannot attend.
 
 ### Slide 4 — 1:35–2:55
 

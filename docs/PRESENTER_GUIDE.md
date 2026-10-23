@@ -6,7 +6,7 @@
 - Eight minutes for the English presentation and demonstration.
 - Four minutes for English questions.
 - Present slides 1–8. Keep slides 9–10 for questions.
-- The latest organizer email refers to pitches during the week after 22 October. The exact date and time remain pending.
+- Final judging is scheduled for 28–29 October 2026. The exact team date and time remain pending.
 
 Raed Mardoum cannot attend the 22 October onboarding because of university. He may still attend the final pitch after the organizers provide its date and time.
 
@@ -19,8 +19,8 @@ The main plan remains a 60/40 speaking split. `docs/SOLO_FINALS_CRASH_GUIDE.md` 
 ## Main speaking order
 
 - Slide 1, 0:00–0:20: project and decision.
-- Slide 2, 0:20–0:55, Yusuf: team roles.
-- Slide 3, 0:55–1:50, Yusuf: problem, user, study area and safe-use boundary.
+- Slide 2, 0:20–1:15, Yusuf: problem, user, study area, solution and safe-use boundary.
+- Slide 3, 1:15–1:50, Yusuf: team roles.
 - Slide 4, 1:50–3:10, Yusuf: data sources, change confirmation and score.
 - Slide 5, 3:10–4:45, Yusuf: result and brief demonstration.
 - Slide 6, 4:45–5:55, Raed: validation and limitations.

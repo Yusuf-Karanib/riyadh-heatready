@@ -2,22 +2,22 @@
 
 This is the main two-presenter preparation guide for Yusuf Karanib and Raed Mardoum. Raed cannot attend the 22 October onboarding because of university, but he may still attend the final pitch. `docs/SOLO_FINALS_CRASH_GUIDE.md` is a backup only if the final schedule prevents Raed from attending.
 
-Use it with the corrected final deck:
+Use these files during the judging session:
 
-- `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
+- `slides/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_PRESENT.pdf`
 
-Submit the `SUBMIT` files above, not the older `READY` files. Slides 1–8 are the spoken pitch. Slides 9–10 are backup evidence for questions.
+The content is unchanged from the submitted version. The problem-and-solution slide now comes before the team slide so the first minute follows the organizers' latest guidance. Slides 1–8 are the spoken pitch. Slides 9–10 are backup evidence for questions.
 
 ## 1. Official final format
 
-- Final judging is online. The latest 22 October onboarding email refers to pitches during the following week, but the exact date and time are still pending.
+- Final judging is online on 28–29 October 2026. The exact team date and time are still pending.
 - The team receives about 12 minutes.
 - The English pitch and demonstration receive 8 minutes.
 - English questions receive 4 minutes.
 - The updated English presentation deadline was 19 October 2026 at 11:59 PM UAE time, with submission by email.
 - The exact judging slot and meeting link are still waiting for organizer confirmation.
-- A pre-pitch onboarding session is scheduled for 22 October 2026 at 11:04–11:11 AM UAE time.
+- Yusuf completed the pre-pitch onboarding on 22 October 2026.
 
 Main speaking plan:
 
@@ -307,15 +307,15 @@ Do not read the words inside square brackets aloud.
 
 ### Slide 1, Yusuf, 0:00–0:20
 
-> Good afternoon. We are Team Milkaholics, and our project is Riyadh HeatReady. We used satellite data to find places in southeast Riyadh where recent growth, hot land surfaces and population overlap. Our question is: where should a municipal planning team inspect first?
+> Good afternoon. We are Team Milkaholics. City planners may need to compare separate maps of urban growth, surface heat, population and vegetation. Riyadh HeatReady combines satellite and population evidence into one ranked map of one-kilometre cells in southeastern Riyadh. Our question is: where should a municipal planning team inspect first?
 
-### Slide 2, Yusuf, 0:20–0:55
-
-> I am Yusuf Karanib, the project lead. I will explain how the satellite data becomes a priority map and run the demonstration. Raed Mardoum will explain what the validation results mean, where the method is limited and how we would test the ranking with a municipal team.
-
-### Slide 3, Yusuf, 0:55–1:50
+### Slide 2, Yusuf, 0:20–1:15
 
 > The study area covers 168.30 square kilometres on the southeastern edge of Riyadh. It is one part of the city, not all of Riyadh. Our intended user is a municipal planning and heat-resilience team. Growth, surface heat, population and vegetation can sit in separate layers, so staff still have to compare them before deciding where to inspect. HeatReady puts those layers into one ranked list of one-kilometre cells. It does not tell the user to plant trees or install a cool roof. It only suggests where to check first and compare with local plans and field conditions. We have not yet interviewed municipal users, so the first pilot must test whether this workflow is useful to them.
+
+### Slide 3, Yusuf, 1:15–1:50
+
+> I am Yusuf Karanib, the project lead. I will explain how the satellite data becomes a priority map and run the demonstration. Raed Mardoum will explain what the validation results mean, where the method is limited and how we would test the ranking with a municipal team.
 
 ### Slide 4, Yusuf, 1:50–3:10
 
@@ -812,14 +812,13 @@ Presentation quality supports the six criteria but does not receive separate poi
 
 These are the only known external items still pending:
 
-- confirmed judging date and exact time;
+- the team's assigned date within 28–29 October and exact time;
 - meeting link;
 - confirmation that the final PDF was received.
 - confirmation that Raed can attend the assigned final slot;
 
 Yusuf must also complete these actions if they are not already complete:
 
-- attend the 22 October pre-pitch onboarding;
 - ask for the final date, time and Teams link;
 - confirm that the emailed final PDF was received;
 - confirm Raed's availability after the final slot arrives;

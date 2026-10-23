@@ -1,19 +1,24 @@
 # Official hackathon research audit
 
-**Checked:** 22 October 2026
+**Checked:** 23 October 2026
 **Purpose:** separate current official rules from older guidance and technical training material.
 
 ## Latest authenticated finals update
 
-The 20 October final-presentation email and 22 October pre-pitch onboarding invitation now control the final-stage schedule and scoring where they differ from earlier messages.
+The 20 October final-presentation email, 22 October onboarding, and 22 October final-guidelines email now control the final stage where they differ from earlier messages.
 
 - **Format:** online through Microsoft Teams; 8-minute English presentation and demonstration plus 4-minute English Q&A.
-- **Schedule:** the 22 October invitation refers to pitches during the following week. The exact final date and time remain pending and will arrive through a separate meeting invitation.
-- **Pre-pitch onboarding:** 22 October 2026, 11:04–11:11 AM UAE time for Team Milkaholics.
+- **Schedule:** final judging is scheduled for 28–29 October 2026. Milkaholics' exact date, time, and meeting invitation remain pending.
+- **Pre-pitch onboarding:** Yusuf completed the Team Milkaholics readiness check on 22 October 2026.
 - **Final presentation:** the deadline was 19 October 2026 at 11:59 PM UAE time. Organizers instructed teams to email the final slides to the four named official recipients and began reviewing slides on 20 October.
 - **Current 100-point criteria:** problem relevance and potential impact, 20; scientific and technical validity, 25; innovation and differentiation, 20; quality of implementation, 20; documentation and evidence, 10; development potential, 5.
 - **Presentation quality:** supports the six criteria but does not receive separate points.
 - **Onboarding attendance:** Raed Mardoum cannot attend the 22 October readiness check because of university. At least one member is allowed to attend, so Yusuf can attend alone. Raed may still attend the separately scheduled final pitch.
+- **Finalist count:** the latest email describes 27 finalists from 294 registered teams.
+- **Opening guidance:** use the first 30–60 seconds to explain the problem, why it matters, and how HeatReady addresses it.
+- **Team participation:** the organizers encourage the full core team to attend with cameras on briefly at the start. One or more core members may present.
+- **Live delivery:** slides, videos, dashboards, applications, and live demonstrations are allowed. Recorded narration, music, and other recorded audio are not allowed.
+- **Timing:** the assigned judging slot is fixed, so the team must join early with backup internet, devices, and local copies.
 
 ## Earlier qualification update
 
@@ -94,7 +99,7 @@ The remote starter-repository head was also checked against the local copy. Both
 | Earlier provisional Top 40 pitches | Superseded by the authenticated finals email |
 | Updated final presentation deadline | **19 October 2026, 11:59 PM UAE time** |
 | Pre-pitch onboarding | **22 October 2026, 11:04–11:11 AM UAE time** |
-| Final judging | **Online during the week after 22 October according to the latest invitation; exact slot pending; 8-minute pitch/demo plus 4-minute questions** |
+| Final judging | **Online on 28–29 October 2026; exact team slot pending; 8-minute pitch/demo plus 4-minute questions** |
 | Incubation | Earlier schedule said 19 October 2026–11 January 2027; no newer final-stage confirmation supplied |
 | Final demonstrations and awards | 12–15 January 2027; exact award-ceremony date not confirmed |
 
