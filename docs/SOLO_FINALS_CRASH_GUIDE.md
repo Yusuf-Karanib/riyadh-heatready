@@ -12,12 +12,12 @@
 
 Open these before joining:
 
-1. `slides/Riyadh_HeatReady_Final_Live_Pitch.pptx`
-2. `output/pdf/Riyadh_HeatReady_Final_Live_Pitch.pdf`
+1. `slides/Riyadh_HeatReady_Final_Live_Pitch_v2.pptx`
+2. `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v2.pdf`
 3. `outputs/dashboard.html`
 4. The public GitHub repository.
 
-Use `docs/FINAL_LIVE_SCRIPT.md` as the main script. If Yusuf presents alone, he reads Raed's slides as well and removes only the spoken handoff at the end of slide 5.
+Use `docs/FINAL_LIVE_SCRIPT.md` as the main script. If Yusuf presents alone, he reads Raed's slides as well.
 
 Check the camera, microphone, speakers, internet connection and screen sharing. Close private tabs and notifications.
 
@@ -44,10 +44,10 @@ Continue monitoring email and the platform for the exact judging time and Teams 
 
 The latest official email gives six criteria totalling 100 points:
 
-- **Problem relevance and potential impact, 20 points:** slides 1 and 2.
-- **Scientific and technical validity, 25 points:** slides 4 and 6, with slides 9–10 available for questions.
+- **Problem relevance and potential impact, 20 points:** slides 1 and 3.
+- **Scientific and technical validity, 25 points:** slides 5 and 6, with slides 9–10 available for questions.
 - **Innovation and differentiation, 20 points:** slide 7.
-- **Quality of implementation, 20 points:** slide 5, the dashboard and repository outputs.
+- **Quality of implementation, 20 points:** slide 4, the dashboard and repository outputs.
 - **Documentation and evidence, 10 points:** reproducible repository, source records, GIS files and appendix evidence.
 - **Development potential, 5 points:** slide 8.
 
@@ -55,7 +55,7 @@ Presentation quality supports these criteria but does not receive a separate sco
 
 ## Older detailed solo study notes
 
-The timed script below is kept only as extra study material. For the live pitch, Yusuf should use `docs/FINAL_LIVE_SCRIPT.md`, speak both members' sections, remove the handoff at the end of slide 5, and target 6:15. Slides 9-10 stay hidden unless a judge asks for evidence.
+The timed script below is kept only as extra study material. For the live pitch, Yusuf should use `docs/FINAL_LIVE_SCRIPT.md`, speak both members' sections and target 6:15. Slides 9-10 stay hidden unless a judge asks for evidence.
 
 ### Slide 1 — 0:00–0:20
 
@@ -83,7 +83,7 @@ Do not say that Raed completed work that he did not complete. If asked, explain 
 >
 > Every result remains a screening priority. A planning team must compare it with local plans and field conditions before taking action. I will now explain what the validation shows and what it does not show.
 
-If screen switching fails, stay on slide 5 and continue. Do not troubleshoot during the pitch.
+If screen switching fails, stay on slide 4 and continue. Do not troubleshoot during the pitch.
 
 ### Slide 6 — 4:20–5:25
 
@@ -106,13 +106,13 @@ Use two browser or application windows:
 
 Practise this sequence five times:
 
-1. Reach slide 5.
+1. Reach slide 4.
 2. Switch to the dashboard.
 3. Point to 3.74 km², the map and R05C10.
-4. Return to slide 5.
+4. Return to slide 4.
 5. Continue without pausing.
 
-If this takes longer than 30 seconds or fails once during the final technical test, use slide 5 only.
+If this takes longer than 30 seconds or fails once during the final technical test, use slide 4 only.
 
 ## Most likely judge questions
 
@@ -206,8 +206,8 @@ Do not say:
 
 1. Learn the ten facts at the start of this guide.
 2. Read the complete solo script aloud once without timing.
-3. Learn slides 1–4 and explain them without reading.
-4. Learn the results and demonstration on slide 5.
+3. Learn slides 1–3 and explain them without reading.
+4. Learn the results and demonstration on slide 4, then the data on slide 5.
 5. Learn validation and limitations on slide 6.
 6. Learn the NDBI finding on slide 7.
 7. Learn the pilot on slide 8.

@@ -20,7 +20,7 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Conservative confirmed-growth signal: 3.74 km².
 - Six-year mapped built-up trend and open Planet Tanager sensitivity analysis completed.
 - Final-judging deck rebuilt for the official 8-minute format.
-- Dedicated team slide added without inventing education or employment.
+- Dedicated team slide added with Yusuf and Raed's supplied photos, without inventing education or employment.
 - The main plan assigns slides 1–5 to Yusuf and slides 6–8 to Raed, using the requested 60/40 split.
 - Raed cannot attend the 22 October onboarding because of university. He may still attend the final pitch after its date and time arrive.
 - A solo guide exists only as a backup if the final timetable prevents Raed from attending.
@@ -29,13 +29,14 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Final PDF exported through Microsoft PowerPoint, confirmed as 10 pages, below 50 MB, and visually checked page by page.
 - Speaker plan, Q&A, final checklist, and Raed study guide prepared.
 - Corrected final deck prepared with accurate static-dashboard demonstration wording.
-- Judging-session deck updated so the problem and solution appear immediately after the cover, before the team slide.
+- Judging-session deck updated so a short team introduction is followed by the problem, the answer, the supporting data and the validation evidence.
 - The earlier `PRESENT` files remain as an archive; the shorter live deck now replaces them for rehearsal and screen sharing.
 - Complete finals study book prepared with the exact script, beginner lessons, demo steps, and separate Yusuf/Raed study sections.
 - Shorter final live deck created with plain wording and a 6:15 target.
 - Final live PPTX structurally validated with zero findings and zero layout warnings.
 - Matching 10-page live PDF exported through PowerPoint and visually checked page by page.
 - Final 60/40 live script and failure shortcuts added in `docs/FINAL_LIVE_SCRIPT.md`.
+- Final live deck v2 puts the answer before the technical method and adds the supplied team photos.
 
 ## Waiting on Yusuf or the organizers
 

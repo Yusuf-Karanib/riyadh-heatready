@@ -4,8 +4,8 @@ This is the main two-presenter preparation guide for Yusuf Karanib and Raed Mard
 
 Use these files during the judging session:
 
-- `slides/Riyadh_HeatReady_Final_Live_Pitch.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch.pdf`
+- `slides/Riyadh_HeatReady_Final_Live_Pitch_v2.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v2.pdf`
 - `docs/FINAL_LIVE_SCRIPT.md`
 
 The visible claims and results remain the same, but the wording is shorter and more natural. The live script targets 6:15 so normal delays do not push the team past eight minutes. Slides 1-8 are the spoken pitch. Slides 9-10 are backup evidence for questions. If an older script in this study book differs from `docs/FINAL_LIVE_SCRIPT.md`, follow the short live script.
@@ -430,22 +430,22 @@ Before joining the call:
 4. Keep the GitHub repository open only as a backup.
 5. Close private tabs and notifications.
 
-During slide 5:
+During slide 4:
 
-1. Point to the map and component chart already visible on slide 5.
+1. Point to the map and component chart already visible on slide 4.
 2. Share the browser window.
 3. Show the dashboard's headline figures.
 4. Show the decision map and top-five table.
 5. Point to R05C10 at 78.7.
 6. Say that the CSV, GeoJSON, and GeoTIFF are separate repository files.
-7. Return to slide 5.
+7. Return to slide 4.
 8. Hand over to Raed.
 
 Do not try to click a zone. Do not say the dashboard exports files. The repository contains the separate output files.
 
 Fallback if the browser fails:
 
-1. Stay on slide 5.
+1. Stay on slide 4.
 2. Point to the map, component chart, and three headline numbers.
 3. Say: “The repository contains the static dashboard, ranked CSV, GeoJSON polygons, GeoTIFF layers, and a run-all sample notebook.”
 4. Continue to Raed. Do not troubleshoot during the pitch.
@@ -744,7 +744,7 @@ Slides 1 and 3 define the user, decision and intended value. Slide 8 explains ho
 
 ### Scientific and technical validity, 25 points
 
-Slides 4 and 6 explain the data, method, spatial test, metrics and limits. Slides 9–10 provide supporting evidence.
+Slides 5 and 6 explain the data, method, spatial test, metrics and limits. Slides 9–10 provide supporting evidence.
 
 ### Innovation and differentiation, 20 points
 
@@ -752,7 +752,7 @@ Slide 7 explains the conservative evidence chain and the bright-desert NDBI fail
 
 ### Quality of implementation, 20 points
 
-Slide 5 shows the working priority map, component chart and GIS-ready outputs. The dashboard and public repository provide the working evidence.
+Slide 4 shows the working priority map, component chart and GIS-ready outputs. The dashboard and public repository provide the working evidence.
 
 ### Documentation and evidence, 10 points
 

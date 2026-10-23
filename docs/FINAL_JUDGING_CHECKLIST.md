@@ -13,8 +13,9 @@
 ## Complete
 
 - [x] Eight spoken slides plus two appendix slides.
-- [x] Problem-and-solution slide placed directly after the cover so the project is clear within the first minute.
-- [x] Dedicated team slide with names and clear final-presentation responsibilities.
+- [x] Short team introduction placed directly after the cover.
+- [x] Problem and answer shown clearly within the first 75 seconds.
+- [x] Dedicated team slide with names, photos and clear final-presentation responsibilities.
 - [x] All six latest 100-point criteria covered.
 - [x] Real maps, metrics and output examples included.
 - [x] Editable PPTX structurally validated.
@@ -36,7 +37,7 @@
 - [ ] Yusuf practises slides 1-5 and Raed practises slides 6-8 using the `Final_Live_Pitch` deck.
 - [ ] Practise the complete pitch until it finishes between 6:15 and 6:30.
 - [ ] Practise opening the dashboard, showing the Decision output section, and pointing to R05C10 in under 20 seconds.
-- [ ] Practise the demo fallback using slide 5 only.
+- [ ] Practise the demo fallback using slide 4 only.
 - [ ] Monitor email, spam, and the official platform twice each day.
 - [ ] Confirm that the final PDF was emailed by the deadline and save the confirmation.
 
@@ -51,7 +52,7 @@
 - [ ] Use a laptop with charging cable and stable internet.
 - [ ] Test microphone, camera, screen share, and browser permissions.
 - [ ] Close private tabs, notifications, and unrelated applications.
-- [ ] Open the final PDF, PowerPoint, dashboard, GitHub repository, and backup slide 5 before joining.
+- [ ] Open the final PDF, PowerPoint, dashboard, GitHub repository, and backup slide 4 before joining.
 - [ ] Keep a second device or mobile hotspot available if possible.
 - [ ] Join at least 15 minutes early.
 
