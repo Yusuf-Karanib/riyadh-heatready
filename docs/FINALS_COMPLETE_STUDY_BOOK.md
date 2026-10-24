@@ -4,8 +4,8 @@ This is the main two-presenter preparation guide for Yusuf Karanib and Raed Mard
 
 Use these files during the judging session:
 
-- `slides/Riyadh_HeatReady_Final_Live_Pitch_v2.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v2.pdf`
+- `slides/Riyadh_HeatReady_Final_Live_Pitch_v3.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v3.pdf`
 - `docs/FINAL_LIVE_SCRIPT.md`
 
 The visible claims and results remain the same, but the wording is shorter and more natural. The live script targets 6:15 so normal delays do not push the team past eight minutes. Slides 1-8 are the spoken pitch. Slides 9-10 are backup evidence for questions. If an older script in this study book differs from `docs/FINAL_LIVE_SCRIPT.md`, follow the short live script.

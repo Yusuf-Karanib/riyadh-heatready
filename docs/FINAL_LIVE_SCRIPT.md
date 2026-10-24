@@ -2,8 +2,8 @@
 
 Use this with:
 
-- `slides/Riyadh_HeatReady_Final_Live_Pitch_v2.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v2.pdf`
+- `slides/Riyadh_HeatReady_Final_Live_Pitch_v3.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v3.pdf`
 
 Target finish: **6:15**. Do not go past **6:45** during practice. The official limit is 8:00.
 
@@ -17,7 +17,7 @@ Do not try to sound perfect. Learn the meaning, then speak normally.
 
 ## Slide 2 - Yusuf - 0:15 to 0:35
 
-> I am Yusuf. I will explain the problem, the data and the result, and I will run the demo. Raed will explain the validation, the limits and how we would test HeatReady with planners.
+> I am Yusuf, an early-career AI and cloud developer based in the UAE. I lead the project, explain the data and result, and run the demo. Raed focuses on validation and how this idea could be tested with planners.
 
 ## Slide 3 - Yusuf - 0:35 to 1:15
 

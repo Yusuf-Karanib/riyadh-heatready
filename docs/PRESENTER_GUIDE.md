@@ -12,7 +12,7 @@ Raed Mardoum cannot attend the 22 October onboarding because of university. He m
 
 The main plan remains a 60/40 speaking split. `docs/SOLO_FINALS_CRASH_GUIDE.md` is a backup only if Raed cannot attend the actual final pitch.
 
-Use `slides/Riyadh_HeatReady_Final_Live_Pitch_v2.pptx`. The exact short script is in `docs/FINAL_LIVE_SCRIPT.md`.
+Use `slides/Riyadh_HeatReady_Final_Live_Pitch_v3.pptx`. The exact short script is in `docs/FINAL_LIVE_SCRIPT.md`.
 
 ## Simple project answer
 

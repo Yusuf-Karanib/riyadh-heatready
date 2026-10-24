@@ -12,8 +12,8 @@
 
 Open these before joining:
 
-1. `slides/Riyadh_HeatReady_Final_Live_Pitch_v2.pptx`
-2. `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v2.pdf`
+1. `slides/Riyadh_HeatReady_Final_Live_Pitch_v3.pptx`
+2. `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v3.pdf`
 3. `outputs/dashboard.html`
 4. The public GitHub repository.
 
