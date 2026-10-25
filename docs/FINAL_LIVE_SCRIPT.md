@@ -2,8 +2,8 @@
 
 Use this with:
 
-- `slides/Riyadh_HeatReady_Final_Live_Pitch_v4.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v4.pdf`
+- `slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v5.pdf`
 
 Target finish: **6:15**. Do not go past **6:45** during practice. The official limit is 8:00.
 

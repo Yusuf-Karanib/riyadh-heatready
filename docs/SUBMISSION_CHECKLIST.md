@@ -34,8 +34,8 @@
 
 - Final PDF: `output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
 - Editable deck: `slides/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pptx`
-- Live deck: `slides/Riyadh_HeatReady_Final_Live_Pitch_v4.pptx`
-- Live backup PDF: `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v4.pdf`
+- Live deck: `slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx`
+- Live backup PDF: `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v5.pdf`
 - Short live script: `docs/FINAL_LIVE_SCRIPT.md`
 - Speaking guide: `docs/PRESENTER_GUIDE.md`
 - Solo backup guide: `docs/SOLO_FINALS_CRASH_GUIDE.md`
