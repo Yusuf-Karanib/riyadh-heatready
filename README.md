@@ -84,6 +84,8 @@ The complete run checks source availability, downloads and processes the exact s
 
 The version emailed for final judging remains [`output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`](output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf). For rehearsal and live screen sharing, use [`slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx`](slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx) or its matching [`PDF`](output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v5.pdf). The short 6:15 script is in [`docs/FINAL_LIVE_SCRIPT.md`](docs/FINAL_LIVE_SCRIPT.md), and the full study material is in [`docs/FINALS_COMPLETE_STUDY_BOOK.md`](docs/FINALS_COMPLETE_STUDY_BOOK.md). The submitted PoC deck remains available at [`output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf`](output/pdf/Riyadh_HeatReady_PoC_Pitch.pdf).
 
+For final-day preparation, start with [Yusuf's script and study guide](output/pdf/YUSUF_PRESENTATION_PREP.pdf), [Raed's script and study guide](output/pdf/RAED_PRESENTATION_PREP.pdf), and the [shared judge questions and rehearsal plan](output/pdf/JUDGES_QA_AND_REHEARSAL.pdf). The guides explain the numbers, include recovery lines, and assign the planned speaking time about 60/40. Their editable Markdown sources have the same names in `docs/`. Actual speaking time must be checked in rehearsal.
+
 ## 7. Example input and output
 
 The sample input contains **67 eligible 1 km cells** and the four normalized components produced by the full Earth-observation pipeline. It intentionally leaves out the final score and class so the notebook recalculates them. It contains no credentials, signed links, or restricted data.

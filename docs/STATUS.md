@@ -40,8 +40,15 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Final live deck v3 puts the answer before the technical method, shows the full supplied team photos, and adds Yusuf's verified introduction.
 - Final live deck v4 applies Yusuf's five layout and wording corrections to slides 3, 4, 5 and 7.
 - Final live deck v5 aligns the slide 7 “WHY IT HELPS” label with its sentence.
+- Separate printable preparation guides now provide Yusuf's slides 1-5 script and lessons, Raed's slides 6-8 script and lessons, and 38 shared judge questions with a rehearsal plan.
+- Current scripts are aligned to v5, with a planned 3:45/2:30 split and about 6:15 total including the demonstration. These times remain targets until the team rehearses aloud.
+- The preparation guides distinguish 2021 built-up reference agreement from untested ranking usefulness, explain the real 78.7 score, and cover temporal transfer, weights, excluded areas and the Tanager mask check.
+- All 20 preparation PDF pages were rendered and visually checked. Spoken paragraphs match the combined script. The 67 scores and validation metrics were recalculated from the committed driver components and confusion matrix.
 
 ## Waiting on Yusuf or the organizers
+
+- Both presenters must study their guide, answer the knowledge questions and complete timed rehearsals. No completed personal review or rehearsal is assumed.
+- Confirm that organizers have the same v5 slide version intended for live use.
 
 - Yusuf must ask for the exact final slot and meeting link so Raed can confirm his final-pitch availability.
 - Yusuf must confirm that the organizers received the emailed final presentation.

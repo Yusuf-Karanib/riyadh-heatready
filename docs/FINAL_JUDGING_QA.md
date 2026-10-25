@@ -1,5 +1,7 @@
 # Final judging Q&A
 
+For the current expanded questions, owner assignments, evidence references and practice plan, use `docs/JUDGES_QA_AND_REHEARSAL.md` or its matching PDF in `output/pdf/`. This older short list remains a background reference.
+
 Keep answers short. Answer the question first, then add evidence.
 
 ## Team capability

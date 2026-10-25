@@ -14,6 +14,8 @@ The main plan remains a 60/40 speaking split. `docs/SOLO_FINALS_CRASH_GUIDE.md` 
 
 Use `slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx`. The exact short script is in `docs/FINAL_LIVE_SCRIPT.md`.
 
+Current personal preparation: `docs/YUSUF_PRESENTATION_PREP.md` and `docs/RAED_PRESENTATION_PREP.md`. Shared practice: `docs/JUDGES_QA_AND_REHEARSAL.md`. Their printable PDFs are in `output/pdf/`.
+
 ## Simple project answer
 
 > Riyadh HeatReady ranks one-kilometre zones in southeastern Riyadh where recent built-up growth, hotter land surfaces and modelled population overlap. It helps a municipal planning and heat-resilience team decide where to inspect first. It supports screening and does not make an automatic planning decision.
@@ -21,13 +23,13 @@ Use `slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx`. The exact short script i
 ## Main speaking order
 
 - Slide 1, 0:00-0:15, Yusuf: project question.
-- Slide 2, 0:15-0:35, Yusuf: team roles.
-- Slide 3, 0:35-1:15, Yusuf: problem and answer.
-- Slide 4, 1:15-2:45, Yusuf: result and brief demonstration.
+- Slide 2, 0:15-0:40, Yusuf: team roles.
+- Slide 3, 0:40-1:20, Yusuf: problem and answer.
+- Slide 4, 1:20-2:45, Yusuf: result and brief demonstration.
 - Slide 5, 2:45-3:45, Yusuf: data, checks and score.
-- Slide 6, 3:45-4:40, Raed: validation and limitations.
-- Slide 7, 4:40-5:20, Raed: what is different.
-- Slide 8, 5:20-6:15, Raed: city test and closing.
+- Slide 6, 3:45-4:45, Raed: validation and limitations.
+- Slide 7, 4:45-5:30, Raed: what is different.
+- Slide 8, 5:30-6:15, Raed: city test and closing.
 
 Yusuf speaks for about 3 minutes 45 seconds. Raed speaks for about 2 minutes 30 seconds. The target finish is 6:15, leaving about 1 minute 45 seconds for slow screen sharing, pauses or recovery.
 

@@ -1,6 +1,6 @@
 # Riyadh HeatReady finals study book
 
-This is the main two-presenter preparation guide for Yusuf Karanib and Raed Mardoum. Raed cannot attend the 22 October onboarding because of university, but he may still attend the final pitch. `docs/SOLO_FINALS_CRASH_GUIDE.md` is a backup only if the final schedule prevents Raed from attending.
+This is the background study reference for Yusuf Karanib and Raed Mardoum. For the current personal scripts and beginner lessons, use `docs/YUSUF_PRESENTATION_PREP.md` and `docs/RAED_PRESENTATION_PREP.md`. Use `docs/JUDGES_QA_AND_REHEARSAL.md` for current judge practice. Printable versions of those three guides are in `output/pdf/`. The solo guide is a backup only if the final schedule prevents Raed from attending.
 
 Use these files during the judging session:
 
@@ -8,7 +8,7 @@ Use these files during the judging session:
 - `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v5.pdf`
 - `docs/FINAL_LIVE_SCRIPT.md`
 
-The visible claims and results remain the same, but the wording is shorter and more natural. The live script targets 6:15 so normal delays do not push the team past eight minutes. Slides 1-8 are the spoken pitch. Slides 9-10 are backup evidence for questions. If an older script in this study book differs from `docs/FINAL_LIVE_SCRIPT.md`, follow the short live script.
+The live script targets about 6:15 including the demonstration. Actual speaking time must be checked in rehearsal. Slides 1-8 are the spoken pitch. Slides 9-10 are backup evidence for questions. `docs/FINAL_LIVE_SCRIPT.md` is the single current combined script.
 
 ## 1. Official final format
 
@@ -229,7 +229,7 @@ For each eligible cell, four values are ranked from 0 to 1 compared with the oth
 - more confirmed growth receives a higher growth component;
 - less vegetation receives a higher lack-of-green component.
 
-Population is log-transformed before ranking so a few very large values do not dominate everything.
+Population is log-transformed before ranking. That transform preserves order, so it does not change these percentile ranks. Ranking, rather than the log step, prevents a very large magnitude from dominating the weighted sum.
 
 ### Step 7: Calculate the score
 
@@ -302,47 +302,9 @@ Pronunciation:
 - IoU: “eye-oh-you”.
 - GeoTIFF: “geo-tiff”.
 
-## 8. Older detailed wording for study only
+## 8. Current two-presenter script
 
-**Do not use the longer wording below as the timed live script.** Use `docs/FINAL_LIVE_SCRIPT.md`, which finishes around 6:15. This older section remains only for learning the technical details.
-
-Do not read the words inside square brackets aloud.
-
-### Slide 1, Yusuf, 0:00–0:20
-
-> Good afternoon. We are Team Milkaholics. City planners may need to compare separate maps of urban growth, surface heat, population and vegetation. Riyadh HeatReady combines satellite and population evidence into one ranked map of one-kilometre cells in southeastern Riyadh. Our question is: where should a municipal planning team inspect first?
-
-### Slide 2, Yusuf, 0:20–1:15
-
-> The study area covers 168.30 square kilometres on the southeastern edge of Riyadh. It is one part of the city, not all of Riyadh. Our intended user is a municipal planning and heat-resilience team. Growth, surface heat, population and vegetation can sit in separate layers, so staff still have to compare them before deciding where to inspect. HeatReady puts those layers into one ranked list of one-kilometre cells. It does not tell the user to plant trees or install a cool roof. It only suggests where to check first and compare with local plans and field conditions. We have not yet interviewed municipal users, so the first pilot must test whether this workflow is useful to them.
-
-### Slide 3, Yusuf, 1:15–1:50
-
-> I am Yusuf Karanib, the project lead. I will explain how the satellite data becomes a priority map and run the demonstration. Raed Mardoum will explain what the validation results mean, where the method is limited and how we would test the ranking with a municipal team.
-
-### Slide 4, Yusuf, 1:50–3:10
-
-> We used six open data sources, and each one has a specific job. Sentinel-2 provides optical information about vegetation and built surfaces. Sentinel-1 adds radar structure, which helps because bright desert can look built-up in optical images. Six annual land-cover maps flag possible built-up change from 2018 to 2023. Landsat 8 provides land-surface temperature for 10 May 2025. WorldPop provides modelled population for 2025. Planet Tanager gives us a detailed spectrum for one date, which we use to test a known desert problem. We did not trust the annual change map by itself. It first flagged 13.82 square kilometres. We then kept only pixels where the 2025 optical and radar evidence also looked built-up. This left 3.74 square kilometres. We ranked the eligible one-kilometre cells using 40 percent heat, 30 percent population, 20 percent confirmed growth and 10 percent lack of vegetation. These weights are our PoC assumptions, not municipal policy.
-
-### Slide 5, Yusuf, 3:10–4:45
-
-> [On slide 5.] The result is a decision map and a component chart. Sixty-seven cells contain confirmed growth, and fourteen are labelled High priority. R05C10 ranks first with a score of about 78.7. Its score does not come from one hidden prediction; the chart shows the heat, population, growth and vegetation components.
->
-> [Open `outputs/dashboard.html` and stay at the Decision output section.] This dashboard is a self-contained static report, not an interactive application. Here are the headline metrics, the decision map and the top-five table. The stricter rule retained 3.74 square kilometres of confirmed growth, and the top row is R05C10. The repository also contains separate CSV, GeoJSON and GeoTIFF files so a planner can review the same result in a spreadsheet or GIS.
->
-> [Return to slide 5.] This output is a screening result. It cannot choose an intervention by itself; every high-ranked zone still needs local inspection. Raed will now explain what our validation proves, what the method adds, and how we would test it with a municipality.
-
-### Slide 6, Raed, 4:45–5:55
-
-> To test the built-up model, we trained in the western part of the study area, tuned in a separate middle strip and tested in the east against ESA WorldCover. The east-side holdout reached an F1 score of 0.88, an intersection over union of 0.78 and balanced accuracy of 0.89. F1 balances missed built-up pixels and false alarms. Intersection over union measures overlap. Balanced accuracy gives equal weight to built and unbuilt classes. These numbers show agreement with another satellite product; they are not field accuracy. Landsat measures land-surface temperature, not air temperature or personal heat exposure. WorldPop is modelled and may miss worker exposure. Bright desert and roofs can still confuse classification. The score weights are assumptions that a real user must review. Because of these limits, HeatReady supports inspection rather than making an automatic decision.
-
-### Slide 7, Raed, 5:55–6:55
-
-> HeatReady does not depend on one index. The annual maps flag possible change, and separate optical and radar evidence check whether the area still looks built-up. We also tested a common shortcut: using a high NDBI value as proof of built land. In the Tanager scene, likely-unbuilt desert had a higher median narrow-band NDBI than established built land, so one threshold can fail here. The Tanager image gives extra spectral context for one date. It cannot prove change or identify a material. Each ranked cell keeps its score parts and GIS evidence. This could make screening faster, but we need real users to test that before we claim a benefit.
-
-### Slide 8, Raed, 6:55–7:55
-
-> Our next step is a small municipal pilot. First, we would speak with at least three planners, GIS staff or heat-resilience stakeholders and confirm how they currently choose areas to inspect. Second, they would review the top five cells against local plans and field observations, and record useful findings and false alarms. Third, we would adjust the weights and add missing local information such as worker exposure and city-plan constraints. Finally, we would repeat the test in another Riyadh area and measure the time, cost and repeatability. We are asking for support to run that pilot and find out whether HeatReady actually helps a municipal team. Thank you. We are ready for your questions.
+Use `docs/FINAL_LIVE_SCRIPT.md`. The personal guides contain the same spoken paragraphs alongside learning notes and recovery lines. The obsolete longer script has been removed so its slide order and timing cannot compete with v5.
 
 ## 9. Yusuf's exact study section
 
@@ -415,7 +377,7 @@ Raed's learning order:
 3. Learn every limitation and why it matters.
 4. Learn the Tanager and NDBI finding.
 5. Memorize the four pilot steps.
-6. Rehearse slides 6–8 until they take 3 minutes 10 seconds.
+6. Rehearse slides 6–8 for about 2 minutes 30 seconds, following the current script.
 7. Practise every Raed-owned question in section 12.
 
 ## 11. Exact demonstration plan
@@ -438,8 +400,8 @@ During slide 4:
 4. Show the decision map and top-five table.
 5. Point to R05C10 at 78.7.
 6. Say that the CSV, GeoJSON, and GeoTIFF are separate repository files.
-7. Return to slide 4.
-8. Hand over to Raed.
+7. Return to slide 4, finish its explanation, and present slide 5.
+8. Hand over to Raed as slide 6 begins.
 
 Do not try to click a zone. Do not say the dashboard exports files. The repository contains the separate output files.
 
@@ -764,43 +726,11 @@ Slide 8 gives a measurable municipal pilot without claiming that deployment has 
 
 ### Presentation quality
 
-Presentation quality supports the six criteria but does not receive separate points. Yusuf should use the solo script, finish before eight minutes and answer questions directly.
+Presentation quality supports the six criteria but does not receive separate points. Both presenters use the current combined script and finish within eight minutes. The solo version is a backup.
 
 ## 15. Rehearsal plan
 
-### 16 October
-
-- Both: read sections 2–7.
-- Yusuf: learn slides 1–3.
-- Raed: learn the validation terms and slide 6.
-- Both: confirm that the role wording is honest.
-
-### 17 October
-
-- Yusuf: learn slides 4–5 and practise the static-dashboard demonstration.
-- Raed: learn slides 7–8.
-- Run one slow rehearsal with notes.
-- Run one timed rehearsal.
-
-### 18 October
-
-- Run three full timed rehearsals.
-- Practise the fallback without opening the dashboard.
-- Ask each other every question in section 12.
-- Fix any sentence either person cannot explain.
-
-### 19 October
-
-- Submit the corrected final PDF before 11:59 PM UAE time using the organizer's instructions.
-- Aim to submit several hours early.
-- Save the confirmation.
-- Run one calm rehearsal after submission.
-
-### 20 October
-
-- Test camera, microphone, screen share, browser, PowerPoint, PDF, and internet.
-- Prepare a charger and backup hotspot if available.
-- Run one pitch and one Q&A session.
+Use the two-hour first practice session in `docs/JUDGES_QA_AND_REHEARSAL.md`, then repeat any weak sections. The personal guides provide questions to check understanding without notes. Rehearse the demo and handoff, then complete repeated full runs under 6:45 including screen switching.
 
 ### Judging day
 

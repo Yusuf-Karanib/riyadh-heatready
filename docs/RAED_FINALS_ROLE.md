@@ -2,6 +2,8 @@
 
 For the live pitch, study slides 6-8 in `docs/FINAL_LIVE_SCRIPT.md`. That shorter script replaces any older timing in this guide.
 
+Use `docs/RAED_PRESENTATION_PREP.md` for the current exact words, beginner lessons and knowledge check. Its printable version is `output/pdf/RAED_PRESENTATION_PREP.pdf`.
+
 ## Assigned role
 
 **Validation and pilot presenter**
@@ -101,19 +103,21 @@ No real municipal user interview has happened yet, so this benefit remains a hyp
 
 ## Raed's speaking section
 
-Target length: **3 minutes 10 seconds** across slides 6–8.
+Target length: **2 minutes 30 seconds** across slides 6–8. Use the exact current paragraphs in `docs/RAED_PRESENTATION_PREP.md`.
 
-### Slide 6 — 4:45–5:55
+### Slide 6 — 3:45–4:45
 
-> The east-side spatial test reached an F1 score of 0.88, an Intersection over Union of 0.78, and balanced accuracy of 0.89 against WorldCover. These numbers show agreement with another satellite product, not field accuracy. Land-surface temperature is not air temperature, WorldPop is modelled, and bright desert can still confuse classification. The score weights are also assumptions that municipal users must review. These limits are why HeatReady supports local inspection instead of automatic action.
+> Thank you, Yusuf. I'm Raed Mardoum. We tested the built-up model on the eastern part of the area, away from its training data. Against ESA WorldCover, it reached F1 of 0.88, overlap of 0.78 and balanced accuracy of 0.89.
 
-### Slide 7 — 5:55–6:55
+> Those numbers show agreement with a satellite reference. Field checks are still needed. They also test the built-up model, rather than the usefulness of the final ranking. Surface temperature differs from air temperature, and WorldPop is an estimate. Desert surfaces can still confuse the model. These are reasons to check the suggested areas locally.
 
-> What makes the project different is the conservative and explainable evidence chain. Annual land-cover change proposes possible growth, while separate optical and radar evidence confirm it. Tanager also showed why one NDBI threshold can fail in bright desert. Every priority zone keeps visible score components and GIS evidence. The possible impact is faster and more repeatable screening, but we cannot claim that benefit until real users test it.
+### Slide 7 — 4:45–5:30
 
-### Slide 8 — 6:55–7:55
+> We used more than one source because bright desert can resemble built land. Annual maps flag possible change, and optical and radar measurements check those places. In our Tanager comparison, likely-unbuilt ground had a higher median built-up index than established buildings. That shows why one threshold can mislead us here. The final score also shows its four parts, so a planner can see why an area ranks highly.
 
-> The next stage is a measured pilot, not a deployment claim. First, we would interview real users and confirm the workflow. Second, we would inspect the top five zones and record useful results and false alarms. Third, we would adjust the weights and add local plans and worker-exposure information. Finally, we would test a repeatable update in another Riyadh area. Our ask is support for one municipal pilot that measures whether the ranking improves screening.
+### Slide 8 — 5:30–6:15
+
+> Next, we would ask planners and GIS staff how they choose inspection areas today. They would check our top five against local plans and visits to the area. We would record useful findings, false alarms and the time taken. Then we would adjust the weights and add missing local information, such as worker exposure. Finally, we would repeat the test in another part of Riyadh. That would tell us whether HeatReady saves staff time and gives them useful places to inspect. Thank you. We're ready for your questions.
 
 ## Questions Raed should be ready to answer
 
@@ -176,7 +180,7 @@ We would add user-approved weights, local plans, worker-exposure information, fi
 3. Learn the user, decision, and action.
 4. Memorize the four score components and their weights.
 5. Learn the result, limitations, and five pilot steps.
-6. Rehearse slides 6–8 until the full section fits within 3 minutes 10 seconds.
+6. Use the current personal script and rehearse slides 6–8 for about 2 minutes 30 seconds.
 7. Practise every question above with Yusuf.
 
 Raed does not claim that he wrote the code or processed the imagery. Yusuf presents the data and technical method. Raed presents what the validation means, the limits, innovation, impact, and pilot plan.
