@@ -106,7 +106,7 @@ Open:
 - `project/docs/PRESENTER_GUIDE.md`
 - `project/output/pdf/Riyadh_HeatReady_Final_Judging_Pitch_SUBMIT.pdf`
 - `project/docs/FINAL_LIVE_SCRIPT.md`
-- `project/output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v3.pdf`
+- `project/output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v4.pdf`
 
 Practice:
 

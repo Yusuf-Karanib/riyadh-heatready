@@ -1,4 +1,4 @@
-# Project status — 24 October 2026
+# Project status — 25 October 2026
 
 ## Current stage
 
@@ -38,6 +38,7 @@ Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Ha
 - Matching 10-page live PDF exported through PowerPoint and visually checked page by page.
 - Final 60/40 live script and failure shortcuts added in `docs/FINAL_LIVE_SCRIPT.md`.
 - Final live deck v3 puts the answer before the technical method, shows the full supplied team photos, and adds Yusuf's verified introduction.
+- Final live deck v4 applies Yusuf's five layout and wording corrections to slides 3, 4, 5 and 7.
 
 ## Waiting on Yusuf or the organizers
 
