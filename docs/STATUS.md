@@ -21,7 +21,7 @@ Milkaholics qualified for final judging. The confirmed pitch is **29 October 202
 | Current solo judge preparation | output/pdf/JUDGE_QUESTIONS_AND_ANSWERS.pdf |
 | Demonstration | outputs/dashboard.html |
 
-The solo speech has 625 spoken words, covers slides 1-8 and includes a short report demonstration. The target finish is under 6:30. The calculated estimate at 110 words per minute, plus 25 seconds for showing/switching the report, is approximately 6:06. Neither figure establishes a completed rehearsal.
+The solo speech now has 442 spoken words, down from 625, and uses simpler spoken wording. It covers slides 1-8 and caps the report demonstration at 20 seconds. Aim to finish around 5:30 within the official eight minutes. At 100 words per minute plus 45 seconds for the report, slide changes and pauses, the estimate is 5:10. These are planning estimates, not completed rehearsal times.
 
 The separate pack contains 50 simulated questions, 50 follow-ups, answers tied to the project evidence and four-minute practice rounds. They are practice questions, not the judges' actual questions.
 
@@ -37,7 +37,7 @@ The Markdown sources in `docs/` are editable. Earlier two-presenter scripts, per
 - Pre-pitch onboarding was completed on 22 October.
 - Raed supplied his Computer Engineering/AUS introduction and AI/machine-learning background. The v6 team slide includes it and opens the presentation.
 - The v6 PPTX has ten slides. Its matching PowerPoint-exported PDF has ten pages and has now been visually checked on every page.
-- The new solo PDFs have six and twelve pages. Their content and layout have been checked, and all source paragraphs are present.
+- The shorter solo script has four pages, including its recovery lines. The unchanged question pack has twelve pages. Their content and layout have been checked, and all source paragraphs are present.
 - All 67 recorded scores were recalculated from their components. Validation metrics were recalculated from the recorded confusion matrix. These are output-consistency checks, not new field validation.
 
 ## Remaining personal checks

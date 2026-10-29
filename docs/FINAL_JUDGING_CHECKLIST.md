@@ -24,8 +24,8 @@ Use `output/pdf/SOLO_PRESENTATION_SCRIPT.pdf` and `output/pdf/JUDGE_QUESTIONS_AN
 
 ## Yusuf's checks
 
-- [ ] Rehearse aloud and finish under 6:30 at a comfortable pace.
-- [ ] Open the report at **Inspect these zones first** and practise showing the map and table within 25 seconds.
+- [ ] Rehearse the short solo speech aloud and aim to finish around 5:30 at a comfortable pace.
+- [ ] Open the report at **Inspect these zones first** and practise showing the map and table within 20 seconds.
 - [ ] Practise the report fallback without fixing software during the pitch.
 - [ ] Explain the 78.7 score, why 14 of 67 cells are High, and what the F1 score actually tests.
 - [ ] Answer questions across data, scoring, validation, Tanager and the proposed city test.

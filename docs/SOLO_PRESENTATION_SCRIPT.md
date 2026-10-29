@@ -1,117 +1,103 @@
-# Riyadh HeatReady: Yusuf's solo script
+# Riyadh HeatReady: short solo script
 
-For the confirmed 29 October 2026 pitch. Use the **v6 live presentation**. Yusuf presents all eight main slides because Raed cannot attend. Slides 9 and 10 stay available for questions.
+Use the **v6 live slides**. You present slides 1-8. Keep slides 9-10 for questions.
 
-Read the indented speech paragraphs aloud. The smaller text gives instructions. The full spoken text includes the short demonstration. Aim to finish in **6:30 or less**, leaving room within the official eight minutes. Check your actual time aloud.
+Read the indented paragraphs aloud. The smaller text gives instructions. Aim for **about 5:30**, including the brief demonstration and slide changes. The official limit is eight minutes. Check your pace once with a timer.
 
-Before starting, open the slides and `outputs/dashboard.html`. In the report, find **Inspect these zones first** and leave the ranked map and table ready. Keep this script on another device or beside the slides. Share the slides or report window so your notes remain private.
+Before you start, open the report at **Inspect these zones first**. Keep this script outside the window you share.
 
 ## Slide 1: Our team
 
-> Hello, I'm Yusuf Karanib from Team Milkaholics. I'm an early-career AI and cloud developer based in the UAE. My teammate, Raed Mardoum, studies Computer Engineering at AUS and specialises in AI and machine learning. Raed can't join today, so I'll present for our team.
-
-Change to slide 2.
+> Hello, I'm Yusuf Karanib, an early-career AI and cloud developer based in the UAE. I'm presenting for Team Milkaholics. My teammate, Raed Mardoum, studies Computer Engineering at AUS and focuses on AI and machine learning. Raed can't join today, so I'll present for both of us.
 
 ## Slide 2: Where should planners inspect first?
 
-> Our project is Riyadh HeatReady. The question is simple: if a planning team can visit only a few areas, where should it start?
-
-Change to slide 3.
+> Our project is Riyadh HeatReady. It gives planners a map and a ranked list to help them choose where to inspect first.
 
 ## Slide 3: The problem and our answer
 
-> We focused on 168 square kilometres in southeast Riyadh. Planners may need to compare separate maps of growth, surface heat, population and vegetation before choosing where to visit.
+> We looked at 168 square kilometres in southeast Riyadh. The problem we're tackling is choosing inspection areas when the evidence is spread across separate maps.
+>
+> We bring growth, surface heat, population and vegetation together, then rank one-kilometre areas with detected growth. Planners can review that list before deciding where to visit.
 
-> HeatReady combines those layers and ranks one-kilometre areas. It gives staff a starting point for inspection. They can then check local conditions and decide what action is appropriate. We still need municipal users to test how well it fits their work.
+Change to slide 4. Try to reach this point by about **1:20**.
 
 ---
 
 ## Slide 4: Where planners should inspect first
 
-> Here is the result. Our stricter checks retained 3.74 square kilometres of possible built-up growth. Sixty-seven areas met the ranking rules, and fourteen received the High label.
+> Our checks kept 3.74 square kilometres of possible growth. Sixty-seven areas qualified for ranking, and fourteen received the High label. R05C10 came first at 78.7 points. These scores give us an inspection order.
 
-> R05C10 came first at about 78.7 points. The chart shows how heat, population, growth and low vegetation contribute to each score. A high score is a reason to inspect an area early.
+Switch to the report. Point to the map and the first table row. Keep the whole demonstration within **20 seconds**. Say:
 
-Switch to the report that you opened before the pitch. Spend **no more than 25 seconds** showing the ranked map and top-five table. You can point to them without clicking anything. Say:
+> Here's the report. The map and table show the same ranking. Staff can also use the exported data in their own GIS.
 
-> This is the working report. Here is the ranked map, and here is the table with R05C10 first. The same results are available as a CSV table and GIS files, so staff can review them in their own tools.
-
-Return to the slides. Change to slide 5. The report is static: there are no live filters or zone-selection controls to demonstrate.
-
----
+Return to the slides and change to slide 5.
 
 ## Slide 5: The data behind the answer
 
-> Each source had a job. Annual land-cover maps flagged possible growth between 2018 and 2023. Sentinel-2 optical data and Sentinel-1 radar checked whether those places looked built-up in 2025 and more built-like than in 2018. That reduced 13.82 square kilometres of candidate growth to 3.74. Passing these checks still needs confirmation on the ground.
+> We started with annual land-cover maps. They suggested 13.82 square kilometres of growth between 2018 and 2023. We checked those places with Sentinel-2 optical images and Sentinel-1 radar, comparing 2018 and 2025. Only 3.74 passed our checks.
+>
+> For the ranking, Landsat provided surface heat for one day in May 2025. WorldPop provided estimated population, and Sentinel-2 provided vegetation.
+>
+> We rank the values among eligible areas, then combine them using 40 percent heat, 30 percent population, 20 percent growth and 10 percent low vegetation. Those weights are our starting choices. They need testing with planners.
 
-> Landsat supplied surface temperature for one day in May 2025. WorldPop supplied estimated population, and Sentinel-2 supplied vegetation.
-
-> We compared each area with the other eligible areas, then combined the results using 40 percent heat, 30 percent population, 20 percent growth and 10 percent low vegetation. Those weights are starting choices for the prototype. They need testing with planners. Tanager supplied an additional check on confusion between desert and built surfaces.
-
-Change to slide 6. You continue presenting. There is no handover to Raed.
+Change to slide 6. Try to reach it by about **3:30**.
 
 ---
 
 ## Slide 6: How well the model matched the reference
 
-> We trained the built-up model in the west, chose its cut-off in a separate middle strip, and tested it in the east. Against ESA WorldCover, it reached F1 of 0.88, overlap of 0.78 and balanced accuracy of 0.89.
-
-> F1 balances false alarms and missed built-up pixels. The important boundary is what we tested: agreement with a satellite reference in 2021. These scores do not establish field accuracy or prove that the final inspection ranking is useful.
-
-> Surface temperature also differs from air temperature, and population estimates can miss workers. Local checks remain necessary.
-
-Change to slide 7.
+> We tested the built-up model in the east, away from its training and tuning areas. Its F1 score was 0.88 against WorldCover 2021. F1 balances false alarms and missed built-up pixels.
+>
+> WorldCover comes from satellites, so ground checks are still needed. We also haven't tested whether the final ranking helps planners yet. Surface heat differs from air temperature, and population estimates can miss workers.
 
 ## Slide 7: Why we used more than one signal
 
-> Bright desert can resemble built land. In our Tanager comparison, likely-unbuilt ground had a higher median built-up index than established buildings. A simple threshold could therefore give the wrong impression here.
-
-> That is why we check possible growth using more than one source. We also keep the four score components visible, so a planner can see why an area ranks highly. Our contribution is this screening workflow, using established methods.
-
-Change to slide 8.
-
----
+> In our Tanager image, likely-unbuilt ground had a higher median built-up index than established buildings. That shows why relying on one index can mislead us in bright desert.
+>
+> Our approach checks more than one source. It also lets a planner see what contributed to each score.
 
 ## Slide 8: How we would test it with planners
 
-> The next step is to test the ranking with planning and GIS staff. We would ask how they choose inspection areas today, then compare our top five with local plans and site visits. We would include some lower-ranked areas to look for priorities we missed.
+> Next, we'd test this with planners. They'd review the top five areas and some lower-ranked ones, using local plans and site visits.
+>
+> We'd measure useful findings, false alarms and time taken, then adjust the score and repeat elsewhere. That test hasn't happened yet. For now, we have a working map and list ready for that review.
+>
+> Thank you. I'm happy to take your questions.
 
-> We would record useful findings, false alarms and time taken, adjust the weights, and repeat in another part of Riyadh. We have not run that pilot yet.
-
-> HeatReady gives planners a clear first list to investigate, with the evidence behind it. The next test is whether that list actually helps them. Thank you. I'm ready for your questions.
-
-Stop speaking. Stay on slide 8. Open slide 9 only for source/date questions, or slide 10 for validation questions.
+Stop. Aim to finish around **5:30**, leaving time for pauses or interruptions. The timing is a rehearsal target, not a measured speaking time.
 
 ---
 
 ## If something goes wrong
 
-These are replacements, not extra lines to add to the main script.
+Use these only as replacements. Do not add them to the main speech.
 
-### If the report does not open
+### If the report will not open
 
-Stay on slide 4 and replace the demonstration paragraph with:
+Stay on slide 4, point to its map and chart, and say:
 
-> The report contains the same map and ranked table shown here. The CSV and GIS files are also in our repository.
+> The same map and table are in our saved report. I'll continue with how we made them.
 
-Continue to slide 5. Do not spend your presentation time fixing the report.
+Go straight to slide 5. Leave troubleshooting until after the pitch.
 
 ### If you reach slide 5 after four minutes
 
-Replace the whole slide 5 speech with:
+Replace its speech with:
 
-> Annual maps proposed the growth. Optical and radar checks reduced it to 3.74 square kilometres. We ranked the eligible areas using heat, population, growth and low vegetation, weighted 40, 30, 20 and 10 percent. The weights need testing with users.
+> Annual maps suggested growth. Optical and radar checks narrowed it to 3.74 square kilometres. We then ranked the areas using heat, population, growth and low vegetation. The score weights still need testing with planners.
 
-### If time is nearly finished
+### If the moderator says time is almost finished
 
-Go to slide 8 and use this ending:
+Move to slide 8 and say:
 
-> Our next step is a pilot with planners, checking useful findings, false alarms and time taken. HeatReady provides a first inspection list. Local evidence determines the action. Thank you. I'm ready for your questions.
+> The next step is to check these areas with planners and measure whether the list helps them. Thank you. I'm happy to take your questions.
 
 ### If you lose your place
 
-> The main point is that we turn several maps into one inspection list, and show the evidence behind each area.
+> The main point is helping planners choose where to inspect first.
 
-Then move to the next slide. Follow the moderator if asked to stop.
+Then continue with the next slide.
 
-Study this with the separate `JUDGE_QUESTIONS_AND_ANSWERS.pdf`. The speaking-time estimate is a planning guide, not evidence of a completed rehearsal.
+The separate `JUDGE_QUESTIONS_AND_ANSWERS.pdf` has the detailed answers. You do not need to read those details during the pitch.
