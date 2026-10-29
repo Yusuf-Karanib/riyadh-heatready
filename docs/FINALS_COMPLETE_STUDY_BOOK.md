@@ -1,23 +1,26 @@
 # Riyadh HeatReady finals study book
 
+**29 October update:** Raed cannot attend. Yusuf's current complete solo speech is `docs/SOLO_PRESENTATION_SCRIPT.md`. The current 50-question solo pack is `docs/JUDGE_QUESTIONS_AND_ANSWERS.md`. Printable versions are in `output/pdf/`. The two-person assignments elsewhere in this background book are historical.
+
 This is the background study reference for Yusuf Karanib and Raed Mardoum. For the current personal scripts and beginner lessons, use `docs/YUSUF_PRESENTATION_PREP.md` and `docs/RAED_PRESENTATION_PREP.md`. Use `docs/JUDGES_QA_AND_REHEARSAL.md` for current judge practice. Printable versions of those three guides are in `output/pdf/`. The solo guide is a backup only if the final schedule prevents Raed from attending.
 
 Use these files during the judging session:
 
-- `slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v5.pdf`
+- `slides/Riyadh_HeatReady_Final_Live_Pitch_v6.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v6.pdf`
 - `docs/FINAL_LIVE_SCRIPT.md`
 
 The live script targets about 6:15 including the demonstration. Actual speaking time must be checked in rehearsal. Slides 1-8 are the spoken pitch. Slides 9-10 are backup evidence for questions. `docs/FINAL_LIVE_SCRIPT.md` is the single current combined script.
 
 ## 1. Official final format
 
-- Final judging is online on 28–29 October 2026. The exact team date and time are still pending.
+- The confirmed Milkaholics pitch is online on Thursday, 29 October 2026 at 09:45 UAE time.
 - The team receives about 12 minutes.
 - The English pitch and demonstration receive 8 minutes.
 - English questions receive 4 minutes.
-- The updated English presentation deadline was 19 October 2026 at 11:59 PM UAE time, with submission by email.
-- The exact judging slot and meeting link are still waiting for organizer confirmation.
+- The latest email, received 26 October, requires final slides uploaded through the platform before 22:00 UAE time on 26 October. The earlier 19 October email deadline is historical and does not establish completion of this new upload.
+- Opening remarks are Wednesday, 28 October, 09:30-10:15 UAE time. A separate final-pitch Teams link is confirmed for 29 October.
+- Begin with the team introduction. The 15-minute schedule slot leaves three minutes for scoring and transition after the eight-minute pitch and four-minute Q&A.
 - Yusuf completed the pre-pitch onboarding on 22 October 2026.
 
 Main speaking plan:
@@ -304,7 +307,7 @@ Pronunciation:
 
 ## 8. Current two-presenter script
 
-Use `docs/FINAL_LIVE_SCRIPT.md`. The personal guides contain the same spoken paragraphs alongside learning notes and recovery lines. The obsolete longer script has been removed so its slide order and timing cannot compete with v5.
+Use `docs/FINAL_LIVE_SCRIPT.md`. The personal guides contain the same spoken paragraphs alongside learning notes and recovery lines. The v6 order starts with the team, then the project question. Raed's supplied AUS background is included.
 
 ## 9. Yusuf's exact study section
 
@@ -743,20 +746,13 @@ Use the two-hour first practice session in `docs/JUDGES_QA_AND_REHEARSAL.md`, th
 
 ## 16. What is still missing
 
-These are the only known external items still pending:
+The team date, time and meeting link are confirmed by the 26 October email. Still pending:
 
-- the team's assigned date within 28–29 October and exact time;
-- meeting link;
-- confirmation that the final PDF was received.
-- confirmation that Raed can attend the assigned final slot;
+- completion and confirmation of the required final platform upload before 22:00 UAE time on 26 October;
+- Raed's attendance confirmation for 29 October at 09:45;
+- both presenters' study, timed rehearsal and device checks.
 
-Yusuf must also complete these actions if they are not already complete:
-
-- ask for the final date, time and Teams link;
-- confirm that the emailed final PDF was received;
-- confirm Raed's availability after the final slot arrives;
-- save organizer confirmations;
-- monitor email, spam, and the platform at least twice each day.
+The email and local ignored file `work/finals-oct26/ACCESS.md` contain the separate opening-remarks and pitch links. Join shortly before the assigned pitch and remain in the lobby until admitted. Save upload confirmation and monitor organiser updates.
 
 No new feature is required before judging. The work now is final submission, understanding, rehearsal, demonstration practice, and Q&A.
 

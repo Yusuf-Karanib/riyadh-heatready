@@ -1,66 +1,43 @@
 # Final judging checklist
 
-## Official facts
+Updated 29 October 2026. Yusuf is presenting alone because Raed cannot attend.
 
-- [x] Qualified for final judging after a process involving 294 registered teams.
-- [x] Online judging confirmed for 28–29 October 2026; exact team slot pending.
-- [x] Format: 8-minute English pitch/demo and 4-minute English Q&A.
-- [x] Updated English presentation due 19 October 2026 at 11:59 PM UAE time.
-- [ ] Exact judging date, time, and meeting link received.
-- [x] Final presentation-submission instructions received by email.
+## Official details
+
+- [x] Final judging confirmed for Milkaholics: 29 October 2026 at 09:45 UAE time.
+- [x] Final-pitch Microsoft Teams link received. Use the final-pitch invitation, not the separate opening-remarks link.
+- [x] Format confirmed: eight minutes of English pitch/demo and four minutes of questions.
+- [x] Team introduction must open the presentation.
 - [x] Pre-pitch onboarding completed on 22 October.
+- [ ] Verify the required final-slide platform upload succeeded. The latest upload deadline was 26 October before 22:00 UAE time. Prior email submission does not establish this upload.
 
-## Complete
+## Prepared files
 
-- [x] Eight spoken slides plus two appendix slides.
-- [x] Short team introduction placed directly after the cover.
-- [x] Problem and answer shown clearly within the first 75 seconds.
-- [x] Dedicated team slide with names, photos and clear final-presentation responsibilities.
-- [x] All six latest 100-point criteria covered.
-- [x] Real maps, metrics and output examples included.
-- [x] Editable PPTX structurally validated.
-- [x] Ten-page PDF visually checked and below 50 MB.
-- [x] Short 60/40 speaking split prepared: about 3:45 for Yusuf and 2:30 for Raed.
-- [x] Main pitch targets 6:15, leaving about 1:45 of safety time.
-- [x] Solo backup script prepared in case Raed cannot attend the actual final pitch.
-- [x] Judge Q&A prepared.
-- [x] Demo fallback prepared.
-- [x] Complete beginner study book with exact script and full Q&A prepared.
-- [x] Dashboard demonstration corrected to match the static report's real capabilities.
+- [x] v6 presentation and matching ten-page PDF.
+- [x] Team slide includes both names, supplied photos and relevant background.
+- [x] Full solo script covering all eight main slides, with no handoff to Raed.
+- [x] Separate 50-question practice pack with answers and difficult follow-ups.
+- [x] Slide-4 report fallback and shorter speeches for delays.
+- [x] Slides 9 and 10 available for source/date and validation questions.
 
-## Yusuf's urgent actions
+Use `output/pdf/SOLO_PRESENTATION_SCRIPT.pdf` and `output/pdf/JUDGE_QUESTIONS_AND_ANSWERS.pdf`. Older 60/40 assignments are no longer the speaking plan.
 
-- [ ] Ask for the final judging date, time and Teams link.
-- [ ] Confirm that the organizers received the final presentation.
-- [ ] Give Raed the final slot immediately and confirm whether he can attend.
-- [ ] Read every slide and remove any claim that either member cannot explain honestly.
-- [ ] Yusuf practises slides 1-5 and Raed practises slides 6-8 using the `Final_Live_Pitch` deck.
-- [ ] Practise the complete pitch until it finishes between 6:15 and 6:30.
-- [ ] Practise opening the dashboard, showing the Decision output section, and pointing to R05C10 in under 20 seconds.
-- [ ] Practise the demo fallback using slide 4 only.
-- [ ] Monitor email, spam, and the official platform twice each day.
-- [ ] Confirm that the final PDF was emailed by the deadline and save the confirmation.
+## Yusuf's checks
 
-## Solo contingency only
+- [ ] Rehearse aloud and finish under 6:30 at a comfortable pace.
+- [ ] Open the report at **Inspect these zones first** and practise showing the map and table within 25 seconds.
+- [ ] Practise the report fallback without fixing software during the pitch.
+- [ ] Explain the 78.7 score, why 14 of 67 cells are High, and what the F1 score actually tests.
+- [ ] Answer questions across data, scoring, validation, Tanager and the proposed city test.
+- [ ] Describe personal work accurately. Do not claim field checks or a municipal pilot.
 
-- [ ] Use the solo guide only if Raed cannot attend the confirmed final slot.
-- [ ] If needed, Yusuf studies slides 6–8 and every question assigned to Raed.
-- [ ] If needed, Yusuf removes the spoken handoff without changing the submitted deck.
+## Setup and session
 
-## Technical setup
-
-- [ ] Use a laptop with charging cable and stable internet.
-- [ ] Test microphone, camera, screen share, and browser permissions.
-- [ ] Close private tabs, notifications, and unrelated applications.
-- [ ] Open the final PDF, PowerPoint, dashboard, GitHub repository, and backup slide 4 before joining.
-- [ ] Keep a second device or mobile hotspot available if possible.
-- [ ] Join at least 15 minutes early.
-
-## During the session
-
-- [ ] Start with the decision, not the code.
-- [ ] Aim to finish by 6:15. Never continue past 8:00.
-- [ ] Yusuf answers data, method, score, demo, and reproducibility questions.
-- [ ] Raed answers validation, limitations, innovation, impact, false alarms and pilot questions.
-- [ ] Say “I do not know yet” when evidence is missing, then explain how it would be tested.
-- [ ] Do not claim field accuracy, air temperature, a census, Satellite 813 use, customers, revenue, or completed user validation.
+- [ ] Open the v6 slides, matching PDF, solo script and report before joining.
+- [ ] Test microphone, camera and screen sharing. Keep notes outside the shared window.
+- [ ] Close private tabs and notifications. Keep the laptop charging.
+- [ ] Keep backup internet and a second device with the slides available.
+- [ ] Join shortly before the scheduled slot using your proper full name and wait in the lobby.
+- [ ] Introduce both members briefly and explain that you are presenting for the team today.
+- [ ] Keep the pitch within eight minutes. The remaining three minutes in the 15-minute booking belong to scoring and transition.
+- [ ] Let judges finish their questions, answer directly and stop. Leave when the moderator asks.

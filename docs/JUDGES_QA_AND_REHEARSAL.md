@@ -1,6 +1,8 @@
 # Judge questions and rehearsal guide
 
-Riyadh HeatReady | Yusuf Karanib and Raed Mardoum | Live deck v5
+**29 October update:** Yusuf presents alone. The current solo question pack is `docs/JUDGE_QUESTIONS_AND_ANSWERS.md`, with a matching PDF in `output/pdf/`. The owner assignments below describe the earlier two-person plan.
+
+Riyadh HeatReady | Yusuf Karanib and Raed Mardoum | Live deck v6
 
 ## How to answer
 
@@ -251,9 +253,11 @@ Use the short slide 5 and slide 8 paragraphs in your own guides. If the report w
 
 ### Before the call
 
-Open the v5 deck, matching PDF and report. Put the browser at Decision output. Check camera, microphone and screen sharing. Close private tabs and notifications. Agree who changes slides and keep one person in control.
+Open the v6 deck, matching PDF and report. Put the browser at Decision output. Check camera, microphone and screen sharing. Close private tabs and notifications. Agree who changes slides and keep one person in control. The team introduction is now slide 1 and the project question is slide 2.
 
-Use the latest team invitation for the time and meeting link. Check that organisers have the same slide version you intend to show. The workspace has not established receipt of v5 or the team's exact slot.
+Your confirmed pitch is Thursday, 29 October 2026 at 09:45 UAE time. Opening remarks are Wednesday, 28 October, 09:30-10:15 UAE time. Upload the final presentation through the platform before 22:00 UAE time on Monday, 26 October. The email requires this upload even if a previous version was emailed. Save its confirmation.
+
+Join shortly before your pitch and wait in the lobby. A 15-minute schedule slot contains eight minutes of presentation, four minutes of questions, and three minutes for scoring and transition. Follow the moderator when asked to leave. Keep the invitation links in your email or local work/finals-oct26/ACCESS.md. Upload completion has not yet been confirmed.
 
 ---
 
@@ -263,8 +267,8 @@ These are study references. You do not need to display code during the eight-min
 
 | Evidence | Where it is in the repository |
 | --- | --- |
-| Latest live slides | slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx |
-| Matching backup | output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v5.pdf |
+| Latest live slides | slides/Riyadh_HeatReady_Final_Live_Pitch_v6.pptx |
+| Matching backup | output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v6.pdf |
 | Static report | outputs/dashboard.html |
 | Areas and summary numbers | outputs/results_summary.json |
 | Ranked cells and score parts | outputs/priority_zones.csv |

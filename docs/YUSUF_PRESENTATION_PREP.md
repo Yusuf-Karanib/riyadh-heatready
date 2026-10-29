@@ -1,6 +1,10 @@
 # Yusuf's presentation guide
 
-Riyadh HeatReady | Team Milkaholics | Live deck v5
+**29 October update:** Yusuf now presents alone. Use the complete `docs/SOLO_PRESENTATION_SCRIPT.md` and `docs/JUDGE_QUESTIONS_AND_ANSWERS.md`, or their matching PDFs. This older guide's slide assignments describe the previous two-person plan.
+
+Riyadh HeatReady | Team Milkaholics | Live deck v6
+
+Pitch: Thursday, 29 October 2026 at 09:45 UAE time. Upload the final slides through the platform before 22:00 UAE time on Monday, 26 October. Opening remarks are Wednesday, 28 October, 09:30-10:15 UAE time.
 
 ## Your job on the day
 
@@ -42,25 +46,25 @@ Learn the story before memorising numbers. You should be able to explain each nu
 
 Only the quoted paragraphs are spoken. The cues are reminders for you.
 
-### Slide 1: Where should planners inspect first?
+### Slide 1: Our team
 
-Target: 0:00-0:15. Look at the camera for the opening.
+Target: 0:00-0:35. Begin with the team slide, as the latest email requests.
 
-> Hello, we're Team Milkaholics, and this is Riyadh HeatReady. We worked on one question: if a planning team can visit only a few areas, where should it start?
+> Hello, we're Team Milkaholics. I'm Yusuf Karanib, an early-career AI and cloud developer based in the UAE. I lead the project and will show the data and result. Raed Mardoum is a Computer Engineering student at AUS, specialising in AI and machine learning. He will explain the validation and our proposed city test.
 
-Cue: Say the question slowly. It gives the judges a reason to look at the map.
+Cue: Introduce both people briefly. Raed's additional computing experience is written on the slide.
 
-### Slide 2: Our team
+### Slide 2: Where should planners inspect first?
 
-Target: 0:15-0:40.
+Target: 0:35-0:50.
 
-> I'm Yusuf Karanib. I lead the project, explain the data, and run the demonstration. Raed Mardoum will explain the validation results, their limits, and how planners could test the tool.
+> Our project is Riyadh HeatReady. We worked on one question: if a planning team can visit only a few areas, where should it start?
 
-Cue: Introduce your actual presentation responsibilities. Personal background already appears on the slide.
+Cue: State the question clearly, then move to the problem and answer.
 
 ### Slide 3: The problem and our answer
 
-Target: 0:40-1:20.
+Target: 0:50-1:20.
 
 > We focused on 168 square kilometres in southeast Riyadh. A planner may need to compare separate maps of growth, surface heat, population and vegetation before choosing where to visit. HeatReady brings these together and ranks one-kilometre areas. The result gives the team a starting point for inspection. Local staff still decide what the area needs after checking conditions on the ground.
 

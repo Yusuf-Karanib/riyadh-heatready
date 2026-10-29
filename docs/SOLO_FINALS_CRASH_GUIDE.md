@@ -1,5 +1,7 @@
 # Yusuf's solo finals backup guide
 
+**Replaced on 29 October:** Use `docs/SOLO_PRESENTATION_SCRIPT.md` for the full current solo speech and `docs/JUDGE_QUESTIONS_AND_ANSWERS.md` for all judge topics. Matching PDFs are in `output/pdf/`. The timetable and slide assignments below are historical.
+
 ## Current situation
 
 - Yusuf completed the pre-pitch onboarding on 22 October 2026.

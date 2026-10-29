@@ -1,6 +1,10 @@
 # Raed's presentation guide
 
-Riyadh HeatReady | Team Milkaholics | Live deck v5
+**29 October update:** Raed cannot attend. Yusuf covers these sections using `docs/SOLO_PRESENTATION_SCRIPT.md` and `docs/JUDGE_QUESTIONS_AND_ANSWERS.md`. This guide remains a record of the earlier two-person preparation.
+
+Riyadh HeatReady | Team Milkaholics | Live deck v6
+
+Pitch: Thursday, 29 October 2026 at 09:45 UAE time. Opening remarks are Wednesday, 28 October, 09:30-10:15 UAE time. Final slides must be uploaded through the platform before 22:00 UAE time on Monday, 26 October.
 
 ## Your job on the day
 
@@ -24,7 +28,13 @@ The score weights are 40% surface heat, 30% estimated population, 20% retained g
 4. Answer the Raed questions in the shared judge guide aloud.
 5. Rehearse the handoff and closing with Yusuf and a timer.
 
-## Your role introduction
+## Your background and role
+
+Your supplied introduction is now on the opening team slide:
+
+> I'm Raed Mardoum, a Computer Engineering student at AUS. I specialise in AI and machine learning, with general experience in web development, computer graphics and object-oriented programming.
+
+Yusuf introduces your degree and AI focus at the start. When your speaking section begins on slide 6, use the shorter introduction in your exact script. If asked about your role:
 
 > I'm Raed Mardoum. My presentation covers the validation results and how planners could test the ranking.
 

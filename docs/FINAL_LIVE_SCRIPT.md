@@ -1,9 +1,11 @@
 # Final live pitch script
 
+**29 October update:** Yusuf is presenting alone because Raed cannot attend. Use `docs/SOLO_PRESENTATION_SCRIPT.md` or `output/pdf/SOLO_PRESENTATION_SCRIPT.pdf` for the complete current reading script. Use `output/pdf/JUDGE_QUESTIONS_AND_ANSWERS.pdf` for solo judge preparation. The two-presenter script below is retained as a previous plan, not today's speaking assignment.
+
 Use this with:
 
-- `slides/Riyadh_HeatReady_Final_Live_Pitch_v5.pptx`
-- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v5.pdf`
+- `slides/Riyadh_HeatReady_Final_Live_Pitch_v6.pptx`
+- `output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v6.pdf`
 
 Target finish: about **6:15** including the demonstration. Practise under **6:45**. The official limit is 8:00. These are practice targets, not measured speaking times.
 
@@ -13,15 +15,17 @@ Slides 1-5 are Yusuf. Slides 6-8 are Raed. This gives Yusuf about 60% and Raed a
 
 Do not try to sound perfect. Learn the meaning, then speak normally.
 
-## Slide 1 - Yusuf - 0:00 to 0:15
+Confirmed pitch: Thursday, 29 October 2026 at 09:45 UAE time. Opening remarks: Wednesday, 28 October, 09:30-10:15 UAE time. Upload the final slides through the platform before 22:00 UAE time on Monday, 26 October. Meeting links are in the invitation and local `work/finals-oct26/ACCESS.md`.
 
-> Hello, we're Team Milkaholics, and this is Riyadh HeatReady. We worked on one question: if a planning team can visit only a few areas, where should it start?
+## Slide 1 - Yusuf - 0:00 to 0:35
 
-## Slide 2 - Yusuf - 0:15 to 0:40
+> Hello, we're Team Milkaholics. I'm Yusuf Karanib, an early-career AI and cloud developer based in the UAE. I lead the project and will show the data and result. Raed Mardoum is a Computer Engineering student at AUS, specialising in AI and machine learning. He will explain the validation and our proposed city test.
 
-> I'm Yusuf Karanib. I lead the project, explain the data, and run the demonstration. Raed Mardoum will explain the validation results, their limits, and how planners could test the tool.
+## Slide 2 - Yusuf - 0:35 to 0:50
 
-## Slide 3 - Yusuf - 0:40 to 1:20
+> Our project is Riyadh HeatReady. We worked on one question: if a planning team can visit only a few areas, where should it start?
+
+## Slide 3 - Yusuf - 0:50 to 1:20
 
 > We focused on 168 square kilometres in southeast Riyadh. A planner may need to compare separate maps of growth, surface heat, population and vegetation before choosing where to visit. HeatReady brings these together and ranks one-kilometre areas. The result gives the team a starting point for inspection. Local staff still decide what the area needs after checking conditions on the ground.
 

@@ -1,64 +1,51 @@
-# Project status — 25 October 2026
+# Project status - 29 October 2026
 
-## Current stage
+## Current stage and confirmed format
 
-Milkaholics has qualified for the Final Judging Stage of the Arab Youth Space Hackathon 2026 — Challenge 813.
+Milkaholics qualified for final judging. The confirmed pitch is **29 October 2026 at 09:45 UAE time**, online through Microsoft Teams.
 
-- Final judging is scheduled online for 28–29 October 2026. The exact team date and time remain pending.
-- The live session is **8 minutes of English presentation/demo plus 4 minutes of English questions**.
-- The updated English presentation is due **19 October 2026 at 11:59 PM UAE time**.
-- Yusuf completed the pre-pitch onboarding on 22 October 2026.
-- The exact final judging slot and final pitch meeting link are still pending.
+- Eight minutes for the English presentation and demonstration, then four minutes for questions.
+- The 15-minute booking includes organiser scoring and transition time.
+- Begin with the team introduction on slide 1.
+- Yusuf has now confirmed that Raed cannot attend. Yusuf presents all eight main slides and answers every question topic.
+- The 26 October organiser email required a platform upload before 22:00 UAE that day. Its completion is not established by the available record. Previous email delivery does not establish this upload.
+- The final-pitch invitation is in Yusuf's email and local ignored `work/finals-oct26/ACCESS.md`. Private meeting links are not in the public repository.
 
-## Complete and verified
+## Current files
 
-- PoC submission received and advanced to final judging.
-- One problem, user, decision, area, and testable MVP fixed.
-- Open-data satellite pipeline, dashboard, GIS outputs, sample notebook, and public repository completed.
-- Data feasibility passed: 38 source checks.
-- Spatial holdout: F1 0.88, IoU 0.78, balanced accuracy 0.89.
-- Conservative confirmed-growth signal: 3.74 km².
-- Six-year mapped built-up trend and open Planet Tanager sensitivity analysis completed.
-- Final-judging deck rebuilt for the official 8-minute format.
-- Dedicated team slide now shows Yusuf and Raed's full supplied photos without cropping.
-- Yusuf's short introduction uses verified background information from the Main chat. Raed's personal introduction remains pending his wording.
-- The main plan assigns slides 1–5 to Yusuf and slides 6–8 to Raed, using the requested 60/40 split.
-- Raed cannot attend the 22 October onboarding because of university. He may still attend the final pitch after its date and time arrive.
-- A solo guide exists only as a backup if the final timetable prevents Raed from attending.
-- Eight spoken slides plus two judge-reference appendix slides created.
-- Editable PPTX structurally validated with zero findings and zero layout warnings.
-- Final PDF exported through Microsoft PowerPoint, confirmed as 10 pages, below 50 MB, and visually checked page by page.
-- Speaker plan, Q&A, final checklist, and Raed study guide prepared.
-- Corrected final deck prepared with accurate static-dashboard demonstration wording.
-- Judging-session deck updated so a short team introduction is followed by the problem, the answer, the supporting data and the validation evidence.
-- The earlier `PRESENT` files remain as an archive; the shorter live deck now replaces them for rehearsal and screen sharing.
-- Complete finals study book prepared with the exact script, beginner lessons, demo steps, and separate Yusuf/Raed study sections.
-- Shorter final live deck created with plain wording and a 6:15 target.
-- Final live PPTX structurally validated with zero findings and zero layout warnings.
-- Matching 10-page live PDF exported through PowerPoint and visually checked page by page.
-- Final 60/40 live script and failure shortcuts added in `docs/FINAL_LIVE_SCRIPT.md`.
-- Final live deck v3 puts the answer before the technical method, shows the full supplied team photos, and adds Yusuf's verified introduction.
-- Final live deck v4 applies Yusuf's five layout and wording corrections to slides 3, 4, 5 and 7.
-- Final live deck v5 aligns the slide 7 “WHY IT HELPS” label with its sentence.
-- Separate printable preparation guides now provide Yusuf's slides 1-5 script and lessons, Raed's slides 6-8 script and lessons, and 38 shared judge questions with a rehearsal plan.
-- Current scripts are aligned to v5, with a planned 3:45/2:30 split and about 6:15 total including the demonstration. These times remain targets until the team rehearses aloud.
-- The preparation guides distinguish 2021 built-up reference agreement from untested ranking usefulness, explain the real 78.7 score, and cover temporal transfer, weights, excluded areas and the Tanager mask check.
-- All 20 preparation PDF pages were rendered and visually checked. Spoken paragraphs match the combined script. The 67 scores and validation metrics were recalculated from the committed driver components and confusion matrix.
+| Purpose | File |
+| --- | --- |
+| Live presentation | slides/Riyadh_HeatReady_Final_Live_Pitch_v6.pptx |
+| Matching presentation PDF | output/pdf/Riyadh_HeatReady_Final_Live_Pitch_v6.pdf |
+| Complete current solo speech | output/pdf/SOLO_PRESENTATION_SCRIPT.pdf |
+| Current solo judge preparation | output/pdf/JUDGE_QUESTIONS_AND_ANSWERS.pdf |
+| Demonstration | outputs/dashboard.html |
 
-## Waiting on Yusuf or the organizers
+The solo speech has 625 spoken words, covers slides 1-8 and includes a short report demonstration. The target finish is under 6:30. The calculated estimate at 110 words per minute, plus 25 seconds for showing/switching the report, is approximately 6:06. Neither figure establishes a completed rehearsal.
 
-- Both presenters must study their guide, answer the knowledge questions and complete timed rehearsals. No completed personal review or rehearsal is assumed.
-- Confirm that organizers have the same v5 slide version intended for live use.
+The separate pack contains 50 simulated questions, 50 follow-ups, answers tied to the project evidence and four-minute practice rounds. They are practice questions, not the judges' actual questions.
 
-- Yusuf must ask for the exact final slot and meeting link so Raed can confirm his final-pitch availability.
-- Yusuf must confirm that the organizers received the emailed final presentation.
-- Yusuf must monitor email, calendar invitations, spam and the official platform.
+The Markdown sources in `docs/` are editable. Earlier two-presenter scripts, personal PDF guides and the 60/40 split are historical. Their opening notices point to the new solo files.
 
-## Unknown official details
+## Work already completed
 
-- Confirmed team judging date and time within 28–29 October.
-- Meeting link.
-- Confirmation that the emailed final presentation was received.
-- Whether any updated technical files beyond the presentation will be requested.
+- PoC submission was received and advanced to final judging.
+- Open-data pipeline, static report, sample scoring notebook, GIS outputs and public repository exist.
+- Recorded case-study results: 168.30 km2; 13.82 km2 candidate growth; 3.74 km2 retained growth signal; 67 eligible cells; 14 High cells; R05C10 first at 78.7.
+- WorldCover 2021 reference agreement: F1 0.88, IoU 0.78 and balanced accuracy 0.89. This does not establish field accuracy or ranking usefulness.
+- Six-year annual mapped trend and the descriptive Tanager comparison, including the stricter-mask sensitivity check, are documented.
+- Pre-pitch onboarding was completed on 22 October.
+- Raed supplied his Computer Engineering/AUS introduction and AI/machine-learning background. The v6 team slide includes it and opens the presentation.
+- The v6 PPTX has ten slides. Its matching PowerPoint-exported PDF has ten pages and has now been visually checked on every page.
+- The new solo PDFs have six and twelve pages. Their content and layout have been checked, and all source paragraphs are present.
+- All 67 recorded scores were recalculated from their components. Validation metrics were recalculated from the recorded confusion matrix. These are output-consistency checks, not new field validation.
 
-These unknowns do not block rehearsal or preparation.
+## Remaining personal checks
+
+- [ ] Verify the required platform upload confirmation.
+- [ ] Read the solo speech aloud with a timer and test the short report demonstration.
+- [ ] Answer the ten priority questions without reading, then practise harder follow-ups.
+- [ ] Test camera, microphone, screen sharing, backup internet and backup slides/device.
+- [ ] Join shortly before the scheduled slot and wait in the lobby.
+
+No completed rehearsal, user interviews, municipal pilot, field checks, measured time saving or final-stage upload is assumed. No organiser message or external submission was sent by this preparation task.

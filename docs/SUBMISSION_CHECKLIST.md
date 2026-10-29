@@ -1,5 +1,7 @@
 # Submission and finals checklist
 
+**29 October update:** The current final-session checklist is `docs/FINAL_JUDGING_CHECKLIST.md`. Yusuf presents alone at the confirmed 09:45 UAE slot. Use the v6 deck, `output/pdf/SOLO_PRESENTATION_SCRIPT.pdf` and `output/pdf/JUDGE_QUESTIONS_AND_ANSWERS.pdf`. The 19 October email instructions and 60/40 plan below are historical. The later organiser email required a platform upload before 22:00 UAE on 26 October; successful upload still needs confirmation.
+
 ## PoC submission
 
 - [x] Platform form submitted before the PoC deadline.
